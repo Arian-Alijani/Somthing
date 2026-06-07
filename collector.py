@@ -24,7 +24,10 @@ HTML پیام‌ها را بدون احراز هویت برمی‌گرداند.
 import argparse
 import base64
 import binascii
+import gzip
+import hashlib
 import html
+import io
 import json
 import os
 import re
@@ -33,8 +36,9 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+import zlib
 from collections import OrderedDict
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 # اطمینان از خروجی UTF-8 روی هر سیستم‌عاملی (مثلاً کنسول ویندوز با cp1252)
@@ -65,6 +69,9 @@ PER_CHANNEL = _env_int("PER_CHANNEL", 20)        # تعداد کانفیگ از 
 MAX_PAGES = _env_int("MAX_PAGES", 15)            # سقف صفحات برای هر چنل
 REQUEST_TIMEOUT = _env_int("REQUEST_TIMEOUT", 30)
 RETRIES = _env_int("RETRIES", 3)
+# تعداد چنل‌هایی که هم‌زمان واکشی می‌شوند. مقدار بزرگ‌تر سریع‌تر است ولی ریسک
+# throttle شدن توسط t.me را بالا می‌برد؛ ۱۰ تعادلِ امن است.
+WORKERS = _env_int("WORKERS", 10)
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(ROOT, "channels.txt")
@@ -146,18 +153,50 @@ GEOIP_ENABLED = os.environ.get("GEOIP_ENABLED", "1").strip().lower() not in ("0"
 
 
 # ----------------------------- ابزار شبکه ---------------------------------
+def _decode_response(resp):
+    """خواندن بدنه‌ی پاسخ با درنظرگرفتن Content-Encoding (gzip/deflate).
+
+    تلگرام در صورت ارسال هدر Accept-Encoding، HTML را فشرده برمی‌گرداند که
+    حجم انتقال را به‌شکل محسوسی کم می‌کند. اگر هدر فشرده‌سازی نبود یا ناشناخته
+    بود، داده خام برگردانده می‌شود.
+    """
+    data = resp.read()
+    encoding = (resp.headers.get("Content-Encoding") or "").lower().strip()
+    try:
+        if encoding == "gzip":
+            data = gzip.GzipFile(fileobj=io.BytesIO(data)).read()
+        elif encoding == "deflate":
+            try:
+                data = zlib.decompress(data)
+            except zlib.error:
+                data = zlib.decompress(data, -zlib.MAX_WBITS)  # deflate خام (بدون هدر zlib)
+    except (OSError, zlib.error):
+        pass  # اگر دیکُد فشرده‌سازی شکست خورد، با داده‌ی خام ادامه می‌دهیم
+    return data.decode("utf-8", errors="replace")
+
+
 def fetch(url):
-    """دریافت محتوای یک URL با چند بار تلاش مجدد."""
+    """دریافت محتوای یک URL با چند بار تلاش مجدد (با backoff فزاینده).
+
+    پس از آخرین تلاشِ ناموفق دیگر مکث نمی‌کند (sleepِ بی‌فایده حذف شده) و در
+    صورت پشتیبانی سرور، پاسخ را به‌صورت gzip فشرده دریافت می‌کند.
+    """
     last_err = None
     for attempt in range(1, RETRIES + 1):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            req = urllib.request.Request(
+                url,
+                headers={
+                    "User-Agent": USER_AGENT,
+                    "Accept-Encoding": "gzip, deflate",
+                },
+            )
             with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-                data = resp.read()
-            return data.decode("utf-8", errors="replace")
+                return _decode_response(resp)
         except Exception as e:  # noqa: BLE001
             last_err = e
-            time.sleep(2 * attempt)
+            if attempt < RETRIES:
+                time.sleep(2 * attempt)  # فقط بین تلاش‌ها مکث می‌کنیم، نه بعد از آخرین
     print(f"    ! خطا در دریافت {url}: {last_err}", file=sys.stderr)
     return None
 
@@ -312,7 +351,6 @@ def canonical_config(cfg):
 
 
 def config_hash(cfg):
-    import hashlib
     canon = canonical_config(cfg)
     return hashlib.sha256(canon.encode("utf-8")).hexdigest()
 
@@ -521,16 +559,21 @@ def is_reality(cfg):
 
 
 # ----------------------------- جمع‌آوری از یک چنل -------------------------
-def collect_from_channel(channel, run_seen, per_channel, max_pages):
+def collect_from_channel(channel, per_channel, max_pages):
     """تا per_channel کانفیگِ *اخیرِ* غیرتکراری از یک چنل برمی‌گرداند.
 
     در صفحه‌ی web تلگرام پیام‌ها از قدیمی (بالا) به جدید (پایین) مرتب‌اند، پس
     برای رسیدن به «جدیدترین‌ها» کانفیگ‌های هر صفحه معکوس می‌شوند (جدید اول).
     اگر صفحه‌ی نخست به per_channel نرسد، با پارامتر before صفحات قدیمی‌تر هم
-    خوانده می‌شوند. تکراری‌ها با run_seen (مشترک بین همه‌ی چنل‌های همین اجرا)
-    حذف می‌شوند تا یک کانفیگ دوبار در خروجی نیاید.
+    خوانده می‌شوند.
+
+    تشخیص تکراری در اینجا فقط *درون همین چنل* انجام می‌شود (با مجموعه‌ی محلی)؛
+    تابع هیچ حالتِ مشترکی با چنل‌های دیگر ندارد تا بتوان آن را به‌صورت موازی و
+    کاملاً مستقل اجرا کرد. dedup بین‌کانالی بعداً و به‌صورت قطعی روی نتیجه‌ی همه
+    اعمال می‌شود (نگاه کنید به collect_all).
     """
     collected = []          # جدیدترین‌ها اول
+    local_seen = set()      # فقط برای جلوگیری از تکرار درون همین چنل
     before = None
     pages = 0
 
@@ -553,9 +596,9 @@ def collect_from_channel(channel, run_seen, per_channel, max_pages):
             if len(collected) >= per_channel:
                 break
             h = config_hash(cfg)
-            if h in run_seen:
+            if h in local_seen:
                 continue
-            run_seen.add(h)
+            local_seen.add(h)
             collected.append(cfg)
 
         if len(collected) >= per_channel:
@@ -570,6 +613,58 @@ def collect_from_channel(channel, run_seen, per_channel, max_pages):
             break  # صفحه‌ای برای ادامه نیست
 
     return collected
+
+
+def collect_all(channels, per_channel, max_pages, workers, progress_cb=None):
+    """واکشی موازیِ همه‌ی چنل‌ها و سپس dedup قطعیِ بین‌کانالی.
+
+    هر چنل در یک ترد مستقل واکشی می‌شود (تا سقف workers هم‌زمان). نتایج به‌محض
+    آماده‌شدن برای نمایش پیشرفت گزارش می‌شوند، اما dedup نهایی و ترتیب خروجی
+    *مستقل از ترتیب اتمام تردها* است: کانال‌ها دقیقاً به ترتیبِ channels.txt
+    پردازش می‌شوند تا خروجی قطعی (deterministic) بماند و diffهای git نویزی نشوند.
+
+    خروجی: لیست [(channel, [configs...]), ...] به همان ترتیب ورودی، که در آن یک
+    کانفیگِ مشترک فقط به اولین کانالی (به ترتیب فایل) که آن را داشته نسبت می‌یابد.
+    """
+    # ۱) واکشی موازی؛ نتیجه‌ی هر چنل را در دیکشنری بر اساس نام نگه می‌داریم.
+    #    از as_completed استفاده می‌کنیم تا نوار پیشرفت به‌محض اتمامِ *هر* چنل
+    #    پیش برود (نه به ترتیب ورودی)؛ ترتیب نهاییِ خروجی در مرحله‌ی ۲ مستقل از
+    #    این بازسازی می‌شود، پس قطعی‌بودن حفظ می‌شود.
+    raw_by_channel = {}
+    done = 0
+
+    def _work(ch):
+        try:
+            return collect_from_channel(ch, per_channel, max_pages)
+        except Exception as e:  # noqa: BLE001
+            print(f"\n  [{ch}] خطا: {e}", file=sys.stderr, flush=True)
+            return []
+
+    # max_workers هرگز از تعداد چنل‌ها بیشتر نمی‌شود (جلوگیری از تردِ بی‌کار)
+    n_workers = max(1, min(workers, len(channels)))
+    with ThreadPoolExecutor(max_workers=n_workers) as ex:
+        future_to_ch = {ex.submit(_work, ch): ch for ch in channels}
+        for fut in as_completed(future_to_ch):
+            ch = future_to_ch[fut]
+            got = fut.result()
+            raw_by_channel[ch] = got
+            done += 1
+            if progress_cb is not None:
+                progress_cb(done, ch, len(got))
+
+    # ۲) dedup بین‌کانالی به ترتیب قطعیِ ورودی (CPU-only، سریع)
+    run_seen = set()
+    result = []
+    for ch in channels:
+        deduped = []
+        for cfg in raw_by_channel.get(ch, []):
+            h = config_hash(cfg)
+            if h in run_seen:
+                continue
+            run_seen.add(h)
+            deduped.append(cfg)
+        result.append((ch, deduped))
+    return result
 
 
 # ----------------------------- خروجی سابسکریپشن --------------------------
@@ -818,29 +913,26 @@ def main(argv=None):
         return 1
 
     print(f"تعداد چنل‌ها: {len(channels)} | هدف از هر چنل: {per_channel} کانفیگِ اخیر "
-          f"| سقف صفحات: {max_pages}")
+          f"| سقف صفحات: {max_pages} | تردهای هم‌زمان: {WORKERS}")
 
     # هر اجرا کاملاً از نو: dedup فقط در محدوده‌ی همین اجرا انجام می‌شود.
-    run_seen = set()
-    collected_by_channel = []   # [(channel, [configs...]), ...] — ترتیب per-channel حفظ می‌شود
+    # واکشی به‌صورت موازی انجام می‌شود ولی ترتیب و dedup خروجی قطعی می‌ماند.
     total = len(channels)
     start = time.time()
-    grand = 0
+    progress = {"grand": 0}     # شمارنده‌ی زنده‌ی کانفیگ‌های واکشی‌شده (پیش از dedup نهایی)
+
+    def _on_channel_done(done, ch, count):
+        # هر بار که واکشیِ یک چنل تمام می‌شود (به ترتیب اتمام، نه ورودی) صدا زده می‌شود.
+        progress["grand"] += count
+        elapsed = time.time() - start
+        eta = int(elapsed / done * (total - done)) if done < total else 0
+        render_progress(done, total, last_channel=ch, last_count=count,
+                        total_configs=progress["grand"], eta=eta)
 
     render_progress(0, total, total_configs=0)
-    for i, ch in enumerate(channels, 1):
-        try:
-            got = collect_from_channel(ch, run_seen, per_channel, max_pages)
-        except Exception as e:  # noqa: BLE001
-            # خطای یک چنل نباید بقیه را متوقف کند؛ \n تا نوارِ TTY خراب نشود.
-            print(f"\n  [{ch}] خطا: {e}", file=sys.stderr, flush=True)
-            got = []
-        collected_by_channel.append((ch, got))
-        grand += len(got)
-        elapsed = time.time() - start
-        eta = int(elapsed / i * (total - i)) if i < total else 0
-        render_progress(i, total, last_channel=ch, last_count=len(got),
-                        total_configs=grand, eta=eta)
+    collected_by_channel = collect_all(
+        channels, per_channel, max_pages, WORKERS, progress_cb=_on_channel_done
+    )
 
     # ساخت رکوردها با شماره‌ی per-channel (۱ برای اولین کانفیگِ هر کانال)
     records = []

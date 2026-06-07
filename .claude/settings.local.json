@@ -9,7 +9,10 @@
       "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py -n 3 --max-pages 2)",
       "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py)",
       "Read(//c/Users/user/project/Desktop/**)",
-      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" timeout 280 python collector.py --per-channel 3 --max-pages 3)"
+      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" timeout 280 python collector.py --per-channel 3 --max-pages 3)",
+      "Bash(python _gen_readme.py)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://img.shields.io/badge/%DA%A9%D8%A7%D9%86%D9%81%DB%8C%DA%AF%E2%80%8C%D9%87%D8%A7-79-2ea44f?style=for-the-badge\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=test\")"
     ]
   }
 }

@@ -14,6 +14,10 @@ on:
         description: "حداکثر صفحه برای هر چنل"
         required: false
         default: "15"
+      workers:
+        description: "تعداد چنل‌هایی که هم‌زمان واکشی می‌شوند"
+        required: false
+        default: "10"
 
 # جلوگیری از اجرای هم‌زمان دو نمونه که باعث تداخل در commit شود
 concurrency:
@@ -42,6 +46,7 @@ jobs:
       - name: Run collector
         env:
           PYTHONUNBUFFERED: "1"     # برای نمایش زنده‌ی نوار پیشرفت در لاگ
+          WORKERS: "${{ github.event.inputs.workers || '10' }}"
         run: >-
           python collector.py
           --per-channel "${{ github.event.inputs.per_channel || '20' }}"
