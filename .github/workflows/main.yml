@@ -1,0 +1,60 @@
+name: Collect V2Ray Configs
+
+on:
+  schedule:
+    # هر ۵ ساعت یک‌بار (ساعت UTC). cron در گیت‌هاب اکشن همیشه UTC است.
+    - cron: "0 */5 * * *"
+  workflow_dispatch:      # امکان اجرای دستی از تب Actions
+    inputs:
+      per_channel:
+        description: "تعداد کانفیگِ اخیر از هر چنل"
+        required: false
+        default: "20"
+      max_pages:
+        description: "حداکثر صفحه برای هر چنل"
+        required: false
+        default: "15"
+
+# جلوگیری از اجرای هم‌زمان دو نمونه که باعث تداخل در commit شود
+concurrency:
+  group: collect-configs
+  cancel-in-progress: false
+
+permissions:
+  contents: write          # برای commit و push نتایج لازم است
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run collector
+        env:
+          PYTHONUNBUFFERED: "1"     # برای نمایش زنده‌ی نوار پیشرفت در لاگ
+        run: >-
+          python collector.py
+          --per-channel "${{ github.event.inputs.per_channel || '20' }}"
+          --max-pages "${{ github.event.inputs.max_pages || '15' }}"
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sub/ data/
+          if git diff --staged --quiet; then
+            echo "تغییری برای commit وجود ندارد."
+          else
+            git commit -m "chore: update v2ray subscription ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
