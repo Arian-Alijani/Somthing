@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f data/seen_hashes.txt)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('collector.py',encoding='utf-8'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
+      "Bash(python collector.py --help)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
