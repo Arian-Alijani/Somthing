@@ -6,7 +6,8 @@
       "Bash(python collector.py --help)",
       "Bash(python -c ' *)",
       "Bash(grep -vc '^#\\\\|^$' channels.txt)",
-      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py -n 3 --max-pages 2)"
+      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py -n 3 --max-pages 2)",
+      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py)"
     ]
   }
 }
