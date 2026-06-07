@@ -327,6 +327,39 @@ def write_outputs(all_configs):
         f.write(b64)
 
 
+# ----------------------------- نوار پیشرفت زنده --------------------------
+def render_progress(done, total, last_channel="", last_count=0,
+                    total_configs=0, eta=None):
+    """نمایش نوار پیشرفتِ زنده.
+
+    - روی ترمینال واقعی (TTY): یک خط که با \\r روی خودش به‌روز می‌شود.
+    - روی محیط CI مثل GitHub Actions (بدون TTY): هر مرحله یک خطِ جدا چاپ می‌شود
+      تا لاگ به‌صورت زنده (stream) پیش برود؛ flush برای نمایش فوری ضروری است.
+    """
+    width = 24
+    frac = (done / total) if total else 1.0
+    filled = int(round(width * frac))
+    bar = "█" * filled + "░" * (width - filled)
+    pct = int(frac * 100)
+
+    parts = [f"[{bar}] {pct:3d}%", f"{done}/{total} چنل"]
+    if last_channel:
+        parts.append(f"@{last_channel} +{last_count}")
+    parts.append(f"مجموع {total_configs}")
+    if eta is not None and done < total:
+        parts.append(f"~{eta}s مانده")
+    line = " | ".join(parts)
+
+    if sys.stdout.isatty():
+        sys.stdout.write("\r" + line.ljust(90))
+        sys.stdout.flush()
+        if done >= total:
+            sys.stdout.write("\n")
+            sys.stdout.flush()
+    else:
+        print(line, flush=True)
+
+
 # ----------------------------- اجرای اصلی --------------------------------
 def parse_args(argv=None):
     p = argparse.ArgumentParser(
@@ -361,14 +394,23 @@ def main(argv=None):
     # هر اجرا کاملاً از نو: dedup فقط در محدوده‌ی همین اجرا انجام می‌شود.
     run_seen = set()
     all_configs = []
+    total = len(channels)
+    start = time.time()
 
-    for ch in channels:
+    render_progress(0, total, total_configs=0)
+    for i, ch in enumerate(channels, 1):
         try:
             got = collect_from_channel(ch, run_seen, per_channel, max_pages)
             all_configs.extend(got)
-            print(f"  [{ch}] {len(got)} کانفیگ")
+            last_count = len(got)
         except Exception as e:  # noqa: BLE001
-            print(f"  [{ch}] خطا: {e}", file=sys.stderr)
+            # خطای یک چنل نباید بقیه را متوقف کند؛ \n تا نوارِ TTY خراب نشود.
+            print(f"\n  [{ch}] خطا: {e}", file=sys.stderr, flush=True)
+            last_count = 0
+        elapsed = time.time() - start
+        eta = int(elapsed / i * (total - i)) if i < total else 0
+        render_progress(i, total, last_channel=ch, last_count=last_count,
+                        total_configs=len(all_configs), eta=eta)
 
     # اگر این اجرا هیچ کانفیگی نگرفت (مثلاً قطعی شبکه)، خروجی قبلی را پاک نمی‌کنیم
     if not all_configs:

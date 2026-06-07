@@ -40,6 +40,8 @@ jobs:
           python-version: "3.12"
 
       - name: Run collector
+        env:
+          PYTHONUNBUFFERED: "1"     # برای نمایش زنده‌ی نوار پیشرفت در لاگ
         run: >-
           python collector.py
           --per-channel "${{ github.event.inputs.per_channel || '20' }}"
