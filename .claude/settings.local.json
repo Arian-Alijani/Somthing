@@ -4,7 +4,9 @@
       "Bash(rm -f data/seen_hashes.txt)",
       "Bash(python -c \"import ast; ast.parse\\(open\\('collector.py',encoding='utf-8'\\).read\\(\\)\\); print\\('syntax OK'\\)\")",
       "Bash(python collector.py --help)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(grep -vc '^#\\\\|^$' channels.txt)",
+      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py -n 3 --max-pages 2)"
     ]
   }
 }

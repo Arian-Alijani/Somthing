@@ -11,6 +11,14 @@ HTML پیام‌ها را بدون احراز هویت برمی‌گرداند.
 کانفیگِ *اخیر* (جدیدترین‌ها اول) برداشته می‌شود. تشخیص تکراری فقط در
 محدوده‌ی همین اجرا انجام می‌شود (هم درون یک چنل و هم بین چنل‌ها) تا یک
 کانفیگ دوبار در خروجی نیاید؛ هیچ هشی بین اجراها ذخیره نمی‌شود.
+
+قابلیت‌های افزوده:
+  • تشخیص کشورِ هر کانفیگ (با ip-api.com، بدون کلید) و افزودن پرچم + کد کشور،
+    آیدی کانال مبدأ، و شماره‌ی per-channel به نامِ (remark) هر کانفیگ.
+  • دسته‌بندی خروجی بر اساس نوع پروتکل (vmess/vless/trojan/...) + reality + all،
+    هرکدام در دو قالب متن خام و base64 (لینک اشتراک).
+  • تولید خودکار صفحه‌ی اصلی ریپو (README.md) با جدول لینک‌های اشتراک،
+    نمودار پروتکل‌ها، و آمار کشورها/کانال‌ها که هر اجرا به‌روز می‌شود.
 """
 
 import argparse
@@ -20,11 +28,14 @@ import html
 import json
 import os
 import re
+import socket
 import sys
 import time
 import urllib.parse
 import urllib.request
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
 
 # اطمینان از خروجی UTF-8 روی هر سیستم‌عاملی (مثلاً کنسول ویندوز با cp1252)
 for _stream in (sys.stdout, sys.stderr):
@@ -59,7 +70,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(ROOT, "channels.txt")
 DATA_DIR = os.path.join(ROOT, "data")
 SUB_DIR = os.path.join(ROOT, "sub")
+README_FILE = os.path.join(ROOT, "README.md")
 RAW_FILE = os.path.join(DATA_DIR, "all_configs.txt")   # اسنپ‌شات کانفیگ‌های همین اجرا
+# فایل‌های قدیمی (برای سازگاری با ساب‌های قبلی حفظ می‌شوند؛ معادل دسته‌ی «all»)
 SUB_PLAIN = os.path.join(SUB_DIR, "configs.txt")
 SUB_B64 = os.path.join(SUB_DIR, "sub.txt")
 
@@ -84,6 +97,52 @@ B64_BLOCK_RE = re.compile(r"[A-Za-z0-9+/=_\-]{40,}")
 
 # الگوی تشخیص host:port برای فیلتر کردن لینک‌های غیرکانفیگ (مثل http://example.com)
 PORT_RE = re.compile(r":\d{2,5}\b")
+
+# ----------------------------- دسته‌بندی ----------------------------------
+# هر دسته: key -> (نام نمایشی، ایموجی). ترتیب همین‌جا ترتیب نمایش در README است.
+CATEGORY_META = OrderedDict([
+    ("all",         ("همه", "🌐")),
+    ("vmess",       ("VMess", "🟢")),
+    ("vless",       ("VLESS", "⚡")),
+    ("reality",     ("Reality", "🛡️")),
+    ("trojan",      ("Trojan", "🐴")),
+    ("shadowsocks", ("Shadowsocks", "🔒")),
+    ("hysteria",    ("Hysteria", "🚀")),
+    ("tuic",        ("TUIC", "🧊")),
+    ("wireguard",   ("WireGuard", "🪱")),
+    ("others",      ("سایر", "📦")),
+])
+
+# نگاشت اسکیمِ هر کانفیگ به دسته‌ی اصلی‌اش.
+PROTOCOL_CATEGORY = {
+    "vmess": "vmess",
+    "vless": "vless",
+    "trojan": "trojan",
+    "ss": "shadowsocks",
+    "ssr": "shadowsocks",
+    "hysteria": "hysteria",
+    "hysteria2": "hysteria",
+    "hy2": "hysteria",
+    "tuic": "tuic",
+    "juicity": "tuic",
+    "wireguard": "wireguard",
+    "warp": "wireguard",
+    "socks": "others",
+    "http": "others",
+}
+
+# پروتکل‌هایی که در نمودار توزیع نشان داده می‌شوند (reality و all کنار گذاشته می‌شوند چون هم‌پوشانی دارند)
+CHART_CATEGORIES = (
+    "vmess", "vless", "trojan", "shadowsocks", "hysteria", "tuic", "wireguard", "others",
+)
+
+# آدرس پایه‌ی raw برای ساخت لینک اشتراک در README (روی Actions از env پر می‌شود).
+_REPO = os.environ.get("GITHUB_REPOSITORY", "").strip()
+_BRANCH = (os.environ.get("GITHUB_REF_NAME", "") or "main").strip()
+RAW_BASE = f"https://raw.githubusercontent.com/{_REPO}/{_BRANCH}/" if _REPO else ""
+
+# امکان خاموش‌کردن تشخیص کشور (مثلاً برای تستِ آفلاین): GEOIP_ENABLED=0
+GEOIP_ENABLED = os.environ.get("GEOIP_ENABLED", "1").strip().lower() not in ("0", "false", "no")
 
 
 # ----------------------------- ابزار شبکه ---------------------------------
@@ -258,6 +317,209 @@ def config_hash(cfg):
     return hashlib.sha256(canon.encode("utf-8")).hexdigest()
 
 
+# ----------------------------- استخراج host/port --------------------------
+def _split_hostport(hp):
+    """جداکردن host و port از رشته‌ی host:port (با پشتیبانی IPv6 داخل [])."""
+    hp = hp.strip().strip("/")
+    if not hp:
+        return None, None
+    if hp.startswith("["):  # IPv6 مثل [2001:db8::1]:443
+        end = hp.find("]")
+        if end != -1:
+            host = hp[1:end]
+            port = hp[end + 2:] if hp[end + 1:end + 2] == ":" else None
+            return host or None, (port or None)
+    if ":" in hp:
+        host, port = hp.rsplit(":", 1)
+        return (host or None), (port or None)
+    return hp, None
+
+
+def extract_host_port(cfg):
+    """استخراج (host, port) از یک کانفیگ، مستقل از پروتکل.
+
+    برای vmess بدنه‌ی JSON دیکُد و فیلدهای add/port خوانده می‌شوند؛ برای ss/ssr
+    شکل‌های base64 پشتیبانی می‌شوند؛ برای بقیه از فرم proto://...@host:port استفاده می‌شود.
+    در صورت خطا (None, None) برمی‌گرداند تا اجرا متوقف نشود.
+    """
+    scheme, _, rest = cfg.partition("://")
+    scheme = scheme.lower()
+    if not rest:
+        return None, None
+    try:
+        if scheme == "vmess":
+            decoded = try_b64_decode(rest.split("#", 1)[0])
+            if decoded:
+                obj = json.loads(decoded)
+                host = str(obj.get("add", "")).strip()
+                port = str(obj.get("port", "")).strip()
+                return (host or None), (port or None)
+            return None, None
+
+        body = rest.split("#", 1)[0]
+
+        if scheme == "ssr":
+            decoded = try_b64_decode(body)
+            if decoded:
+                # ssr://base64(host:port:proto:method:obfs:passbase64/?params)
+                host = decoded.split(":", 1)[0]
+                return (host or None), None
+            return None, None
+
+        if scheme == "ss":
+            b = body.split("?", 1)[0]
+            if "@" in b:
+                return _split_hostport(b.rsplit("@", 1)[1])
+            decoded = try_b64_decode(b)
+            if decoded and "@" in decoded:
+                return _split_hostport(decoded.rsplit("@", 1)[1])
+            return None, None
+
+        # vless/trojan/hysteria*/tuic/juicity/socks/http/wireguard
+        b = body.split("?", 1)[0]
+        if "@" in b:
+            b = b.rsplit("@", 1)[1]
+        return _split_hostport(b)
+    except Exception:  # noqa: BLE001
+        return None, None
+
+
+# ----------------------------- تشخیص کشور (GeoIP) -------------------------
+def is_ip(host):
+    """آیا رشته یک آدرس IP (v4 یا v6) است؟"""
+    for fam in (socket.AF_INET, socket.AF_INET6):
+        try:
+            socket.inet_pton(fam, host)
+            return True
+        except OSError:
+            continue
+    return False
+
+
+def _resolve_one(host):
+    try:
+        return socket.gethostbyname(host)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def country_flag(cc):
+    """تبدیل کد دو حرفی کشور (ISO-3166) به ایموجی پرچم."""
+    if not cc or len(cc) != 2 or not cc.isalpha():
+        return ""
+    cc = cc.upper()
+    return chr(0x1F1E6 + ord(cc[0]) - 65) + chr(0x1F1E6 + ord(cc[1]) - 65)
+
+
+def geo_lookup(ips):
+    """نگاشت IP → کد کشور با استفاده از endpoint دسته‌ای ip-api.com (بدون کلید).
+
+    تا ۱۰۰ IP در هر درخواست؛ بین درخواست‌ها مکث کوتاه برای رعایت محدودیت نرخ.
+    """
+    out = {}
+    for i in range(0, len(ips), 100):
+        chunk = ips[i:i + 100]
+        try:
+            payload = json.dumps([{"query": ip} for ip in chunk]).encode("utf-8")
+            req = urllib.request.Request(
+                "http://ip-api.com/batch?fields=status,countryCode,query",
+                data=payload,
+                headers={"User-Agent": USER_AGENT, "Content-Type": "application/json"},
+            )
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+                arr = json.loads(resp.read().decode("utf-8", errors="replace"))
+            for item in arr:
+                if isinstance(item, dict) and item.get("status") == "success":
+                    cc = item.get("countryCode") or ""
+                    out[item.get("query")] = cc
+        except Exception as e:  # noqa: BLE001
+            print(f"    ! خطا در GeoIP دسته‌ای: {e}", file=sys.stderr)
+        if i + 100 < len(ips):
+            time.sleep(1.5)
+    return out
+
+
+def annotate_countries(records):
+    """افزودن کلید 'cc' (کد کشور) به هر رکورد.
+
+    مراحل: استخراج host هر کانفیگ → resolve دامنه‌ها به IP (موازی) →
+    lookup دسته‌ایِ کشور. در صورت هر خطایی، بی‌صدا با cc خالی ادامه می‌دهد تا
+    جمع‌آوری هرگز به‌خاطر شبکه‌ی GeoIP خراب نشود.
+    """
+    for r in records:
+        r["host"], _ = extract_host_port(r["cfg"])
+        r["cc"] = ""
+
+    if not GEOIP_ENABLED:
+        return
+
+    hosts = {r["host"] for r in records if r.get("host")}
+    if not hosts:
+        return
+
+    try:
+        ip_by_host = {}
+        to_resolve = []
+        for h in hosts:
+            if is_ip(h):
+                ip_by_host[h] = h
+            else:
+                to_resolve.append(h)
+
+        if to_resolve:
+            old_to = socket.getdefaulttimeout()
+            socket.setdefaulttimeout(5)
+            try:
+                with ThreadPoolExecutor(max_workers=20) as ex:
+                    for h, ip in zip(to_resolve, ex.map(_resolve_one, to_resolve)):
+                        if ip:
+                            ip_by_host[h] = ip
+            finally:
+                socket.setdefaulttimeout(old_to)
+
+        ips = sorted({ip for ip in ip_by_host.values()})
+        if not ips:
+            return
+        cc_by_ip = geo_lookup(ips)
+
+        for r in records:
+            ip = ip_by_host.get(r.get("host"))
+            if ip:
+                r["cc"] = cc_by_ip.get(ip, "")
+    except Exception as e:  # noqa: BLE001
+        print(f"    ! تشخیص کشور انجام نشد: {e}", file=sys.stderr)
+
+
+# ----------------------------- بازنویسی نام (remark) ----------------------
+def set_remark(cfg, remark):
+    """جایگزینی نام/remark یک کانفیگ با رشته‌ی دلخواه.
+
+    برای vmess فیلد ps در JSON تنظیم و دوباره base64 می‌شود؛ برای بقیه، بخش بعد
+    از # با نسخه‌ی percent-encode شده‌ی remark جایگزین می‌شود (کلاینت‌ها decode می‌کنند).
+    """
+    scheme = cfg.split("://", 1)[0].lower()
+    if scheme == "vmess":
+        body = cfg[len("vmess://"):].split("#", 1)[0]
+        decoded = try_b64_decode(body)
+        if decoded:
+            try:
+                obj = json.loads(decoded)
+                obj["ps"] = remark
+                raw = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+                return "vmess://" + base64.b64encode(raw).decode("ascii")
+            except (json.JSONDecodeError, AttributeError, TypeError):
+                return cfg
+        return cfg
+    base = cfg.split("#", 1)[0]
+    return base + "#" + urllib.parse.quote(remark, safe="")
+
+
+def is_reality(cfg):
+    """آیا این کانفیگ vless از نوع reality است؟ (روی بخش پیش از # بررسی می‌شود)"""
+    base = cfg.split("#", 1)[0].lower()
+    return "security=reality" in base or "type=reality" in base
+
+
 # ----------------------------- جمع‌آوری از یک چنل -------------------------
 def collect_from_channel(channel, run_seen, per_channel, max_pages):
     """تا per_channel کانفیگِ *اخیرِ* غیرتکراری از یک چنل برمی‌گرداند.
@@ -311,20 +573,121 @@ def collect_from_channel(channel, run_seen, per_channel, max_pages):
 
 
 # ----------------------------- خروجی سابسکریپشن --------------------------
-def write_outputs(all_configs):
+def _write_pair(key, configs):
+    """نوشتن یک دسته در دو قالب: متن خام (key.txt) و base64 (key_b64.txt)."""
+    plain = "\n".join(configs) + ("\n" if configs else "")
+    with open(os.path.join(SUB_DIR, f"{key}.txt"), "w", encoding="utf-8") as f:
+        f.write(plain)
+    b64 = base64.b64encode(plain.encode("utf-8")).decode("ascii")
+    with open(os.path.join(SUB_DIR, f"{key}_b64.txt"), "w", encoding="utf-8") as f:
+        f.write(b64)
+
+
+def write_outputs(categories):
+    """نوشتن همه‌ی دسته‌ها + فایل‌های قدیمی (برای سازگاری)."""
     os.makedirs(SUB_DIR, exist_ok=True)
     os.makedirs(DATA_DIR, exist_ok=True)
 
-    plain = "\n".join(all_configs) + ("\n" if all_configs else "")
+    for key, configs in categories.items():
+        if key != "all" and not configs:
+            continue  # دسته‌ی خالی فایل نمی‌سازد (به‌جز all)
+        _write_pair(key, configs)
 
+    # فایل‌های قدیمی = معادل دسته‌ی all (حفظ سازگاری با ساب‌های موجود کاربران)
+    all_plain = "\n".join(categories["all"]) + ("\n" if categories["all"] else "")
     with open(SUB_PLAIN, "w", encoding="utf-8") as f:
-        f.write(plain)
+        f.write(all_plain)
     with open(RAW_FILE, "w", encoding="utf-8") as f:
-        f.write(plain)
-
-    b64 = base64.b64encode(plain.encode("utf-8")).decode("ascii")
+        f.write(all_plain)
     with open(SUB_B64, "w", encoding="utf-8") as f:
-        f.write(b64)
+        f.write(base64.b64encode(all_plain.encode("utf-8")).decode("ascii"))
+
+
+# ----------------------------- تولید README ------------------------------
+def _sub_link(path):
+    """لینک raw برای یک فایل اشتراک؛ اگر env ریپو نباشد، مسیر نسبی برمی‌گرداند."""
+    return (RAW_BASE + path) if RAW_BASE else path
+
+
+def generate_readme(total, channels_n, cat_counts, country_counts, channel_counts, updated):
+    """ساخت محتوای README.md به‌صورت کاملاً داینامیک بر پایه‌ی نتایجِ همین اجرا."""
+    out = []
+    A = out.append
+
+    # سربرگ
+    A('<div align="center">')
+    A("")
+    A("# 🛰️ V2Ray Config Collector")
+    A("")
+    A("جمع‌آوری خودکار کانفیگ‌های V2Ray از کانال‌های عمومی تلگرام — به‌روزرسانی هر ۵ ساعت")
+    A("")
+    A(
+        f"![configs](https://img.shields.io/badge/configs-{total}-2ea44f?style=flat-square) "
+        f"![channels](https://img.shields.io/badge/channels-{channels_n}-1f6feb?style=flat-square) "
+        f"![countries](https://img.shields.io/badge/countries-{len(country_counts)}-orange?style=flat-square)"
+    )
+    A("")
+    A(f"`⏱️ آخرین به‌روزرسانی: {updated}`")
+    A("")
+    A("</div>")
+    A("")
+
+    # جدول لینک‌های اشتراک
+    A("## 📡 لینک‌های اشتراک (Subscription)")
+    A("")
+    A("| دسته | تعداد | لینک اشتراک (Base64) | متن خام |")
+    A("|:-----|:----:|:---------------------|:------:|")
+    for key, (name, emoji) in CATEGORY_META.items():
+        count = cat_counts.get(key, 0)
+        if key != "all" and count == 0:
+            continue
+        b64 = _sub_link(f"sub/{key}_b64.txt")
+        plain = _sub_link(f"sub/{key}.txt")
+        A(f"| {emoji} {name} | `{count}` | `{b64}` | [↧]({plain}) |")
+    A("")
+    A("> لینک ستون **«اشتراک»** را کپی و در کلاینت خود (v2rayNG، NekoBox، Hiddify، Streisand و …) به‌عنوان Subscription وارد کنید.")
+    A("")
+
+    # نمودار توزیع پروتکل‌ها (mermaid pie — روی گیت‌هاب رندر می‌شود)
+    chart_items = [(k, cat_counts.get(k, 0)) for k in CHART_CATEGORIES if cat_counts.get(k, 0) > 0]
+    if chart_items:
+        A("## 📊 توزیع پروتکل‌ها")
+        A("")
+        A("```mermaid")
+        A("pie showData")
+        A('    title پروتکل‌ها')
+        for k, v in sorted(chart_items, key=lambda x: -x[1]):
+            A(f'    "{CATEGORY_META[k][0]}" : {v}')
+        A("```")
+        A("")
+
+    # جدول کشورها
+    if country_counts:
+        A("## 🌍 توزیع کشورها")
+        A("")
+        top = sorted(country_counts.items(), key=lambda x: -x[1])[:12]
+        max_c = top[0][1] or 1
+        A("| کشور | تعداد | نمودار |")
+        A("|:-----|:----:|:-------|")
+        for cc, c in top:
+            bar = "█" * max(1, round(18 * c / max_c))
+            A(f"| {country_flag(cc)} {cc} | `{c}` | `{bar}` |")
+        A("")
+
+    # جدول کانال‌ها
+    if channel_counts:
+        A("## 📥 کانال‌ها")
+        A("")
+        A("| کانال | تعداد کانفیگ |")
+        A("|:------|:-----------:|")
+        for ch, c in sorted(channel_counts.items(), key=lambda x: -x[1]):
+            A(f"| [@{ch}](https://t.me/{ch}) | `{c}` |")
+        A("")
+
+    A("---")
+    A('<div align="center"><sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions • هر ۵ ساعت به‌روزرسانی می‌شود</sub></div>')
+    A("")
+    return "\n".join(out)
 
 
 # ----------------------------- نوار پیشرفت زنده --------------------------
@@ -393,33 +756,88 @@ def main(argv=None):
 
     # هر اجرا کاملاً از نو: dedup فقط در محدوده‌ی همین اجرا انجام می‌شود.
     run_seen = set()
-    all_configs = []
+    collected_by_channel = []   # [(channel, [configs...]), ...] — ترتیب per-channel حفظ می‌شود
     total = len(channels)
     start = time.time()
+    grand = 0
 
     render_progress(0, total, total_configs=0)
     for i, ch in enumerate(channels, 1):
         try:
             got = collect_from_channel(ch, run_seen, per_channel, max_pages)
-            all_configs.extend(got)
-            last_count = len(got)
         except Exception as e:  # noqa: BLE001
             # خطای یک چنل نباید بقیه را متوقف کند؛ \n تا نوارِ TTY خراب نشود.
             print(f"\n  [{ch}] خطا: {e}", file=sys.stderr, flush=True)
-            last_count = 0
+            got = []
+        collected_by_channel.append((ch, got))
+        grand += len(got)
         elapsed = time.time() - start
         eta = int(elapsed / i * (total - i)) if i < total else 0
-        render_progress(i, total, last_channel=ch, last_count=last_count,
-                        total_configs=len(all_configs), eta=eta)
+        render_progress(i, total, last_channel=ch, last_count=len(got),
+                        total_configs=grand, eta=eta)
+
+    # ساخت رکوردها با شماره‌ی per-channel (۱ برای اولین کانفیگِ هر کانال)
+    records = []
+    for ch, got in collected_by_channel:
+        for idx, cfg in enumerate(got, 1):
+            records.append({"channel": ch, "idx": idx, "cfg": cfg})
 
     # اگر این اجرا هیچ کانفیگی نگرفت (مثلاً قطعی شبکه)، خروجی قبلی را پاک نمی‌کنیم
-    if not all_configs:
+    if not records:
         print("هیچ کانفیگی در این اجرا جمع نشد؛ خروجی قبلی حفظ شد.", file=sys.stderr)
         return 1
 
-    write_outputs(all_configs)
+    # تشخیص کشورها
+    print("در حال تشخیص کشورِ کانفیگ‌ها...", flush=True)
+    annotate_countries(records)
 
-    print(f"\nمجموع کل کانفیگ‌ها در سابسکریپشن (این اجرا): {len(all_configs)}")
+    # ساخت remark جدید + دسته‌بندی + آمار
+    categories = {key: [] for key in CATEGORY_META}
+    country_counts = {}
+    channel_counts = {}
+
+    for r in records:
+        cfg = r["cfg"]
+        scheme = cfg.split("://", 1)[0].lower()
+        primary = PROTOCOL_CATEGORY.get(scheme, "others")
+        cc = r.get("cc", "")
+
+        # نام جدید: «پرچم کد‌کشور | @کانال | شماره»
+        parts = []
+        if cc:
+            parts.append((country_flag(cc) + " " + cc).strip())
+        parts.append("@" + r["channel"])
+        parts.append(str(r["idx"]))
+        new_cfg = set_remark(cfg, " | ".join(parts))
+
+        categories["all"].append(new_cfg)
+        categories[primary].append(new_cfg)
+        if scheme == "vless" and is_reality(cfg):
+            categories["reality"].append(new_cfg)
+
+        if cc:
+            country_counts[cc] = country_counts.get(cc, 0) + 1
+        channel_counts[r["channel"]] = channel_counts.get(r["channel"], 0) + 1
+
+    write_outputs(categories)
+
+    # تولید README داینامیک
+    cat_counts = {key: len(v) for key, v in categories.items()}
+    channels_with_data = sum(1 for _, g in collected_by_channel if g)
+    updated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    readme = generate_readme(
+        total=cat_counts["all"],
+        channels_n=channels_with_data,
+        cat_counts=cat_counts,
+        country_counts=country_counts,
+        channel_counts=channel_counts,
+        updated=updated,
+    )
+    with open(README_FILE, "w", encoding="utf-8") as f:
+        f.write(readme)
+
+    print(f"\nمجموع کل کانفیگ‌ها: {cat_counts['all']} | کشورها: {len(country_counts)} "
+          f"| دسته‌های دارای کانفیگ: {sum(1 for k, v in cat_counts.items() if v and k != 'all')}")
     return 0
 
 
