@@ -7,7 +7,9 @@
       "Bash(python -c ' *)",
       "Bash(grep -vc '^#\\\\|^$' channels.txt)",
       "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py -n 3 --max-pages 2)",
-      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py)"
+      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" python collector.py)",
+      "Read(//c/Users/user/project/Desktop/**)",
+      "Bash(GITHUB_REPOSITORY=\"Arian-Alijani/tg-v2ray-collector\" GITHUB_REF_NAME=\"master\" timeout 280 python collector.py --per-channel 3 --max-pages 3)"
     ]
   }
 }

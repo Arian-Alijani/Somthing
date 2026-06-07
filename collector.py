@@ -609,22 +609,41 @@ def _sub_link(path):
     return (RAW_BASE + path) if RAW_BASE else path
 
 
+def _qr_url(data, size=240):
+    """آدرس تصویر QR برای یک رشته (سرویس عمومی qrserver.com، بدون کلید/لاگین).
+
+    داده‌ی کد، خودِ آدرسِ کوتاهِ اشتراک است (نه محتوای فایل) تا با ظرفیت QR بخواند.
+    """
+    encoded = urllib.parse.quote(data, safe="")
+    return (
+        "https://api.qrserver.com/v1/create-qr-code/"
+        f"?size={size}x{size}&margin=10&qzone=1&data={encoded}"
+    )
+
+
 def generate_readme(total, channels_n, cat_counts, country_counts, channel_counts, updated):
     """ساخت محتوای README.md به‌صورت کاملاً داینامیک بر پایه‌ی نتایجِ همین اجرا."""
     out = []
     A = out.append
 
-    # سربرگ
+    all_b64 = _sub_link("sub/all_b64.txt")
+    all_plain = _sub_link("sub/all.txt")
+    proto_n = sum(1 for k, v in cat_counts.items() if v and k not in ("all", "reality"))
+
+    # ----------------------------- سربرگ -----------------------------------
     A('<div align="center">')
     A("")
     A("# 🛰️ V2Ray Config Collector")
     A("")
-    A("جمع‌آوری خودکار کانفیگ‌های V2Ray از کانال‌های عمومی تلگرام — به‌روزرسانی هر ۵ ساعت")
+    A("**جمع‌آوری خودکار کانفیگ‌های V2Ray از کانال‌های عمومی تلگرام**")
+    A("")
+    A("<sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار هر ۵ ساعت با GitHub Actions</sub>")
     A("")
     A(
-        f"![configs](https://img.shields.io/badge/configs-{total}-2ea44f?style=flat-square) "
-        f"![channels](https://img.shields.io/badge/channels-{channels_n}-1f6feb?style=flat-square) "
-        f"![countries](https://img.shields.io/badge/countries-{len(country_counts)}-orange?style=flat-square)"
+        f"![configs](https://img.shields.io/badge/کانفیگ‌ها-{total}-2ea44f?style=for-the-badge) "
+        f"![channels](https://img.shields.io/badge/کانال‌ها-{channels_n}-1f6feb?style=for-the-badge&logo=telegram&logoColor=white) "
+        f"![protocols](https://img.shields.io/badge/پروتکل‌ها-{proto_n}-8957e6?style=for-the-badge) "
+        f"![countries](https://img.shields.io/badge/کشورها-{len(country_counts)}-orange?style=for-the-badge)"
     )
     A("")
     A(f"`⏱️ آخرین به‌روزرسانی: {updated}`")
@@ -632,8 +651,27 @@ def generate_readme(total, channels_n, cat_counts, country_counts, channel_count
     A("</div>")
     A("")
 
-    # جدول لینک‌های اشتراک
-    A("## 📡 لینک‌های اشتراک (Subscription)")
+    # ----------------------------- شروع سریع -------------------------------
+    A("## 🚀 شروع سریع")
+    A("")
+    A("لینک اشتراکِ **همه‌ی** کانفیگ‌ها را کپی کرده و در کلاینت خود وارد کنید (پیشنهادی برای اکثر کاربران):")
+    A("")
+    A("```text")
+    A(all_b64)
+    A("```")
+    A("")
+    if RAW_BASE:  # تصویر QR فقط با آدرسِ مطلق معنا دارد
+        A('<div align="center">')
+        A("")
+        A(f'<img src="{_qr_url(all_b64)}" alt="QR لینک اشتراک همه" width="200" />')
+        A("")
+        A("<sub>📷 برای افزودنِ سریع، این کد را در کلاینت اسکن کنید</sub>")
+        A("")
+        A("</div>")
+        A("")
+
+    # ----------------------- جدول لینک‌های اشتراک --------------------------
+    A("## 📡 لینک‌های اشتراک به تفکیک دسته")
     A("")
     A("| دسته | تعداد | لینک اشتراک (Base64) | متن خام |")
     A("|:-----|:----:|:---------------------|:------:|")
@@ -643,49 +681,77 @@ def generate_readme(total, channels_n, cat_counts, country_counts, channel_count
             continue
         b64 = _sub_link(f"sub/{key}_b64.txt")
         plain = _sub_link(f"sub/{key}.txt")
-        A(f"| {emoji} {name} | `{count}` | `{b64}` | [↧]({plain}) |")
+        A(f"| {emoji} **{name}** | `{count}` | `{b64}` | [⬇️ خام]({plain}) |")
     A("")
-    A("> لینک ستون **«اشتراک»** را کپی و در کلاینت خود (v2rayNG، NekoBox، Hiddify، Streisand و …) به‌عنوان Subscription وارد کنید.")
+    A("> 💡 محتوای ستون **«لینک اشتراک (Base64)»** را کپی و در بخش *Subscription / اشتراک* کلاینت خود وارد کنید.")
     A("")
 
-    # نمودار توزیع پروتکل‌ها (mermaid pie — روی گیت‌هاب رندر می‌شود)
+    # ----------------- نمودار توزیع پروتکل‌ها (mermaid pie) -----------------
     chart_items = [(k, cat_counts.get(k, 0)) for k in CHART_CATEGORIES if cat_counts.get(k, 0) > 0]
     if chart_items:
         A("## 📊 توزیع پروتکل‌ها")
         A("")
         A("```mermaid")
         A("pie showData")
-        A('    title پروتکل‌ها')
+        A('    title توزیع کانفیگ‌ها بر اساس پروتکل')
         for k, v in sorted(chart_items, key=lambda x: -x[1]):
             A(f'    "{CATEGORY_META[k][0]}" : {v}')
         A("```")
         A("")
 
-    # جدول کشورها
+    # ------------------------- جدول کشورها ---------------------------------
     if country_counts:
         A("## 🌍 توزیع کشورها")
         A("")
-        top = sorted(country_counts.items(), key=lambda x: -x[1])[:12]
+        top = sorted(country_counts.items(), key=lambda x: (-x[1], x[0]))[:12]
         max_c = top[0][1] or 1
-        A("| کشور | تعداد | نمودار |")
-        A("|:-----|:----:|:-------|")
+        A("| کشور | تعداد | سهم |")
+        A("|:-----|:----:|:----|")
         for cc, c in top:
-            bar = "█" * max(1, round(18 * c / max_c))
-            A(f"| {country_flag(cc)} {cc} | `{c}` | `{bar}` |")
+            filled = max(1, round(20 * c / max_c))
+            bar = "█" * filled + "░" * (20 - filled)
+            A(f"| {country_flag(cc)} `{cc}` | `{c}` | `{bar}` |")
+        if len(country_counts) > 12:
+            A(f"| … | `+{len(country_counts) - 12}` | `سایر کشورها` |")
         A("")
 
-    # جدول کانال‌ها
+    # ------------- جدول کانال‌ها (در بخشِ جمع‌شونده برای نظم) ---------------
     if channel_counts:
-        A("## 📥 کانال‌ها")
+        ranked = sorted(channel_counts.items(), key=lambda x: (-x[1], x[0]))
+        A("## 📥 منابع (کانال‌های تلگرام)")
         A("")
-        A("| کانال | تعداد کانفیگ |")
-        A("|:------|:-----------:|")
-        for ch, c in sorted(channel_counts.items(), key=lambda x: -x[1]):
-            A(f"| [@{ch}](https://t.me/{ch}) | `{c}` |")
+        A("<details>")
+        A(f"<summary>📋 مشاهده‌ی فهرست کامل — {len(ranked)} کانال</summary>")
+        A("")
+        A("| # | کانال | تعداد کانفیگ |")
+        A("|:-:|:------|:-----------:|")
+        for i, (ch, c) in enumerate(ranked, 1):
+            A(f"| {i} | [@{ch}](https://t.me/{ch}) | `{c}` |")
+        A("")
+        A("</details>")
         A("")
 
+    # ------------------------- راهنمای استفاده -----------------------------
+    A("## 📱 نحوه‌ی استفاده")
+    A("")
+    A("۱. لینکِ اشتراکِ دسته‌ی دلخواه (ستون Base64) را کپی کنید.")
+    A("")
+    A("۲. در کلاینت، بخشِ **Subscription / اشتراک** را باز کرده و لینک را اضافه کنید.")
+    A("")
+    A("۳. اشتراک را **Update** کنید تا کانفیگ‌ها بارگذاری شوند.")
+    A("")
+    A("کلاینت‌های پیشنهادی: **v2rayNG** · **NekoBox** · **Hiddify** · **Streisand** · **Shadowrocket**")
+    A("")
+
+    # ----------------------------- پاورقی ----------------------------------
     A("---")
-    A('<div align="center"><sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions • هر ۵ ساعت به‌روزرسانی می‌شود</sub></div>')
+    A('<div align="center">')
+    A("")
+    A("<sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions • هر ۵ ساعت به‌روزرسانی می‌شود</sub>")
+    A("")
+    A("<sub>⚠️ این کانفیگ‌ها از منابع عمومی جمع‌آوری شده‌اند و صرفاً برای آزمایش و دسترسی آزاد به اینترنت‌اند.</sub>")
+    A("")
+    A("</div>")
     A("")
     return "\n".join(out)
 
