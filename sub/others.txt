@@ -2,4 +2,4 @@ http://localhost:8081/v1#%40APPXA%20%7C%202
 http://localhost:8000/v1#%40APPXA%20%7C%203
 http://localhost:8000/#%40APPXA%20%7C%204
 http://localhost:7000/#%40APPXA%20%7C%205
-socks://TV9ZT1VfRDpQcml2YXRl@pl1.cactussstp.com:1080#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40bored_vpn%20%7C%201
+socks://TV9ZT1VfRDpQcml2YXRl@pl1.cactussstp.com:1080#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40bored_vpn%20%7C%2010
