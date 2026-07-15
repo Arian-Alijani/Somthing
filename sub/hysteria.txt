@@ -1,6 +1,7 @@
+hysteria2://NZC2w2V2NQ@91.107.152.188:40460?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=52c567daa2ae092d33e0f2b49729505bb43760622ac7915581bc78c668ee9b8e&sni=www.amd.com#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%40FreakConfig%20%7C%207
 hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52021?security=tls&obfs=salamander&obfs-password=mtg2vchyir6la3et&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40bored_vpn%20%7C%207
-hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52013?security=tls&obfs=salamander&obfs-password=cukfjxud1ebjuuzs&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40bored_vpn%20%7C%2013
+hysteria2://elknam6l7izf3z71@assets.gateway-stream.com:52013?security=tls&obfs=salamander&obfs-password=cukfjxud1ebjuuzs&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40bored_vpn%20%7C%2015
 hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2014
 hysteria2://782efefcaac2a7f26e2be42f7bc5d75a@quran.mci.ai:443?security=tls&insecure=1&sni=quran.mci.ai#%40NTGreenplus%20%7C%2015
 hysteria2://1af84dc4749dbc10031389e03a96ba96@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2019
-hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?insecure=1&__rand=4177beba#%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20%40payam_nsi%20%7C%201
+hysteria2://LzMWgm6LaNWCm11bFTbynDPq2TqQj03t@5.255.102.165:443?insecure=1&__rand=4177beba#%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20%40payam_nsi%20%7C%203
