@@ -6,9 +6,9 @@
 
 <sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار هر ۵ ساعت با GitHub Actions</sub>
 
-![configs](https://img.shields.io/badge/کانفیگ‌ها-572-2ea44f?style=for-the-badge) ![channels](https://img.shields.io/badge/کانال‌ها-33-1f6feb?style=for-the-badge&logo=telegram&logoColor=white) ![protocols](https://img.shields.io/badge/پروتکل‌ها-7-8957e6?style=for-the-badge) ![countries](https://img.shields.io/badge/کشورها-40-orange?style=for-the-badge)
+![configs](https://img.shields.io/badge/کانفیگ‌ها-565-2ea44f?style=for-the-badge) ![channels](https://img.shields.io/badge/کانال‌ها-33-1f6feb?style=for-the-badge&logo=telegram&logoColor=white) ![protocols](https://img.shields.io/badge/پروتکل‌ها-7-8957e6?style=for-the-badge) ![countries](https://img.shields.io/badge/کشورها-38-orange?style=for-the-badge)
 
-`⏱️ آخرین به‌روزرسانی: 2026-07-21 11:46 UTC`
+`⏱️ آخرین به‌روزرسانی: 2026-07-21 16:23 UTC`
 
 </div>
 
@@ -32,14 +32,14 @@ https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt
 
 | دسته | تعداد | لینک اشتراک (Base64) | متن خام |
 |:-----|:----:|:---------------------|:------:|
-| 🌐 **همه** | `572` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all.txt) |
+| 🌐 **همه** | `565` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all.txt) |
 | 🟢 **VMess** | `13` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vmess_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vmess.txt) |
-| ⚡ **VLESS** | `432` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless.txt) |
-| 🛡️ **Reality** | `101` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality.txt) |
+| ⚡ **VLESS** | `438` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless.txt) |
+| 🛡️ **Reality** | `93` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality.txt) |
 | 🐴 **Trojan** | `48` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/trojan_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/trojan.txt) |
-| 🔒 **Shadowsocks** | `62` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks.txt) |
-| 🚀 **Hysteria** | `8` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/hysteria_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/hysteria.txt) |
-| 🪱 **WireGuard** | `8` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard.txt) |
+| 🔒 **Shadowsocks** | `55` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks.txt) |
+| 🚀 **Hysteria** | `5` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/hysteria_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/hysteria.txt) |
+| 🪱 **WireGuard** | `5` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard.txt) |
 | 📦 **سایر** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/others_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/others.txt) |
 
 > 💡 محتوای ستون **«لینک اشتراک (Base64)»** را کپی و در بخش *Subscription / اشتراک* کلاینت خود وارد کنید.
@@ -49,12 +49,12 @@ https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt
 ```mermaid
 pie showData
     title توزیع کانفیگ‌ها بر اساس پروتکل
-    "VLESS" : 432
-    "Shadowsocks" : 62
+    "VLESS" : 438
+    "Shadowsocks" : 55
     "Trojan" : 48
     "VMess" : 13
-    "Hysteria" : 8
-    "WireGuard" : 8
+    "Hysteria" : 5
+    "WireGuard" : 5
     "سایر" : 1
 ```
 
@@ -63,18 +63,18 @@ pie showData
 | کشور | تعداد | سهم |
 |:-----|:----:|:----|
 | 🇨🇦 `CA` | `149` | `████████████████████` |
-| 🇺🇸 `US` | `60` | `████████░░░░░░░░░░░░` |
-| 🇩🇪 `DE` | `57` | `████████░░░░░░░░░░░░` |
-| 🇳🇱 `NL` | `57` | `████████░░░░░░░░░░░░` |
+| 🇩🇪 `DE` | `63` | `████████░░░░░░░░░░░░` |
+| 🇺🇸 `US` | `59` | `████████░░░░░░░░░░░░` |
+| 🇳🇱 `NL` | `51` | `███████░░░░░░░░░░░░░` |
 | 🇮🇷 `IR` | `26` | `███░░░░░░░░░░░░░░░░░` |
-| 🇨🇭 `CH` | `25` | `███░░░░░░░░░░░░░░░░░` |
-| 🇫🇷 `FR` | `21` | `███░░░░░░░░░░░░░░░░░` |
-| 🇬🇧 `GB` | `19` | `███░░░░░░░░░░░░░░░░░` |
-| 🇸🇨 `SC` | `15` | `██░░░░░░░░░░░░░░░░░░` |
-| 🇷🇺 `RU` | `14` | `██░░░░░░░░░░░░░░░░░░` |
-| 🇫🇮 `FI` | `7` | `█░░░░░░░░░░░░░░░░░░░` |
-| 🇸🇪 `SE` | `7` | `█░░░░░░░░░░░░░░░░░░░` |
-| … | `+28` | `سایر کشورها` |
+| 🇨🇭 `CH` | `22` | `███░░░░░░░░░░░░░░░░░` |
+| 🇬🇧 `GB` | `22` | `███░░░░░░░░░░░░░░░░░` |
+| 🇫🇷 `FR` | `18` | `██░░░░░░░░░░░░░░░░░░` |
+| 🇸🇨 `SC` | `14` | `██░░░░░░░░░░░░░░░░░░` |
+| 🇷🇺 `RU` | `10` | `█░░░░░░░░░░░░░░░░░░░` |
+| 🇹🇷 `TR` | `8` | `█░░░░░░░░░░░░░░░░░░░` |
+| 🇵🇱 `PL` | `7` | `█░░░░░░░░░░░░░░░░░░░` |
+| … | `+26` | `سایر کشورها` |
 
 ## 📥 منابع (کانال‌های تلگرام)
 
@@ -83,38 +83,38 @@ pie showData
 
 | # | کانال | تعداد کانفیگ |
 |:-:|:------|:-----------:|
-| 1 | [@APPXA](https://t.me/APPXA) | `20` |
+| 1 | [@Farah_VPN](https://t.me/Farah_VPN) | `20` |
 | 2 | [@FreeConfigForYou](https://t.me/FreeConfigForYou) | `20` |
 | 3 | [@IRAN_access](https://t.me/IRAN_access) | `20` |
 | 4 | [@JKVPN](https://t.me/JKVPN) | `20` |
 | 5 | [@Parsashonam](https://t.me/Parsashonam) | `20` |
-| 6 | [@SOSkeyNET](https://t.me/SOSkeyNET) | `20` |
-| 7 | [@SimChin_ir](https://t.me/SimChin_ir) | `20` |
-| 8 | [@UnlimitedDev](https://t.me/UnlimitedDev) | `20` |
-| 9 | [@V2All](https://t.me/V2All) | `20` |
-| 10 | [@V2rayng_Fast](https://t.me/V2rayng_Fast) | `20` |
+| 6 | [@SimChin_ir](https://t.me/SimChin_ir) | `20` |
+| 7 | [@UnlimitedDev](https://t.me/UnlimitedDev) | `20` |
+| 8 | [@V2All](https://t.me/V2All) | `20` |
+| 9 | [@V2rayng_Fast](https://t.me/V2rayng_Fast) | `20` |
+| 10 | [@configV2rayForFree](https://t.me/configV2rayForFree) | `20` |
 | 11 | [@narcod_ping](https://t.me/narcod_ping) | `20` |
 | 12 | [@proxy48](https://t.me/proxy48) | `20` |
 | 13 | [@prroxyng](https://t.me/prroxyng) | `20` |
 | 14 | [@v2riran](https://t.me/v2riran) | `20` |
-| 15 | [@NTGreenplus](https://t.me/NTGreenplus) | `19` |
-| 16 | [@bored_vpn](https://t.me/bored_vpn) | `19` |
-| 17 | [@configV2rayForFree](https://t.me/configV2rayForFree) | `19` |
-| 18 | [@fast78_channel](https://t.me/fast78_channel) | `19` |
+| 15 | [@Ablnet7](https://t.me/Ablnet7) | `19` |
+| 16 | [@NTGreenplus](https://t.me/NTGreenplus) | `19` |
+| 17 | [@fast78_channel](https://t.me/fast78_channel) | `19` |
+| 18 | [@one_shop_official](https://t.me/one_shop_official) | `19` |
 | 19 | [@v2rayTG](https://t.me/v2rayTG) | `19` |
-| 20 | [@Ablnet7](https://t.me/Ablnet7) | `18` |
-| 21 | [@Farah_VPN](https://t.me/Farah_VPN) | `18` |
-| 22 | [@V2RAYROZ](https://t.me/V2RAYROZ) | `18` |
-| 23 | [@one_shop_official](https://t.me/one_shop_official) | `18` |
-| 24 | [@payam_nsi](https://t.me/payam_nsi) | `18` |
-| 25 | [@vpnplusee_free](https://t.me/vpnplusee_free) | `18` |
-| 26 | [@daily_configs](https://t.me/daily_configs) | `16` |
-| 27 | [@planB_net](https://t.me/planB_net) | `16` |
-| 28 | [@v2ray03](https://t.me/v2ray03) | `14` |
+| 20 | [@APPXA](https://t.me/APPXA) | `18` |
+| 21 | [@V2RAYROZ](https://t.me/V2RAYROZ) | `18` |
+| 22 | [@payam_nsi](https://t.me/payam_nsi) | `18` |
+| 23 | [@vpnplusee_free](https://t.me/vpnplusee_free) | `18` |
+| 24 | [@bored_vpn](https://t.me/bored_vpn) | `17` |
+| 25 | [@daily_configs](https://t.me/daily_configs) | `17` |
+| 26 | [@planB_net](https://t.me/planB_net) | `15` |
+| 27 | [@v2ray03](https://t.me/v2ray03) | `14` |
+| 28 | [@FreakConfig](https://t.me/FreakConfig) | `13` |
 | 29 | [@Ln2Ray](https://t.me/Ln2Ray) | `10` |
 | 30 | [@V2raysCollector](https://t.me/V2raysCollector) | `10` |
-| 31 | [@v2ray_dalghak](https://t.me/v2ray_dalghak) | `10` |
-| 32 | [@FreakConfig](https://t.me/FreakConfig) | `8` |
+| 31 | [@v2ray_dalghak](https://t.me/v2ray_dalghak) | `9` |
+| 32 | [@SOSkeyNET](https://t.me/SOSkeyNET) | `8` |
 | 33 | [@V2RAY_VMESS_free](https://t.me/V2RAY_VMESS_free) | `5` |
 
 </details>
