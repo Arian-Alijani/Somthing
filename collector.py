@@ -77,11 +77,17 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 CHANNELS_FILE = os.path.join(ROOT, "channels.txt")
 DATA_DIR = os.path.join(ROOT, "data")
 SUB_DIR = os.path.join(ROOT, "sub")
+COUNTRY_DIR = os.path.join(SUB_DIR, "country")   # ساب‌های مجزا به تفکیک کشور (sub/country/<cc>.txt)
 README_FILE = os.path.join(ROOT, "README.md")
 RAW_FILE = os.path.join(DATA_DIR, "all_configs.txt")   # اسنپ‌شات کانفیگ‌های همین اجرا
 # فایل‌های قدیمی (برای سازگاری با ساب‌های قبلی حفظ می‌شوند؛ معادل دسته‌ی «all»)
 SUB_PLAIN = os.path.join(SUB_DIR, "configs.txt")
 SUB_B64 = os.path.join(SUB_DIR, "sub.txt")
+
+# حداقل تعداد کانفیگ لازم برای اینکه یک کشور صاحب فایل ساب مجزا شود.
+# کشورهایی با کانفیگِ خیلی کم (مثلاً ۱ عدد) معمولاً پایدار/کاربردی نیستند و
+# ساختن فایل برایشان صرفاً تعداد فایل‌های ریپو را زیاد می‌کند بدون فایده‌ی واقعی.
+COUNTRY_MIN_CONFIGS = _env_int("COUNTRY_MIN_CONFIGS", 1)
 
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -668,14 +674,50 @@ def collect_all(channels, per_channel, max_pages, workers, progress_cb=None):
 
 
 # ----------------------------- خروجی سابسکریپشن --------------------------
-def _write_pair(key, configs):
+def _write_pair(key, configs, out_dir=SUB_DIR):
     """نوشتن یک دسته در دو قالب: متن خام (key.txt) و base64 (key_b64.txt)."""
     plain = "\n".join(configs) + ("\n" if configs else "")
-    with open(os.path.join(SUB_DIR, f"{key}.txt"), "w", encoding="utf-8") as f:
+    with open(os.path.join(out_dir, f"{key}.txt"), "w", encoding="utf-8") as f:
         f.write(plain)
     b64 = base64.b64encode(plain.encode("utf-8")).decode("ascii")
-    with open(os.path.join(SUB_DIR, f"{key}_b64.txt"), "w", encoding="utf-8") as f:
+    with open(os.path.join(out_dir, f"{key}_b64.txt"), "w", encoding="utf-8") as f:
         f.write(b64)
+
+
+def country_code_slug(cc):
+    """کد کشورِ امن برای نام فایل (فقط دو حرف الفبا، حروف کوچک)؛ در غیر این‌صورت None."""
+    if not cc or len(cc) != 2 or not cc.isalpha():
+        return None
+    return cc.lower()
+
+
+def write_country_outputs(country_groups):
+    """نوشتنِ ساب مجزا برای هر کشور در sub/country/<cc>.txt (+ _b64.txt).
+
+    این تابع پیش از نوشتنِ خروجیِ جدید، **کل پوشه‌ی country را پاک می‌کند** تا
+    کشورهایی که در این اجرا دیگر کانفیگی ندارند (یا زیرِ آستانه‌ی
+    COUNTRY_MIN_CONFIGS افتاده‌اند) فایل قدیمی‌شان باقی نماند و لینک‌های مرده
+    در ریپو انباشته نشوند. مدل «هر اجرا از نو» با بقیه‌ی خروجی‌ها یکسان است.
+
+    برمی‌گرداند: دیکشنری {cc: تعداد} فقط برای کشورهایی که فایل ساخته شد
+    (برای استفاده در جدول لینک‌های README).
+    """
+    if os.path.isdir(COUNTRY_DIR):
+        for name in os.listdir(COUNTRY_DIR):
+            try:
+                os.remove(os.path.join(COUNTRY_DIR, name))
+            except OSError:
+                pass
+    os.makedirs(COUNTRY_DIR, exist_ok=True)
+
+    written = {}
+    for cc, configs in country_groups.items():
+        slug = country_code_slug(cc)
+        if not slug or len(configs) < COUNTRY_MIN_CONFIGS:
+            continue
+        _write_pair(slug, configs, out_dir=COUNTRY_DIR)
+        written[cc.upper()] = len(configs)
+    return written
 
 
 def write_outputs(categories):
@@ -716,7 +758,8 @@ def _qr_url(data, size=240):
     )
 
 
-def generate_readme(total, channels_n, cat_counts, country_counts, channel_counts, updated):
+def generate_readme(total, channels_n, cat_counts, country_counts, channel_counts,
+                     countries_written, updated):
     """ساخت محتوای README.md به‌صورت کاملاً داینامیک بر پایه‌ی نتایجِ همین اجرا."""
     out = []
     A = out.append
@@ -808,6 +851,36 @@ def generate_readme(total, channels_n, cat_counts, country_counts, channel_count
             A(f"| {country_flag(cc)} `{cc}` | `{c}` | `{bar}` |")
         if len(country_counts) > 12:
             A(f"| … | `+{len(country_counts) - 12}` | `سایر کشورها` |")
+        A("")
+
+    # -------------- لینک‌های اشتراک به تفکیک کشور (اختصاصی) ----------------
+    if countries_written:
+        ranked_cc = sorted(countries_written.items(), key=lambda x: (-x[1], x[0]))
+        A("## 🌐 لینک اشتراکِ اختصاصیِ هر کشور")
+        A("")
+        A(
+            "هر کشور یک لینک اشتراکِ **مستقل** دارد؛ یعنی می‌توانید فقط کانفیگ‌های "
+            "یک کشور مشخص (مثلاً فقط 🇫🇷 فرانسه یا فقط 🇩🇪 آلمان) را در کلاینت خود اضافه کنید، "
+            "بدون این‌که کانفیگ‌های سایر کشورها بیاید."
+        )
+        A("")
+        A("<details>")
+        A(f"<summary>📋 مشاهده‌ی جدولِ لینک‌ها — {len(ranked_cc)} کشور</summary>")
+        A("")
+        A("| کشور | تعداد | لینک اشتراک (Base64) | متن خام |")
+        A("|:-----|:----:|:---------------------|:------:|")
+        for cc, c in ranked_cc:
+            slug = cc.lower()
+            b64 = _sub_link(f"sub/country/{slug}_b64.txt")
+            plain = _sub_link(f"sub/country/{slug}.txt")
+            A(f"| {country_flag(cc)} **{cc}** | `{c}` | `{b64}` | [⬇️ خام]({plain}) |")
+        A("")
+        A("</details>")
+        A("")
+        A(
+            "> 💡 لینک ستون **«لینک اشتراک (Base64)»** ردیفِ کشورِ دلخواه را کپی و در بخش "
+            "*Subscription / اشتراک* کلاینت خود وارد کنید."
+        )
         A("")
 
     # ------------- جدول کانال‌ها (در بخشِ جمع‌شونده برای نظم) ---------------
@@ -951,6 +1024,7 @@ def main(argv=None):
 
     # ساخت remark جدید + دسته‌بندی + آمار
     categories = {key: [] for key in CATEGORY_META}
+    country_groups = {}   # cc -> [configs...]  (برای ساب مجزای هر کشور)
     country_counts = {}
     channel_counts = {}
 
@@ -975,9 +1049,11 @@ def main(argv=None):
 
         if cc:
             country_counts[cc] = country_counts.get(cc, 0) + 1
+            country_groups.setdefault(cc, []).append(new_cfg)
         channel_counts[r["channel"]] = channel_counts.get(r["channel"], 0) + 1
 
     write_outputs(categories)
+    countries_written = write_country_outputs(country_groups)
 
     # تولید README داینامیک
     cat_counts = {key: len(v) for key, v in categories.items()}
@@ -989,12 +1065,14 @@ def main(argv=None):
         cat_counts=cat_counts,
         country_counts=country_counts,
         channel_counts=channel_counts,
+        countries_written=countries_written,
         updated=updated,
     )
     with open(README_FILE, "w", encoding="utf-8") as f:
         f.write(readme)
 
     print(f"\nمجموع کل کانفیگ‌ها: {cat_counts['all']} | کشورها: {len(country_counts)} "
+          f"| ساب مجزای کشور: {len(countries_written)} "
           f"| دسته‌های دارای کانفیگ: {sum(1 for k, v in cat_counts.items() if v and k != 'all')}")
     return 0
 
