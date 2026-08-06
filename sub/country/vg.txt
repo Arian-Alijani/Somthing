@@ -1,1 +1,0 @@
-vless://AstroVPN_Official@104.234.239.50:2083?mode=gun&security=tls&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=grpc&allowInsecure=0&sni=grpc.accuratenetworkchecker.ir#%F0%9F%87%BB%F0%9F%87%AC%20VG%20%7C%20%40planB_net%20%7C%20320

@@ -1,3 +1,0 @@
-vless://a98d1e7d-e794-449c-b8a0-34fa6d4478b4@154.219.5.84:443?mode=gun&security=tls&encryption=none&alpn=http/1.1&authority=&fp=firefox&type=grpc&serviceName=&sni=third.pinocchio1.ir#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%40FreeConfigForYou%20%7C%20493
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.22.53.241:80?security=none&type=ws&host=us3.rtacg.com&path=/#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%40V2All%20%7C%20160
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ@138.186.143.32:990#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%40V2RAY_VMESS_free%20%7C%20198

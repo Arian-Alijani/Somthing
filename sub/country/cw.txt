@@ -1,2 +1,0 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.67.50:8880?path=%2F%3Fed&security=none&encryption=none&host=vms.lifetime05.workers.dev&type=ws#%F0%9F%87%A8%F0%9F%87%BC%20CW%20%7C%20%40V2All%20%7C%2040
-vless://f4d70ca7-cdf8-4bfe-ac45-c6143a654b20@cdn4.sudonetwork.com:2096?path=%2F%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=mh.sudonetwork.com&fp=firefox&type=ws&allowInsecure=0&sni=mh.sudonetwork.com#%F0%9F%87%A8%F0%9F%87%BC%20CW%20%7C%20%40bored_vpn%20%7C%20398
