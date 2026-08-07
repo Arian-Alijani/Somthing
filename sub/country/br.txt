@@ -1,1 +1,0 @@
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.133.35.36:443?security=tls&sni=kkk.ylks.link&type=ws&path=%2F#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40V2All%20%7C%202

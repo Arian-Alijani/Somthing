@@ -6,5 +6,5 @@ vless://d00034dc-475a-6d22-ec7e-bbaf93abf370@fn4.sannest.ir:8443?security=realit
 hysteria2://0puq3lmwv7qtp76t@assets.gateway-stream.com:52034?sni=assets.gateway-stream.com&insecure=1&allowInsecure=1&obfs=salamander&obfs-password=w0tx1ju9iix6913p#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40fast78_channel%20%7C%208
 vless://49438e78-0148-a1d0-ffb5-63db11b86987@dl2dl2dl2.lornavps.ir:8855?encryption=none&security=none&type=tcp&headerType=http&host=play.google.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40fast78_channel%20%7C%2010
 vless://f0696c33-61de-42c7-ba69-c0b8cd57b79e@62.238.63.51:1234?encryption=none&type=tcp&headerType=http&host=play.google.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40payam_nsi%20%7C%2011
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ%3D%3D@31.76.30.79:10808#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2RAYROZ%20%7C%209
-vless://cd3d0650-a767-47f2-9b1a-dedc1aceafc9@mahdipok.paydar.site:80?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2RAYROZ%20%7C%2012
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ%3D%3D@31.76.30.79:10808#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2RAYROZ%20%7C%207
+vless://cd3d0650-a767-47f2-9b1a-dedc1aceafc9@mahdipok.paydar.site:80?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2RAYROZ%20%7C%2010
