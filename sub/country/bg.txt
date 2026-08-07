@@ -1,7 +1,0 @@
-vless://d262c258-e73a-47d2-944d-55cfc4bc8fd0@45.39.241.51:23837?encryption=none&type=ws&path=%2Fws&host=45.39.241.51#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40FreeConfigForYou%20%7C%20193
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@185.82.219.152:13443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&security=reality&sid=a7f3c91b2e6d84c0&sni=auto.cendora.ru&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SOSkeyNET%20%7C%2095
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.180.2.141:5499#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40one_shop_official%20%7C%2076
-vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.223:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40v2rayTG%20%7C%20178
-vless://309fa273-6579-4cb2-9143-7cad50401eba@146.19.80.239:443?security=reality&encryption=none&pbk=gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=7cad5040#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40v2rayTG%20%7C%20179
-ss://YWVzLTI1Ni1jZmI6ZFUzRFNOUzh3WVBYekVLdw@213.183.63.69:9029#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40NTGreenplus%20%7C%2051
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40Farah_VPN%20%7C%20166
