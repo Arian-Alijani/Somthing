@@ -1,2 +1,8 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwVVlKbndZTXBhbHJxeTlM@20.164.210.215:443#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40FreeConfigForYou%20%7C%204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40Farah_VPN%20%7C%202
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2@102.37.156.224:443#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40FreeConfigForYou%20%7C%20387
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4aVcyR0VsT0xXbDladGpq@4.168.196.7:443#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40bored_vpn%20%7C%20278
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLR2NKc3IycGZGSDB4N0dN@4.168.196.7:443#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40bored_vpn%20%7C%20292
+vless://43488128-319e-f480-64ea-0acdc712e2a8@139.84.236.5:443?security=reality&encryption=none&pbk=UkoqOh9VtAhhMrlKY3wAmijgjCrLIKMZT-An0NjrHng&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.alibaba.com&sid=8d17b7ebab7b99d7#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40Ablnet7%20%7C%20333
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ%3D%3D@156.38.168.58:990#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40V2RAY_VMESS_free%20%7C%20397
+trojan://your_password@13.244.104.87:443?security=tls&headerType=none&type=tcp&sni=aws-za-capetown-1.f1rocketnode.com#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40proxy48%20%7C%20201
+vless://7e2b763e-31ab-4777-9428-a3ad0009208c@102.37.131.55:8080?security=none&encryption=none&host=102.37.131.55&headerType=http&type=tcp#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40SimChin_ir%20%7C%20488
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYc3k4T3g0eU9WM3hMbHB4dGp6czNY@102.133.165.160:16233#%F0%9F%87%BF%F0%9F%87%A6%20ZA%20%7C%20%40Farah_VPN%20%7C%20243
