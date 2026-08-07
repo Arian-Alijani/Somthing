@@ -1,2 +1,0 @@
-trojan://4d7dba2d-dd24-4edb-988a-64c6fadf1a35@103.167.34.195:443?mode=gun&security=tls&type=grpc&serviceName=grpc&sni=www.speedtest.net#%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20%40proxy48%20%7C%20186
-trojan://oUAfbL8z87q-mhgjZ6g7mWQobf9%3Db7ut_F@130.94.92.144:443?type=tcp&security=tls&headerType=none&sni=www.node-finder.click&fp=chrome&allowInsecure=1#%F0%9F%87%AE%F0%9F%87%A9%20ID%20%7C%20%40V2raysCollector%20%7C%20258
