@@ -1,0 +1,1 @@
+vless://b93efa30-e2c5-401c-9ec7-22e30266cc60@157.85.102.28:1083?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40FreakConfig%20%7C%207
