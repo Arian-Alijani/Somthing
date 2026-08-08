@@ -1,1 +1,0 @@
-vless://735f7616-a5cc-45ce-9bdc-b741054cb13e@api.tenneltheducks.ir:2096?mode=auto&path=%2Fports%2F1106&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=FiN-XhTt.SeZaR.OrG&fp=chrome&type=xhttp&allowInsecure=0&sni=FiN-XhTt.SeZaR.OrG#%F0%9F%87%A8%F0%9F%87%BC%20CW%20%7C%20%40FreakConfig%20%7C%208
