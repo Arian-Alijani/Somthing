@@ -1,3 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.169.242:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%201
-vless://a2f6da81-64bd-4b86-b806-5658e161b7e4@103.227.225.198:32355?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%202
-vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?security=none&encryption=none&host=%2F%3FJOIN_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%208
+vless://a2f6da81-64bd-4b86-b806-5658e161b7e4@103.227.225.198:32355?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%209

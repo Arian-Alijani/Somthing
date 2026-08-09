@@ -1,2 +1,4 @@
+vless://a5f0b33d-940e-4824-a56c-6da10e532a1b@185.146.173.58:8080?path=/&security=none&encryption=none&host=xn--047h.iman-v2ray.sbs.&type=ws#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40V2All%20%7C%2018
+vless://5dc56757-458e-4df2-9e71-2a14ce47e8af@sw1-chr.astralweb.tech:443?allowInsecure=1&encryption=none&security=tls&sni=sw1-chr.astralweb.tech&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40v2ray_dalghak%20%7C%206
 vless://bae2fd3a-55fb-4094-99f6-c94e25d7d15d@143.14.50.249:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI&fp=edge&type=xhttp&sni=www.amd.com#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40configV2rayForFree%20%7C%2016
 vless://ffa289e7-a058-493a-b234-3db1f26378d7@194.87.30.161:22647?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40Ablnet7%20%7C%2013
