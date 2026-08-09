@@ -1,8 +1,4 @@
-hysteria2://kjq3gpn1xom1ted9@assets.gateway-stream.com:52088?security=tls&obfs=salamander&obfs-password=qfsk2h15o2dm0msi&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2rayng_Fast%20%7C%2011
-hysteria2://kjq3gpn1xom1ted9@assets.gateway-stream.com:52087?security=tls&obfs=salamander&obfs-password=bwgy7ppdoiz448uw&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2rayng_Fast%20%7C%2014
-hysteria2://kjq3gpn1xom1ted9@assets.gateway-stream.com:52086?security=tls&obfs=salamander&obfs-password=dscbu47eev49tv84&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2rayng_Fast%20%7C%2015
-hysteria2://kjq3gpn1xom1ted9@assets.gateway-stream.com:52089?security=tls&obfs=salamander&obfs-password=hitar6eeayxd7imh&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40V2rayng_Fast%20%7C%2017
-hysteria2://TelegramVPNJey@179.61.251.253:37003?security=tls&obfs=salamander&obfs-password=83v9muumcyikh5ch&insecure=0&sni=de.jey.cc.cd#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%40FreakConfig%20%7C%201
+hysteria2://kjq3gpn1xom1ted9@assets.gateway-stream.com:52031?security=tls&obfs=salamander&obfs-password=p61ckuavkc1s2hfl&insecure=0&sni=assets.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40FreakConfig%20%7C%201
 hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2014
 hysteria2://782efefcaac2a7f26e2be42f7bc5d75a@quran.mci.ai:443?security=tls&insecure=1&sni=quran.mci.ai#%40NTGreenplus%20%7C%2015
 hysteria2://1af84dc4749dbc10031389e03a96ba96@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2019
