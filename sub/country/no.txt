@@ -1,2 +1,0 @@
-vless://73435d4e-2ac1-4dba-900e-81aac3dc5913@no-fardad.oorluma.ir:6800?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20%40V2All%20%7C%2078
-ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.90.61.153:989#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20%40NTGreenplus%20%7C%2047
