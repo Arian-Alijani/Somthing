@@ -1,0 +1,15 @@
+trojan://ND91608427@moved-meerkat.rooster465.autos:443?allowInsecure=1&sni=moved-meerkat.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SimChin_ir%20%7C%2045
+trojan://ND91608427@exotic-chow.rooster465.autos:443?allowInsecure=1&sni=exotic-chow.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2033
+trojan://ND91608427@chief-bluegill.rooster465.autos:443?allowInsecure=1&sni=chief-bluegill.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2034
+trojan://ND91608427@humorous-malamute.rooster465.autos:443?allowInsecure=1&sni=humorous-malamute.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2036
+trojan://ND91608427@saving-octopus.rooster465.autos:443?security=tls&sni=saving-octopus.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2038
+trojan://ND91608427@distinct-llama.rooster465.autos:443?allowInsecure=1&sni=distinct-llama.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2039
+trojan://ND91608427@select-ferret.rooster465.autos:443?allowInsecure=1&sni=select-ferret.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2040
+trojan://ND91608427@striking-maggot.rooster465.autos:443?allowInsecure=1&sni=striking-maggot.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2042
+trojan://ND91608427@uncommon-feline.rooster465.autos:443?allowInsecure=1&sni=uncommon-feline.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2043
+trojan://ND91608427@definite-malamute.rooster465.autos:443?allowInsecure=1&sni=definite-malamute.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2045
+trojan://ND91608427@pure-ram.rooster465.autos:443?allowInsecure=1&sni=pure-ram.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2047
+trojan://ND91608427@grateful-owl.rooster465.autos:443?allowInsecure=1&sni=grateful-owl.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2049
+trojan://ND91608427@intimate-moray.rooster465.autos:443?allowInsecure=1&sni=intimate-moray.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2052
+trojan://ND91608427@communal-sunbird.rooster465.autos:443?allowInsecure=1&sni=communal-sunbird.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2053
+ss://2022-blake3-aes-128-gcm:3UebYm8HW8DU7iMs1O0pew==@47.80.24.245:8127#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40V2raysCollector%20%7C%2044
