@@ -1,1 +1,2 @@
-vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%2011
+hysteria2://7836b28e-8451-4596-ad3e-e3601b2335ba@78.159.240.69:8443?security=tls&insecure=0&sni=quic.tyr-agentstvo.tech#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40SOSkeyNET%20%7C%2029
+vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%207

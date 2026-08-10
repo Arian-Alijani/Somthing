@@ -1,1 +1,7 @@
+trojan://3e7e8f27-3963-44f1-bad7-dc8b88206429@green2.cdntencentmusic.com:31101?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=green2.cdntencentmusic.com#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40configV2rayForFree%20%7C%2093
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys&insecure=1&allowInsecure=1#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40one_shop_official%20%7C%2032
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.169.242:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ%3D@r3mrcg001269pz2.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%2098
+vless://a2f6da81-64bd-4b86-b806-5658e161b7e4@103.227.225.198:32355?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%2016
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?security=none&encryption=none&host=%2F%3FJOIN_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%2022
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001269pz2.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40V2raysCollector%20%7C%2072
