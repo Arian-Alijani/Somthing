@@ -1,12 +1,2 @@
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@51.79.178.63:3306#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40APPXA%20%7C%2042
-vless://0c97c970-41be-47dd-80d6-06c9a5c9c458@47.236.106.241:40480?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Ablnet7%20%7C%209
-vless://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=node1.nanonet.host#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40UnlimitedDev%20%7C%202
-vless://0057983b-1342-40ce-a570-ad08046977e5@static.iirose.cn:443?path=%2F15284%2Fcoffee&security=tls&encryption=none&host=xh.mmadcoffee.info&fp=chrome&type=ws&sni=sni.mmadcoffee.info#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40v2rayTG%20%7C%2085
-vless://aaaaaaa1-bbbb-4ccc-accc-eeeeeeeeeee1@web.xhamster.biz.id:443?encryption=none&security=tls&sni=web.xhamster.biz.id&type=ws&host=web.xhamster.biz.id&path=%2FFree-CF-Proxy-AT4#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40prroxyng%20%7C%209
-trojan://0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m@167.150.100.133:450?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=grape-power-sg.roxa.org#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40fast78_channel%20%7C%2044
-vless://89b3cbba-e6ac-485a-9481-976a0415eab9@8.219.174.142:443?security=tls&sni=Vh.yLkS.Xyz&type=ws&path=%2Fpai6buclahf9cxx3%3Fed#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40SimChin_ir%20%7C%2071
-vmess://eyJhZGQiOiIxNDkuODguMjMuMjA3IiwiYWlkIjoiMCIsImFscG4iOm51bGwsImZwIjpudWxsLCJob3N0IjoiIiwiaWQiOiJmOGM4ZGMzZC0wZDM3LTQ2YjAtOGIzNC1hNzIzMjg4MmZjZmUiLCJuYW1lIjoi8J+HuPCfh6wgU0cgMSIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwicG9ydCI6MTgwMDAsInBzIjoi8J+HuPCfh6wgU0cgfCBARmFyYWhfVlBOIHwgMiIsInNjeSI6bnVsbCwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZSwic25pIjpudWxsLCJ0bHMiOiIiLCJ0eXBlIjpudWxsLCJ2IjpudWxsfQ==
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Zm52bzgycDl5NEFLeWtaWHlJRnRub2RGeTZmUW1XblZsSTJTdkdsZU9CMD0@167.150.100.115:27755#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%203
-ss://YWVzLTI1Ni1nY206ZGFkYTEyMDM@13.212.97.79:80#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2raysCollector%20%7C%2025
-ss://YWVzLTI1Ni1nY206ZGFkYTEyMDM@47.129.143.46:80#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2raysCollector%20%7C%2026
-vless://a256f249-7d63-4754-a83c-aaef9d96e57f@cms.umtheme.com:443?path=%2F54863%2Fgoogle&security=tls&encryption=none&insecure=0&host=st1sni.irandoc.info&fp=firefox&type=ws&allowInsecure=0&sni=st1sni.irandoc.info#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40payam_nsi%20%7C%2024
+vless://0c97c970-41be-47dd-80d6-06c9a5c9c458@47.236.106.241:40480?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Ablnet7%20%7C%2011
+vless://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=node1.nanonet.host#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40UnlimitedDev%20%7C%203
