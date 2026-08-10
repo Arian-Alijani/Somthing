@@ -1,4 +1,4 @@
-vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@45.88.13.3:8443?mode=gun&security=reality&encryption=none&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&type=grpc&serviceName=TunService&sni=download.nvidia.com#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40Ablnet7%20%7C%2019
+vless://e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d@45.88.13.3:8443?mode=gun&security=reality&encryption=none&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&type=grpc&serviceName=TunService&sni=download.nvidia.com#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40Ablnet7%20%7C%2018
 vless://f8cae104-2eaa-4b16-b258-65be28281b70@uae1.codesystem.ir:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40v2rayTG%20%7C%2015
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@3.28.107.6:443#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40NTGreenplus%20%7C%207
-vless://ed9b0ad8-149f-4b7e-8847-072a90b74eb0@31.57.228.37:37952?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40planB_net%20%7C%201
+vless://ed9b0ad8-149f-4b7e-8847-072a90b74eb0@31.57.228.37:37952?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40planB_net%20%7C%2014
