@@ -1,2 +1,2 @@
-vless://bae2fd3a-55fb-4094-99f6-c94e25d7d15d@143.14.50.249:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI&fp=edge&type=xhttp&sni=www.amd.com#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40configV2rayForFree%20%7C%2017
+vless://bae2fd3a-55fb-4094-99f6-c94e25d7d15d@143.14.50.249:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI&fp=edge&type=xhttp&sni=www.amd.com#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40configV2rayForFree%20%7C%2020
 vless://ffa289e7-a058-493a-b234-3db1f26378d7@194.87.30.161:22647?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40Ablnet7%20%7C%2011

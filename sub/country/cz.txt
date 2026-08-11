@@ -1,1 +1,0 @@
-vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn7-39.vk-cdnvideo.com:8443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40configV2rayForFree%20%7C%2016
