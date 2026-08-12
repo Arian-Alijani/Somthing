@@ -1,1 +1,0 @@
-vless://52bc7468-0c2f-4e9d-bdfa-e266242ab44b@91.92.136.28:443?encryption=none&security=reality&sni=ripe.net&fp=randomized&pbk=VuM9HrCRtt7gaOXYkrPggV3GT_HKj18_5y6PcQKjWgQ&sid=0a076a71&type=tcp&headerType=none#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40daily_configs%20%7C%2014
