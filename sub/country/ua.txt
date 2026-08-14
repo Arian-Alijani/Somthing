@@ -1,2 +1,2 @@
-ss://YWVzLTI1Ni1nY206TXpSbFl6QTBaR1kwTmpjMlpqUTJZVFJpTVRnMllUa3pOak00T0dJMQ@kyiv02.npvnot.com:443#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40v2ray_dalghak%20%7C%2014
-vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%207
+ss://YWVzLTI1Ni1nY206TXpSbFl6QTBaR1kwTmpjMlpqUTJZVFJpTVRnMllUa3pOak00T0dJMQ@kyiv02.npvnot.com:443#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40v2ray_dalghak%20%7C%2016
+vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%2011

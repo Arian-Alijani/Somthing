@@ -1,2 +1,1 @@
 vless://12ec6fe7-b8ea-4f7b-b7fc-e936da472605@190.93.244.17:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=&sni=howdy-fr-chanel.highposhako.ir#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40proxy48%20%7C%2017
-vless://minovpnch@190.93.247.155:443?path=%2Fwss7000%3Fed%3D2560&security=tls&encryption=none&host=ip2.KolbeHsanat.Com&fp=chrome&type=ws&sni=TelegraM.KolbeHsanat.Com#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40NTGreenplus%20%7C%2066
