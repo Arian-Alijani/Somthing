@@ -1,1 +1,0 @@
-vless://6c8a3588-ff53-473f-b15e-87ddf7f3e3ad@172.197.218.137:445?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40V2All%20%7C%2017

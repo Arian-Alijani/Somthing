@@ -1,0 +1,1 @@
+vless://e2cd1f88-8582-4ab9-9497-de59de37b626@195.133.35.81:443?security=reality&encryption=none&pbk=8R53x47787bPBVJnKyLkOhTztNW6djdTh0WEWph8710&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.amd.com&sid=7479#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40SOSkeyNET%20%7C%206
