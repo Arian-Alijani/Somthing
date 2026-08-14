@@ -1,1 +1,0 @@
-vless://93fe8976-e675-bc37-40ed-eb2e6bf57c4f@al.novexnet.ir:443?security=reality&type=tcp&flow=xtls-rprx-vision&sni=xn--cdn-apple-9t6ni35l8n2ckw6d.com.gvt1.com&fp=firefox&pbk=7gzxsxnqwoh1HEfp02BQpEmMaIFHqz4RL8h68hZqsjc&sid=6ea3daaac3d6bede#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40V2All%20%7C%2014
