@@ -1,9 +1,5 @@
-hy2://H7mP2xY9kJ4nQ8wR5tF6vB3z@13.124.150.77:443?insecure=1&sni=css.rbxcdn.com&type=tcp&allowInsecure=1&upmbps=10&downmbps=50#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SOSkeyNET%20%7C%2020
-trojan://ND91608427@moved-meerkat.rooster465.autos:443?allowInsecure=1&sni=moved-meerkat.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SimChin_ir%20%7C%2081
-ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@141.164.45.187:7001#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%208
-vmess://eyJ2IjoiMiIsInBzIjoi8J+HsPCfh7cgS1IgfCBARmFyYWhfVlBOIHwgNDYiLCJhZGQiOiIxMzIuMTQ1LjgwLjIzMCIsInBvcnQiOjgwLCJpZCI6IjUxNTU4NjBlLWQwN2QtNDZjMy05MTI4LTNhZmJkODQ2MjZjNyIsImFpZCI6MCwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Im5vbmUiLCJwYXRoIjoiL2NjdHYxMy5tM3U4Iiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
-trojan://ND91608427@exotic-chow.rooster465.autos:443?allowInsecure=1&sni=exotic-chow.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2077
-trojan://ND91608427@pure-ram.rooster465.autos:443?allowInsecure=1&sni=pure-ram.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2081
-trojan://AE62539071@firm-krill.rooster465.autos:443?security=tls&sni=firm-krill.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2083
-trojan://FH72359861@massive-ocelot.rooster465.autos:443?allowInsecure=0#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2084
-ss://2022-blake3-aes-128-gcm:3UebYm8HW8DU7iMs1O0pew==@47.80.24.245:8127#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40V2raysCollector%20%7C%2052
+trojan://FH72359861@complete-narwhal.rooster465.autos:443?allowInsecure=1&sni=complete-narwhal.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SOSkeyNET%20%7C%202
+trojan://FH72359861@one-dove.rooster465.autos:443?allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SOSkeyNET%20%7C%205
+trojan://ND91608427@chief-bluegill.rooster465.autos:443?allowInsecure=1&sni=chief-bluegill.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%203
+trojan://HC04361579@star-shrimp.rooster465.autos:443?allowInsecure=1&sni=star-shrimp.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%209
+trojan://HC04361579@enough-lamb.rooster465.autos:443?sni=enough-lamb.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2011

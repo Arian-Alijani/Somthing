@@ -1,2 +1,0 @@
-vless://f55ce6cc-3f6b-40fc-9e3b-abe26db17009@18.239.134.69:80?&type=ws&headerType=none&host=d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com&path=%2F#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40Farah_VPN%20%7C%2032
-vless://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?encryption=none&host=cJ-sPeEdTeSt.EbB.mY&mode=auto&path=%2F&security=none&type=xhttp#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40V2raysCollector%20%7C%2040
