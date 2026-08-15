@@ -1,4 +1,6 @@
-trojan://AE62539071@54.74.159.195:443?fp=chrome&sni=kind-stork.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%208
-trojan://AE62539071@54.74.210.220:443?fp=chrome&sni=funny-hen.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%2010
-trojan://FH72359861@3.253.78.205:443?allowInsecure=1&sni=balanced-heron.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%2011
+trojan://AE62539071@54.170.38.205:443?fp=chrome&sni=unbiased-garfish.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%208
+trojan://AE62539071@18.201.28.146:443?fp=chrome&sni=helped-haddock.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%209
+trojan://AE62539071@108.130.137.102:443?fp=chrome&sni=worthy-labrador.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%2010
+trojan://FH72359861@balanced-heron.rooster465.autos:443?allowInsecure=1#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%2011
+trojan://AE62539071@18.201.47.180:443?fp=chrome&sni=healthy-panda.rooster465.autos#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%2013
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208
