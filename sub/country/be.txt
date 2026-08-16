@@ -1,0 +1,2 @@
+vless://68de0a0f-25bc-4fd4-ba78-183a1b80495e@188.95.12.110:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=wazd.bot2.ir&type=ws#%F0%9F%87%A7%F0%9F%87%AA%20BE%20%7C%20%40configV2rayForFree%20%7C%2030
+vless://2a12bb81-f3a3-41bb-99ab-36febf676b4a@109.69.218.217:443?security=reality&encryption=none&pbk=8hse7wRRL-F66rQ-aAeetKTw0MSeJC7Rr6EaDeLzdCU&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=bold-kestrel.cdn.cachefleet.com#%F0%9F%87%A7%F0%9F%87%AA%20BE%20%7C%20%40fast78_channel%20%7C%2020
