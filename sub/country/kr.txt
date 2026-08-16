@@ -1,5 +1,0 @@
-trojan://FH72359861@complete-narwhal.rooster465.autos:443?allowInsecure=1&sni=complete-narwhal.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SOSkeyNET%20%7C%202
-trojan://FH72359861@one-dove.rooster465.autos:443?allowInsecure=1#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SOSkeyNET%20%7C%205
-trojan://ND91608427@chief-bluegill.rooster465.autos:443?allowInsecure=1&sni=chief-bluegill.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%203
-trojan://HC04361579@star-shrimp.rooster465.autos:443?allowInsecure=1&sni=star-shrimp.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%209
-trojan://HC04361579@enough-lamb.rooster465.autos:443?sni=enough-lamb.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2011
