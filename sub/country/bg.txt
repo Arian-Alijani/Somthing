@@ -1,2 +1,1 @@
-trojan://bbe734f4-3b51-40d6-8bf7-1c9216eba283@185.246.131.170:443?path=%2F&security=none&host=amp-api-edge.apps.apple.com&type=ws#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SOSkeyNET%20%7C%2014
-trojan://dc0ebcb2-c103-466a-bd30-be492c477379@185.246.131.155:443?path=%2FBanV2ray---------BanV2ray----BanV2ray-----BanV2ray&security=none&host=play-fe.googleapis.com&type=ws#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SimChin_ir%20%7C%2017
+trojan://dc0ebcb2-c103-466a-bd30-be492c477379@185.246.131.155:443?path=%2FBanV2ray---------BanV2ray----BanV2ray-----BanV2ray&security=none&host=play-fe.googleapis.com&type=ws#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SimChin_ir%20%7C%2018
