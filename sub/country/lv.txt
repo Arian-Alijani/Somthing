@@ -1,3 +1,5 @@
-vless://e9a56d95-778b-4f6e-8b50-80c05e686191@95.182.99.100:8443?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40planB_net%20%7C%208
-vless://e9a56d95-778b-4f6e-8b50-80c05e686191@95.182.99.100:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40planB_net%20%7C%2010
+vless://70e20b2e-3b1f-4c25-9a3d-9240570391bb@89.36.161.222:8443?type=http&security=reality&encryption=none&sni=laoye.in-gect.fun&path=%2F&fp=firefox&pbk=Z3adeet9wvavdQ8mY6BZYgoXe22BV5DFcsyFChWYNUM&mode=stream-one#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SOSkeyNET%20%7C%2013
+vless://f1679e17-47a4-42d1-8e9f-6c3e2be19674@cpanel.nobodytm.site:2044?encryption=none&security=none&type=tcp&headerType=http&path=%2F&host=mangaarabics.com#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40v2ray_dalghak%20%7C%206
+vless://e9a56d95-778b-4f6e-8b50-80c05e686191@95.182.99.100:8443?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40planB_net%20%7C%2016
+vless://e9a56d95-778b-4f6e-8b50-80c05e686191@95.182.99.100:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40planB_net%20%7C%2017
 vless://17228651-b902-0008-bdd6-ccf31d78542b@95.164.91.84:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=lv.quattro-tech.ru&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40V2raysCollector%20%7C%205

@@ -1,1 +1,1 @@
-vless://8033102198@95.85.246.138:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=pl9.fast-connect-service.site#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40payam_nsi%20%7C%2016
+vless://8033102198@95.85.246.138:443?security=tls&alpn=http%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=pl9.fast-connect-service.site#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40payam_nsi%20%7C%2014
