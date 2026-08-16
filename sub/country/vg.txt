@@ -1,1 +1,1 @@
-vless://eca9ff44-edfa-4071-cadb-6c4b51e776fc@mtnx.ircf.space:8443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=#%F0%9F%87%BB%F0%9F%87%AC%20VG%20%7C%20%40SimChin_ir%20%7C%204
+vless://eca9ff44-edfa-4071-cadb-6c4b51e776fc@mtnx.ircf.space:8443?mode=gun&security=tls&encryption=none&type=grpc&serviceName=#%F0%9F%87%BB%F0%9F%87%AC%20VG%20%7C%20%40SimChin_ir%20%7C%205
