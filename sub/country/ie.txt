@@ -1,2 +1,1 @@
-trojan://AE62539071@unbiased-garfish.rooster465.autos:443?security=tls&insecure=0&headerType=&type=tcp&allowInsecure=0#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%202
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208

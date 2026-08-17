@@ -1,0 +1,2 @@
+trojan://FH72359861@18.181.213.219:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=lasting-jaguar.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%202
+trojan://FH72359861@loyal-killdeer.rooster465.autos:443?security=tls&path=%2f#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%2012
