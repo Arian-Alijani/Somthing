@@ -1,2 +1,0 @@
-trojan://ND91608427@52.79.210.229:443?security=tls&sni=chief-bluegill.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40v2ray_dalghak%20%7C%205
-trojan://FH72359861@54.180.250.102:443?sni=aware-coyote.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40v2ray_dalghak%20%7C%2017
