@@ -1,9 +1,8 @@
-vless://922cfd30-5df3-4b68-b3d8-248c88c0276a@pro.howan.ir:11223?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40SOSkeyNET%20%7C%2013
+vless://67122aab-4fa3-44c9-94fc-200b4c1df027@ir.speedit.ir:443?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40SOSkeyNET%20%7C%2013
 vless://018a9e2e-9bfd-4a9e-a20d-c07eb53fa439@91.234.39.183:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%204
 vless://d555a2de-9f94-44f4-aba9-63584b81a36d@zone.fi1.linkora.ir:49429?security=reality&encryption=none&pbk=OQsVeM4sKyLRiGKO1QDfyo4C0xBJJhFB54EhFlcvzGM&host=telewebion.ir&headerType=http&fp=chrome&type=tcp&sni=telewebion.ir&sid=62b17aae389bb655#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%2017
 vless://d555a2de-9f94-44f4-aba9-63584b81a36d@zone.de1.f2gate.ir:54238?security=reality&encryption=none&pbk=eig4M43BwT0eJfg2Tfu5cHxQ5cWKFv07posBCidoFlk&host=telewebion.ir&headerType=http&fp=chrome&type=tcp&sni=telewebion.ir&sid=510ab49b8c0745a9#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%2018
-socks://Og@91.213.151.4:1070#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40FreakConfig%20%7C%2011
-vless://808580aa-c9a2-4122-af67-89300df67fdf@188.213.197.141:34343?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40FreakConfig%20%7C%2015
+socks://Og@91.213.151.4:1070#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40FreakConfig%20%7C%2018
 vless://348cd64e-a551-422b-93f2-55e34fdb1601@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40proxy48%20%7C%2013
 vless://e8cbc051-e0ac-452d-9bd3-8ad46625573c@arvancloud.ir:8080?mode=auto&path=%2F&security=&encryption=none&host=r.cafeplusstore.ir&type=xhttp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40UnlimitedDev%20%7C%2012
 vless://Telegram-Parsashonam-12@79.175.189.145:443?mode=auto&path=%2Fp4r34m&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=p4r34m.hendevan…#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40Parsashonam%20%7C%203
