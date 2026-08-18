@@ -1,1 +1,2 @@
-trojan://FH72359861@43.202.61.210:443?allowInsecure=0&sni=loyal-molly.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%207
+trojan://AE62539071@13.125.144.78:443?sni=viable-serval.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40SOSkeyNET%20%7C%202
+trojan://ND91608427@uncommon-feline.rooster465.autos:443?allowInsecure=1&sni=uncommon-feline.rooster465.autos#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2038

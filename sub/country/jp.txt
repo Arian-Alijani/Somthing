@@ -1,4 +1,5 @@
-vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@45.192.200.133:8443?encryption=none&security=tls&sni=rubifen.adaspoloandco.com&fp=chrome&type=ws&host=rubifen.adaspoloandco.com&path=%2FGOrbEh#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%2011
-trojan://HC04361579@accepted-starling.rooster465.autos:443?allowInsecure=1&sni=accepted-starling.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%2015
+vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@45.192.200.133:8443?encryption=none&security=tls&sni=rubifen.adaspoloandco.com&fp=chrome&type=ws&host=rubifen.adaspoloandco.com&path=%2FGOrbEh#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%2038
+trojan://FH72359861@13.158.129.134:443?sni=grateful-leech.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%201
 trojan://a196faa4-403e-4a8b-987a-d1789f379685@139.162.100.58:49755?allowInsecure=1&sni=vpn-node.internal&alpn=http/1.1&type=ws&path=/xVpnTrojanWsSvc7f3a#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40v2ray_dalghak%20%7C%2012
 vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@170.205.39.165:8443?path=%2FGOrbEh&security=tls&encryption=none&insecure=0&host=rubifen.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=rubifen.adaspoloandco.com#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40v2ray_dalghak%20%7C%2016
+trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@160.16.110.77:55682?security=tls&insecure=0&headerType=&type=tcp&allowInsecure=0&sni=t11.qifei.app#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40v2ray_dalghak%20%7C%2037

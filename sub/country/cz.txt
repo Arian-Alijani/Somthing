@@ -1,1 +1,1 @@
-vless://851ed0d8-a37b-452d-8ef2-5b6c2d28a060@78.159.247.253:2027?encryption=none&flow=xtls-rprx-vision&fp=&pbk=ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo&security=reality&sid=8d3293f0066e129a&sni=storage.yandex.net&type=tcp#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40SOSkeyNET%20%7C%207
+vless://931729a8-3c20-4841-89a1-f18dc9ce0a6f@cdn3-87.vk-cdnvideo.com:8443?encryption=none&type=tcp&security=tls&headerType=none&insecure=1&allowInsecure=1#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40v2rayTG%20%7C%2037
