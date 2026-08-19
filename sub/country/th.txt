@@ -1,4 +1,0 @@
-hysteria2://083417772bc618cd61f0cca23dd91680@167.179.34.31:55443/?sni=gorbachev-new-th.kvnfreetest.uk#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40SOSkeyNET%20%7C%2069
-vless://e4f229c9-bd67-45d4-873b-b85a43a2be54@165.154.247.187:2053?encryption=none&security=reality&sni=www.amazon.com&fp=chrome&pbk=TdKxVjGKYJt4GU5cEXvsOplgYwji6ac7ryCUBBwr-kw&sid=e3b9f430320df1&spx=%2F926d66b01e29824&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40fast78_channel%20%7C%20110
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkN3poMmxNclhOSDUrOCs4cEt6bHhpQ1U5Tk4wMjJpaCt1QXl4ajVkNHFvPQ@102.129.229.85:31700#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40Farah_VPN%20%7C%2024
-vless://85b62084-d81e-52cd-a016-944f261d34a0@45.144.165.11:80?encryption=none&host=cJ-sPeEdTeSt.EbB.mY&mode=auto&path=%2F&security=none&type=xhttp#%F0%9F%87%B9%F0%9F%87%AD%20TH%20%7C%20%40V2raysCollector%20%7C%2039

@@ -1,4 +1,0 @@
-vless://d8e068c6-2fe9-48af-931f-ab9ba2741818@217.11.164.86:8443?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%7C%20%40SOSkeyNET%20%7C%2042
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0LTZkb09aU056M3Nqc0h5ODduMXdGcTlobnJlYlhETg%3D%3D@217.11.164.207:80#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%7C%20%40SOSkeyNET%20%7C%2081
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0LTZkb09aU056M3Nqc0h5ODduMXdGcTlobnJlYlhETg==@217.11.164.207:80?type=tcp#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%7C%20%40SOSkeyNET%20%7C%20108
-vless://c3e83166-af2a-4dcd-ac4a-b00886dc2296@217.11.164.92:37194?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%7C%20%40SimChin_ir%20%7C%20112
