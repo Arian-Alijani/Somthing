@@ -1,1 +1,0 @@
-vless://3b5fddd1-b156-4544-80fb-7c3071e63bc1@fardad-no.berzema.ir:6800?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20%40planB_net%20%7C%2010
