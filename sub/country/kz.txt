@@ -1,2 +1,1 @@
-hysteria2://3b8c82ed-fe66-472d-915e-034ccb57103f@kz.frkn.org:443?insecure=false&up-mbps=0#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40SOSkeyNET%20%7C%205
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%203

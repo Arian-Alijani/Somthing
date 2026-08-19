@@ -1,4 +1,4 @@
-trojan://0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m@167.150.100.133:450?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=grape-power-sg.roxa.org#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40SOSkeyNET%20%7C%2016
+trojan://PQ05174892@52.220.98.46:443?sni=pleased-albacore.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40SOSkeyNET%20%7C%2016
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpURkVsRzJGVnF5cUc@176.97.64.144:8388#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40v2ray_dalghak%20%7C%205
 trojan://fVZMat1g9H@172.236.133.188:52?security=tls&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=172.236.133.188#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40v2ray_dalghak%20%7C%209
 vless://d1153291-7d6f-4528-b8b1-a8a4920a1a8b@5iehome.cc:443?path=%2F11030%2Fapi1&security=tls&encryption=none&insecure=0&host=onisni.irandoc.info&fp=firefox&type=ws&allowInsecure=0&sni=onisni.irandoc.info#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40v2ray_dalghak%20%7C%2016

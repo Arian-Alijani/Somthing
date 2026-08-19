@@ -1,4 +1,5 @@
 trojan://AE62539071@13.193.221.67:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-impala.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%202
-trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%202
-trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%204
-trojan://FH72359861@13.159.22.208:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=driven-bulldog.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%2018
+trojan://FH72359861@pretty-adder.rooster465.autos:443?security=tls&sni=pretty-adder.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%208
+trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%203
+trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%205
+trojan://PQ05174892@3.112.242.12:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=intimate-hog.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%201
