@@ -1,1 +1,0 @@
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@31.76.5.26:13443?security=reality&type=tcp&packetEncoding=xudp&sni=auto.cendora.ru&fp=qq&flow=xtls-rprx-vision&sid=a7f3c91b2e6d84c0&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM#%F0%9F%87%B3%F0%9F%87%B4%20NO%20%7C%20%40SOSkeyNET%20%7C%2019

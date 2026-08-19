@@ -1,2 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.169.242:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%201
-vless://ce3d89da-f418-4c38-a1f3-ef243be06044@sw.sinner.website:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40payam_nsi%20%7C%205
+vless://ce3d89da-f418-4c38-a1f3-ef243be06044@sw.sinner.website:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40payam_nsi%20%7C%208

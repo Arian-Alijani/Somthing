@@ -1,0 +1,1 @@
+vless://68de0a0f-25bc-4fd4-ba78-183a1b80495e@188.95.12.110:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&host=wazd.bot2.ir&type=ws#%F0%9F%87%A7%F0%9F%87%AA%20BE%20%7C%20%40configV2rayForFree%20%7C%2030

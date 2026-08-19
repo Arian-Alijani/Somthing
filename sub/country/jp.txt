@@ -1,5 +1,13 @@
 trojan://AE62539071@13.193.221.67:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-impala.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%202
-trojan://FH72359861@pretty-adder.rooster465.autos:443?security=tls&sni=pretty-adder.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%208
 trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%203
 trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%205
-trojan://PQ05174892@3.112.242.12:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=intimate-hog.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%201
+trojan://HC04361579@driven-doberman.rooster465.autos:443?allowInsecure=0&sni=driven-doberman.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%203
+vmess://eyJhZGQiOiIxNDAuODMuNTcuMjAiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6InNnLjExMTYwMzIxLmRlNS5uZXQiLCJpZCI6IjFmMDFlMzg5LWZiY2ItNDk0Yy1lNDZhLTIxMGVjMzYzMjljMiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiMTMxMTgiLCJwcyI6IvCfh6/wn4e1IEpQIHwgQEZhcmFoX1ZQTiB8IDIxIiwic2N5IjoiYXV0byIsInNuaSI6InNnLjExMTYwMzIxLmRlNS5uZXQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
+trojan://PQ05174892@mighty-lemming.rooster465.autos:443?security=tls&sni=mighty-lemming.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2028
+trojan://AE62539071@3.112.29.46:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=clear-killdeer.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2035
+trojan://PQ05174892@13.159.17.90:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=outgoing-cockatoo.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2037
+trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@t11.qifei.app:55682?allowInsecure=1&sni=t11.qifei.app#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2039
+trojan://AE62539071@13.158.137.73:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=novel-bat.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2040
+trojan://FH72359861@13.159.22.208:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=driven-bulldog.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%2028
+vless://0b772594-d6b9-4f4f-849b-8a6f92f594fe@43.165.177.82:443?security=reality&encryption=none&pbk=ZuN9nc78h4Ccb19eb9NpTCs0jZkhJB8L0i1ZoAhu0XU&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=b2f4518cf979889d#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%2035
+vless://cf39fab0-bb85-42cb-9945-2ad69d78e575@45.192.200.133:8443?encryption=none&security=tls&sni=rubifen.adaspoloandco.com&fp=chrome&type=ws&host=rubifen.adaspoloandco.com&path=%2FGOrbEh#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40daily_configs%20%7C%2015
