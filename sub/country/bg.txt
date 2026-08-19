@@ -1,1 +1,6 @@
-trojan://dc0ebcb2-c103-466a-bd30-be492c477379@185.246.131.155:443?path=%2FBanV2ray---------BanV2ray----BanV2ray-----BanV2ray&security=none&host=play-fe.googleapis.com&type=ws#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SimChin_ir%20%7C%2039
+vless://cb1512c9-28d0-498a-ab4f-f69387cc83f3@38.60.247.169:35805?security=reality&encryption=none&pbk=yiiAGHAa-fdUDA3723kDNJ49SxPb0OPeMg7BLVtH7HQ&headerType=&fp=chrome&spx=%2F11ce61d9a5df3f0&type=tcp&sni=soft98.ir&sid=a557ec8c282bb6ed#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SOSkeyNET%20%7C%2018
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.180.2.141:5499#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40one_shop_official%20%7C%2099
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1ZzRGdTc5U0VSRWRGR2x0MnNVeVQ0@95.164.9.144:2927#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40proxy48%20%7C%2070
+ss://YWVzLTI1Ni1jZmI6ZFUzRFNOUzh3WVBYekVLdw@213.183.63.69:9029#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40NTGreenplus%20%7C%2051
+trojan://dc0ebcb2-c103-466a-bd30-be492c477379@185.246.131.155:443?path=%2FBanV2ray---------BanV2ray----BanV2ray-----BanV2ray&security=none&host=play-fe.googleapis.com&type=ws#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SimChin_ir%20%7C%2038
+vless://42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc@93.157.106.189:1020?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ULEKhRXed87x1kNaVVq4l8ANWDwmcoxetjclnShfhWM&security=reality&sid=4374d295a4f9dd83&sni=yahoo.com&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40V2raysCollector%20%7C%2074

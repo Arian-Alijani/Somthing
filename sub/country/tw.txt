@@ -1,2 +1,13 @@
+vless://601e4ca5-df0a-43a1-97c2-0b1f5c0ae413@141.11.87.48:443?flow=xtls-rprx-vision&pbk=hZvWDPjsxTSrNSqFXUFgNnXn44vKdr5uirPsie6RGBk&security=reality&sid=16ba1b6178a4bdde&sni=www.cloudflare.com&type=tcp&fp=safari#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40V2All%20%7C%2095
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@220.130.75.248:10000?&type=tcp&headerType=none&path=%2F#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40V2All%20%7C%2096
+trojan://3e7e8f27-3963-44f1-bad7-dc8b88206429@green2.cdntencentmusic.com:31101?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=green2.cdntencentmusic.com#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40configV2rayForFree%20%7C%20101
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@220.130.75.247:10000?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40FreakConfig%20%7C%20104
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@103.115.109.49:443?sni=https%3A%2F%2Ft.me%2Foneclickvpnkeys&insecure=1&allowInsecure=1#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40one_shop_official%20%7C%2046
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.169.242:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ%3D@r3mrcg001269pz2.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%2098
+vless://a2f6da81-64bd-4b86-b806-5658e161b7e4@103.227.225.198:32355?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%2056
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@60.249.101.14:10000?security=none&encryption=none&host=%2F%3FJOIN_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&headerType=none&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40fast78_channel%20%7C%2062
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@220.130.75.247:10000?&type=tcp&headerType=none&path=%2F#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40Farah_VPN%20%7C%20115
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@r3mrcg001269pz2.cybervena.com:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40V2raysCollector%20%7C%2072
 vless://ce3d89da-f418-4c38-a1f3-ef243be06044@sw.sinner.website:2087?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40payam_nsi%20%7C%208
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMWFlMGZjZS05MzQwLTRmMmUtODgyZC1mZGIyMjE4ZTJlMmI%3D@36.224.177.236:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40V2RAYROZ%20%7C%2039
