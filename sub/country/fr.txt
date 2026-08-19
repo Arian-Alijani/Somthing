@@ -1,10 +1,9 @@
-vless://25f3beef-a4b6-40bc-aa74-17a0f89f683c@gr2.levikogjgfdd.ir:443?path=%2F&security=tls&encryption=none&insecure=0&host=telegram.us&type=ws&allowInsecure=0&sni=finite-node.rtxconfigz.com#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SOSkeyNET%20%7C%206
-vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@95.182.97.46:8443?path=%2F&security=tls&encryption=none&insecure=0&host=kjgdksgghre466.pages.dev&fp=chrome&type=ws&allowInsecure=0&sni=kjgdksgghre466.pages.dev#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40Ablnet7%20%7C%2013
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UlpOQnN6WXlXbzU@51.77.225.200:8388?#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%2011
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%208
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UlpOQnN6WXlXbzU@51.77.225.200:8388?#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%2015
 vless://327924ed-e8c2-42e1-952b-674376055418@54.37.221.251:30120?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40proxy48%20%7C%2014
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxNmJocHlqazBvMzUyeDdp@135.125.113.81:8080#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2rayTG%20%7C%207
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?encryption=none&security=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40prroxyng%20%7C%2020
-trojan://PQ05174892@moral-dolphin.rooster465.autos:443?fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SimChin_ir%20%7C%201
+trojan://PQ05174892@moral-dolphin.rooster465.autos:443?fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SimChin_ir%20%7C%203
+vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@95.182.97.46:8443?path=%2F&security=tls&encryption=none&insecure=0&host=kjgdksgghre466.pages.dev&fp=chrome&type=ws&allowInsecure=0&sni=kjgdksgghre466.pages.dev#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40payam_nsi%20%7C%2011
 vmess://eyJhZGQiOiIxMDQuMjM4LjE4OS4xNSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMTdjN2QxMS0yY2QwLTQ5YmQtYmJlOC0xNzc3OTBhYzFkMGYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjI2MDcwIiwicHMiOiLwn4er8J+HtyBGUiB8IEB2MnJheTAzIHwgMTEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU%3D@51.255.13.232:8388#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40V2RAYROZ%20%7C%2015

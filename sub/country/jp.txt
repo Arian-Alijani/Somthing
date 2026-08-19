@@ -1,4 +1,11 @@
 trojan://AE62539071@13.193.221.67:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-impala.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%202
-trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%204
-trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%206
-trojan://PQ05174892@13.159.17.90:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=outgoing-cockatoo.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%204
+trojan://FH72359861@3.112.4.72:443?sni=definite-hen.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40v2ray_dalghak%20%7C%204
+trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%206
+trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%208
+trojan://ND91608427@sure-humpback.rooster465.autos:443?allowInsecure=1&sni=sure-humpback.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%202
+trojan://PQ05174892@witty-duckling.rooster465.autos:443?allowInsecure=1&sni=witty-duckling.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%203
+trojan://AE62539071@known-albacore.rooster465.autos:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%204
+trojan://FH72359861@bright-quagga.rooster465.autos:443?allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2011
+trojan://PQ05174892@sterling-vervet.rooster465.autos:443?security=tls&sni=sterling-vervet.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2014
+trojan://FH72359861@communal-troll.rooster465.autos:443?allowInsecure=1&sni=communal-troll.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2016
+trojan://FH72359861@light-filly.rooster465.autos:443?security=tls#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2019
