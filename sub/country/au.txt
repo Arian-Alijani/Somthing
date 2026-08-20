@@ -1,0 +1,1 @@
+vless://1a5b24bc-6180-4fa7-922d-ba7ee8a7a2b7@103.18.49.100:443?path=%2Fid-pusat&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=support.zoom.us.cyylr.eu.cc&fp=chrome&type=ws&allowInsecure=0&sni=support.zoom.us.cyylr.eu.cc#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40SOSkeyNET%20%7C%2011

@@ -1,6 +1,6 @@
 vless://309b0ce3-09a8-4883-bfe4-bd56e215be44@31.76.91.138:2087?mode=gun&security=reality&encryption=none&pbk=JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4&fp=firefox&type=grpc&serviceName=grpc&sni=ads.x5.ru&sid=c226283c4de5b1ad#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2rayng_Fast%20%7C%2013
 trojan://AE62539071@13.193.221.67:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=main-impala.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%202
-trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%208
-trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%2010
+trojan://PQ05174892@merry-falcon.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%2010
+trojan://FH72359861@great-wasp.rooster465.autos:443?security=tls&sni=great-wasp.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%2012
 trojan://7d8e6db4-96cc-4710-afc0-619edde2d7a1@160.16.110.77:55682?security=tls&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&type=tcp&sni=t11.qifei.app#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2RAYROZ%20%7C%201
 trojan://PQ05174892@13.159.17.90:443?security=tls&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&sni=outgoing-cockatoo.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2RAYROZ%20%7C%202
