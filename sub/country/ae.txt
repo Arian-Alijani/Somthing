@@ -1,3 +1,4 @@
 vless://f8cae104-2eaa-4b16-b258-65be28281b70@uae1.codesystem.ir:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40v2rayTG%20%7C%2015
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@3.28.107.6:443#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40NTGreenplus%20%7C%207
+vless://0e40312c-892c-40de-ad50-5efc1e62d3d7@176.97.66.175:443?path=%2Fmobile%2Fv2%2Fupdate%2Fws-0e40312c&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&host=jolly-fog-dc78.aminth349.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=jolly-fog-dc78.aminth349.workers.dev#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40planB_net%20%7C%2010
 vless://414df689-dc19-418b-849c-f0f15967d71e@uae.kitten-tube.com:443?security=reality&encryption=none&pbk=ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=adobe.com&sid=4048A3da#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40IRAN_access%20%7C%201
