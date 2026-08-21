@@ -1,2 +1,1 @@
 vless://76f6b7fe-5de8-4637-87a0-6ddd33d67b3e@80.66.78.227:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=cdn-se.alohaapp.uk&fp=firefox&pbk=kRwY2AAdT6SH4FKFQb-UhnJbyddqbdluKy1xaYPatD8&sid=b9f8f9772217538f&allowinsecure=1&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40V2All%20%7C%2019
-vless://00f8444e-722a-4de1-b604-3480a40e8ea8@185.146.173.58:8080?path=%2Fservernet&security=none&encryption=none&host=dcc9.servernet.fun.&type=ws#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40v2ray_dalghak%20%7C%2012

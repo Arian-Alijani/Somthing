@@ -1,12 +1,11 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40FreakConfig%20%7C%2010
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCcW5xVG9paDBQYlU@51.255.13.232:8388#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40FreakConfig%20%7C%2017
 vless://d67af820-f54c-48ab-862c-19086357f276@node5.get-tres.ru:443?security=reality&encryption=none&pbk=dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=telegraf.lv&sid=e5f67890#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40Ablnet7%20%7C%2011
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UlpOQnN6WXlXbzU@51.77.225.200:8388?#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%2018
 vless://327924ed-e8c2-42e1-952b-674376055418@54.37.221.251:30120?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40proxy48%20%7C%2014
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxNmJocHlqazBvMzUyeDdp@135.125.113.81:8080#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2rayTG%20%7C%207
 vless://df0680ca-e43c-498d-ed86-8e196eedd012@45.12.133.235:8880?encryption=none&security=none&type=grpc#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40prroxyng%20%7C%2020
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.180.84.43:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SimChin_ir%20%7C%209
-trojan://PQ05174892@moral-dolphin.rooster465.autos:443?fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SimChin_ir%20%7C%2013
-trojan://QV31589740@great-krill.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40Farah_VPN%20%7C%205
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.180.84.43:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SimChin_ir%20%7C%2010
+trojan://PQ05174892@moral-dolphin.rooster465.autos:443?fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SimChin_ir%20%7C%2014
 vless://6705ddbd-04cf-40f6-99b9-36846b08c2a9@95.182.97.46:8443?path=%2F&security=tls&encryption=none&insecure=0&host=kjgdksgghre466.pages.dev&fp=chrome&type=ws&allowInsecure=0&sni=kjgdksgghre466.pages.dev#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40payam_nsi%20%7C%2016
 ss://YWVzLTEyOC1nY206U3lTV0RhUDhybTFORUswd2RMZG9hVjVDbGtTakZEZnc@173.212.251.231:51058?#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40daily_configs%20%7C%206
 vmess://eyJhZGQiOiIxMDQuMjM4LjE4OS4xNSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiIwMTdjN2QxMS0yY2QwLTQ5YmQtYmJlOC0xNzc3OTBhYzFkMGYiLCJpbnNlY3VyZSI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjI2MDcwIiwicHMiOiLwn4er8J+HtyBGUiB8IEB2MnJheTAzIHwgMTEiLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiJ9
