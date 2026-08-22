@@ -1,1 +1,0 @@
-vless://17418657-0f42-4cf3-9785-6e787f2ced04@gerf.dearhossein-taktaz.ir:80?path=%2F&security=none&encryption=mlkem768x25519plus.native.0rtt.lnSL5L64c2-XjeTp_nJnt_VcvMWIKLxwOvsgacp2Zjg&host=gerf.dearhossein-taktaz.ir&type=ws#%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20%40SOSkeyNET%20%7C%207
