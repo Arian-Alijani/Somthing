@@ -1,1 +1,1 @@
-vless://cde8e374-bf71-4a1f-9386-db050bc46190@81.27.110.79:8080?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%B0%20DK%20%7C%20%40Ablnet7%20%7C%205
+vless://cde8e374-bf71-4a1f-9386-db050bc46190@81.27.110.79:8080?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%B0%20DK%20%7C%20%40Ablnet7%20%7C%204
