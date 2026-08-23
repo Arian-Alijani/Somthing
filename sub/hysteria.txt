@@ -1,5 +1,3 @@
-hysteria2://IJMFOXhvbQ@51.79.91.52:38871?security=tls&obfs=salamander&obfs-password=t-me-V2RayyNGvpn&insecure=1&pinSHA256=0d1a3bdb9ed6df1bdccf9745055822b46ae00b63150c73b5447e09447666745a&sni=play.google.com#%F0%9F%87%A8%F0%9F%87%A6%20CA%20%7C%20%40fast78_channel%20%7C%2015
 hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2014
 hysteria2://782efefcaac2a7f26e2be42f7bc5d75a@quran.mci.ai:443?security=tls&insecure=1&sni=quran.mci.ai#%40NTGreenplus%20%7C%2015
 hysteria2://1af84dc4749dbc10031389e03a96ba96@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2019
-hysteria2://6aab8efdf13945829ae3699c342be406@31.76.80.69:443?security=tls&obfs=salamander&obfs-password=uw9b2qq5rx&insecure=0&sni=fiproxy1.lockdwn.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40daily_configs%20%7C%208
