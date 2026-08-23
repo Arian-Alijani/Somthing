@@ -1,1 +1,2 @@
 trojan://sbp4kLxhRM@185.126.236.186:443?security=reality&pbk=7ssv-EPWLhGKofQVdLqm1x87BRmPYfgRlMFwQCb8D2c&headerType=none&fp=chrome&type=tcp&sni=amp-api-edge.apps.apple.com#%F0%9F%87%A6%F0%9F%87%B9%20AT%20%7C%20%40payam_nsi%20%7C%2013
+trojan://humanity@212.183.88.136:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%A6%F0%9F%87%B9%20AT%20%7C%20%40V2RAYROZ%20%7C%205
