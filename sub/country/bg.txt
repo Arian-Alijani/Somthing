@@ -1,2 +1,1 @@
-vless://9bf8792b-7c64-4522-90d8-a720fd957914@bolguarmarz.horlutr.ir:2087?security=none&encryption=none&type=tcp&host=%2F&headerType=http#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SOSkeyNET%20%7C%209
-vless://289c4c75-9ea6-4c23-bda2-17d32c533db4@bolguarmarz.horlutr.ir:2087?encryption=none&security=none&type=tcp&headerType=http&host=%2F#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40daily_configs%20%7C%205
+vless://289c4c75-9ea6-4c23-bda2-17d32c533db4@bolguarmarz.horlutr.ir:2087?security=none&encryption=none&host=%2F&headerType=http&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40one_shop_official%20%7C%202

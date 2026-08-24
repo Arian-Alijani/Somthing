@@ -1,1 +1,0 @@
-vless://a98d1e7d-e794-449c-b8a0-34fa6d4478b4@154.219.5.145:443?security=tls&sni=fourth.pinocchio1.ir&type=grpc&fp=firefox&alpn=http%2F1.1#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%40V2All%20%7C%2014
