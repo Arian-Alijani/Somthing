@@ -1,2 +1,1 @@
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.21.147.221:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40SimChin_ir%20%7C%2017
-vless://54a330b1-fff9-4baa-8b84-f2077ff499db@185.146.173.58:80?security=none&type=ws&host=Kanal-polproxy.Vipnufilter.Online.#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40SimChin_ir%20%7C%2019
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@51.21.147.221:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40SimChin_ir%20%7C%2018
