@@ -1,2 +1,2 @@
-vless://359b9ad3-0009-4655-8872-d0ab566751d3@31.43.179.111:2096?path=%2Fws%3Fed%3D2560&security=tls&encryption=none&insecure=0&host=newgen14.hozheen.ir&fp=chrome&type=ws&allowInsecure=0&sni=d03298146e8e2fe6.hozheen.ir#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40V2All%20%7C%204
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%203
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.180.42.210:443?type=tcp&security=reality&sni=nordic.cendora.ru&pbk=YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU&sid=2186a755ed67b034&fp=qq&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40Farah_VPN%20%7C%206
