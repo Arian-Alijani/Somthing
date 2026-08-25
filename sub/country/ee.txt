@@ -1,2 +1,4 @@
+vless://9bbd487f-8f84-4ad7-b897-681c3f7d95dc@magazin5.mervi.icu:443?security=reality&encryption=none&pbk=spZ5EzB2A-lFTqmV_9JeUz_FitUv_JhNWiJ8S6w_zQM&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=magazin5.mervi.icu&sid=07818960cc7c3581#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40SOSkeyNET%20%7C%208
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@45.80.110.201:80?security=none&sni=a.ssll.gay&type=ws&path=Twitterfreecodes#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2ray_dalghak%20%7C%2013
 vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@95.85.224.3:8443?mode=gun&securi…#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40one_shop_official%20%7C%2020
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2rayTG%20%7C%202
