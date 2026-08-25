@@ -1,2 +1,1 @@
-vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@190.93.247.33:80?security=none&type=ws&host=us3.rtacg.com&path=/#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40V2All%20%7C%2015
 vless://12ec6fe7-b8ea-4f7b-b7fc-e936da472605@190.93.244.17:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=&sni=howdy-fr-chanel.highposhako.ir#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40proxy48%20%7C%2017
