@@ -1,1 +1,1 @@
-vless://f0528a17-863f-4160-a5a0-0d9ad03f2ee7@201.24.49.74:2200?path=%2Fv1&security=&encryption=none&host=rzd.ru&type=ws#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40SimChin_ir%20%7C%2012
+vless://f0528a17-863f-4160-a5a0-0d9ad03f2ee7@201.24.49.74:2200?path=%2Fv1&security=&encryption=none&host=rzd.ru&type=ws#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40SimChin_ir%20%7C%2015
