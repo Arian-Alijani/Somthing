@@ -1,3 +1,2 @@
-vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@3.248.41.229:22222?path=/telegram-channel-vlessconfig-ws&security=tls&encryption=none&host=telegram-channel-vlessconfig.sohala.uk&type=ws&sni=telegram-channel-vlessconfig.sohala.uk#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%207
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyS0U1T2NoSHFUcmthbXp4@94.245.92.85:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40daily_configs%20%7C%202
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyS0U1T2NoSHFUcmthbXp4@94.245.92.85:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40daily_configs%20%7C%207

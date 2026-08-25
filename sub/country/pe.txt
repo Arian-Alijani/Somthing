@@ -1,1 +1,0 @@
-vless://eae02a50-e329-4647-926e-8439e685f317@154.219.5.24:443?security=tls&sni=first.pinocchio1.ir.&type=grpc&serviceName=%2Fcustom_config%3Fed%3D2048&fp=firefox&alpn=http%2F1.1#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%40V2All%20%7C%201
