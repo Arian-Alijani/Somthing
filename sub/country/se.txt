@@ -1,1 +1,1 @@
-vless://fc9bf9b8-06b5-4244-aea5-75a460ec5066@212.147.246.134:3389?security=none&encryption=none&host=amp-api-edge.apps.apple.com&headerType=http&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40payam_nsi%20%7C%207
+vless://fc9bf9b8-06b5-4244-aea5-75a460ec5066@212.147.246.134:3389?security=none&encryption=none&host=amp-api-edge.apps.apple.com&headerType=http&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40payam_nsi%20%7C%208

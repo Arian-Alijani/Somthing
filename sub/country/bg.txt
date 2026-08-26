@@ -1,1 +1,2 @@
 vless://289c4c75-9ea6-4c23-bda2-17d32c533db4@bolguarmarz.horlutr.ir:2087?security=none&encryption=none&host=%2F&headerType=http&type=tcp#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40one_shop_official%20%7C%202
+vless://9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6@13.140.29.45:443?path=%2Fpg%2F10086-dfc816f117c49173&security=tls&encryption=none&insecure=0&host=8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr&fp=chrome&type=ws&allowInsecure=0&sni=8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40daily_configs%20%7C%202
