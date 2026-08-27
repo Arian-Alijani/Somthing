@@ -1,2 +1,0 @@
-vless://d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02@87.58.205.88:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=v_s3GW5_7jvB081tdUeyoDUUTq6fZwqKbVS7CdvLFA0&fp=random&type=xhttp&sni=google.com&sid=72cd47c079c0a3df#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40V2All%20%7C%203
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40Farah_VPN%20%7C%206
