@@ -1,3 +1,4 @@
-vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@es.alertyagency.com:443?security=reality&encryption=none&pbk=fJGvGs_j23gTjn5q5QWCOsD3TeIdOqkpSLv7geS6AQI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=2b8c5943#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40SimChin_ir%20%7C%205
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1A@140.174.184.5:8388#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40Farah_VPN%20%7C%202
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY@108.181.121.226:8388#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40Farah_VPN%20%7C%209
+vless://43948542-5c01-4fc3-bf42-e339e9ca3fbe@2.27.27.33:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=B4NK8UZflXK2SI7P6wvCbfSw0wspQRO0ElZM30gc_1E&host=pimg.mycdn.me&fp=random&allowinsecure=0&type=xhttp&sni=pimg.mycdn.me#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40SimChin_ir%20%7C%202
+vless://a704443d-655e-4d9f-8ce6-12eeb17a9a08@es.alertyagency.com:443?security=reality&encryption=none&pbk=fJGvGs_j23gTjn5q5QWCOsD3TeIdOqkpSLv7geS6AQI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=api-maps.yandex.ru&sid=2b8c5943#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40SimChin_ir%20%7C%209
+trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40planB_net%20%7C%2010
+trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2RAYROZ%20%7C%202
