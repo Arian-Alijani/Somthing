@@ -1,1 +1,0 @@
-vless://1149be91-5a4f-47de-995f-66f8d7d64498@77.75.199.42:2096?security=tls&sni=De13.SiMaNsAnAt.Ir.&type=ws&host=De13.SiMaNsAnAt.Ir.&fp=chrome&alpn=h2#%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20%40SimChin_ir%20%7C%2020

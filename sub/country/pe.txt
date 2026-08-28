@@ -1,1 +1,0 @@
-vless://eae02a50-e329-4647-926e-8439e685f317@154.219.5.64:443?security=tls&sni=first.pinocchio1.ir.&type=grpc&fp=chrome&alpn=http/1.1#%F0%9F%87%B5%F0%9F%87%AA%20PE%20%7C%20%40V2All%20%7C%2014

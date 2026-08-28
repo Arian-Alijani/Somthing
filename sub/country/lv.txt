@@ -1,2 +1,0 @@
-vless://8825a3df-984c-49db-bbca-e92a0207fefc@31.56.206.28:2053?type=tcp&headerType=http&host=&path=/&security=none#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40V2All%20%7C%203
-vless://17228651-b902-0008-bdd6-ccf31d78542b@95.164.91.84:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc&security=reality&sid=43dcff53849b81e6&sni=lv.quattro-tech.ru&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40V2raysCollector%20%7C%207
