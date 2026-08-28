@@ -1,1 +1,0 @@
-vless://33965d4f-f9bd-4437-8867-ed705b435518@201.24.49.53:4100?type=ws&security=none&path=/v1#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40v2ray_dalghak%20%7C%207
