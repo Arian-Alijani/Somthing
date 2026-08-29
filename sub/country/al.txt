@@ -1,1 +1,1 @@
-vless://ae852d97-85f5-45cf-82a4-254eba345480@144.31.131.33:443?security=reality&encryption=none&pbk=djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc&headerType=none&spx=%2FTELEGRAM--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN--JKVPN&type=tcp&flow=xtls-rprx-vision&sni=cdn.cdnjst.org&sid=a120#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40JKVPN%20%7C%2053
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5d25xd29ueUsxTFJHd0ppYkZRMGFN@130.49.189.158:10792#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40Farah_VPN%20%7C%208

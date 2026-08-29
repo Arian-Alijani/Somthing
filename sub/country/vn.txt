@@ -1,2 +1,0 @@
-vless://376dc930-a905-4e75-a2d5-bb801a6adc25@103.118.29.142:35730?encryption=none&security=none&type=tcp&headerType=http&host=varzesh3.com#%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20%40one_shop_official%20%7C%2054
-vless://e2c6905e-46ec-434b-8400-0bc5bf0363e6@171.244.142.193:8080?path=/v-ws&security=none&encryption=none&type=ws#%F0%9F%87%BB%F0%9F%87%B3%20VN%20%7C%20%40Farah_VPN%20%7C%2016
