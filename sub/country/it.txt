@@ -1,1 +1,8 @@
+ss://YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA@194.87.47.204:10901#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40V2All%20%7C%2017
+ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@57.131.48.45:8388#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40FreakConfig%20%7C%2020
+vless://367ff772-a8f4-4895-8e99-3702a868f0c6@31.77.201.77:443?security=tls&encryption=none&insecure=0&fp=chrome&type=grpc&serviceName=grpc-api&allowInsecure=0&sni=osit1.ghast.sbs#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40v2rayTG%20%7C%2022
 vless://b91abe1a-80ca-417b-998b-2b542661c16f@it.feywebsite.ir:8008?mode=packet-up&path=%2Fapi%2Fv1%2Fstream&security=reality&encryption=none&extra=%7B%22mode%22%3A%22packet-up%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&pbk=yGB6HD9OYiD77YWTH1YxcG9yIYkyeEYOEcHL-WnwQn8&fp=chrome&type=xhttp&sni=play.google.com&sid=5f9a#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40fast78_channel%20%7C%2020
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?encryption=none&security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40SimChin_ir%20%7C%2051
+vless://e4737ce4-c646-44cc-9067-390e13c2a5f6@itproxy4.lockdwn.com:443?&sni=itproxy4.lockdwn.com&type=ws&headerType=none&host=itproxy4.lockdwn.com&path=%2F#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40Farah_VPN%20%7C%2059
+vless://1e280316-0408-47c4-b058-05b8f1f17f02@57.131.32.191:80?path=%2Fvless%2F&security=&encryption=none&host=ov-italy1.09vpn.com&type=ws&sni=OV-Italy1.09vpn.com#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40payam_nsi%20%7C%2015
+vless://09d901c5-a5ca-4c11-8470-13df1f741937@66.245.207.124:32855?security=reality&encryption=none&pbk=fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10&headerType=none&fp=edge&type=tcp&sni=amp-api-edge.apps.apple.com&sid=deb7a9e5a6e1d41a#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40daily_configs%20%7C%2031
