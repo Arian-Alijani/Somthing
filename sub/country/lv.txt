@@ -1,1 +1,1 @@
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@fn.fifapes.monster:2090?security=&encryption=none&headerType=http&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SOSkeyNET%20%7C%207
+vless://6be20c6b-f7c1-4f47-86b2-18f10c8e96b9@myleto.orangesms.ir:61169?security=none&encryption=none&host=amp-api-edge.apps.apple.com&headerType=http&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40v2ray_dalghak%20%7C%201
