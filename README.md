@@ -6,9 +6,9 @@
 
 <sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار هر ۵ ساعت با GitHub Actions</sub>
 
-![configs](https://img.shields.io/badge/کانفیگ‌ها-559-2ea44f?style=for-the-badge) ![channels](https://img.shields.io/badge/کانال‌ها-32-1f6feb?style=for-the-badge&logo=telegram&logoColor=white) ![protocols](https://img.shields.io/badge/پروتکل‌ها-7-8957e6?style=for-the-badge) ![countries](https://img.shields.io/badge/کشورها-40-orange?style=for-the-badge)
+![configs](https://img.shields.io/badge/کانفیگ‌ها-569-2ea44f?style=for-the-badge) ![channels](https://img.shields.io/badge/کانال‌ها-32-1f6feb?style=for-the-badge&logo=telegram&logoColor=white) ![protocols](https://img.shields.io/badge/پروتکل‌ها-7-8957e6?style=for-the-badge) ![countries](https://img.shields.io/badge/کشورها-41-orange?style=for-the-badge)
 
-`⏱️ آخرین به‌روزرسانی: 2026-08-31 11:24 UTC`
+`⏱️ آخرین به‌روزرسانی: 2026-08-31 20:41 UTC`
 
 </div>
 
@@ -32,14 +32,14 @@ https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt
 
 | دسته | تعداد | لینک اشتراک (Base64) | متن خام |
 |:-----|:----:|:---------------------|:------:|
-| 🌐 **همه** | `559` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all.txt) |
-| 🟢 **VMess** | `23` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vmess_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vmess.txt) |
-| ⚡ **VLESS** | `452` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless.txt) |
-| 🛡️ **Reality** | `157` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality.txt) |
-| 🐴 **Trojan** | `26` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/trojan_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/trojan.txt) |
-| 🔒 **Shadowsocks** | `43` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks.txt) |
+| 🌐 **همه** | `569` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all.txt) |
+| 🟢 **VMess** | `25` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vmess_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vmess.txt) |
+| ⚡ **VLESS** | `461` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/vless.txt) |
+| 🛡️ **Reality** | `184` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/reality.txt) |
+| 🐴 **Trojan** | `29` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/trojan_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/trojan.txt) |
+| 🔒 **Shadowsocks** | `40` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/shadowsocks.txt) |
 | 🚀 **Hysteria** | `5` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/hysteria_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/hysteria.txt) |
-| 🪱 **WireGuard** | `8` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard.txt) |
+| 🪱 **WireGuard** | `7` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/wireguard.txt) |
 | 📦 **سایر** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/others_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/others.txt) |
 
 > 💡 محتوای ستون **«لینک اشتراک (Base64)»** را کپی و در بخش *Subscription / اشتراک* کلاینت خود وارد کنید.
@@ -49,11 +49,11 @@ https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/all_b64.txt
 ```mermaid
 pie showData
     title توزیع کانفیگ‌ها بر اساس پروتکل
-    "VLESS" : 452
-    "Shadowsocks" : 43
-    "Trojan" : 26
-    "VMess" : 23
-    "WireGuard" : 8
+    "VLESS" : 461
+    "Shadowsocks" : 40
+    "Trojan" : 29
+    "VMess" : 25
+    "WireGuard" : 7
     "Hysteria" : 5
     "سایر" : 2
 ```
@@ -62,69 +62,70 @@ pie showData
 
 | کشور | تعداد | سهم |
 |:-----|:----:|:----|
-| 🇨🇦 `CA` | `120` | `████████████████████` |
-| 🇩🇪 `DE` | `72` | `████████████░░░░░░░░` |
-| 🇺🇸 `US` | `72` | `████████████░░░░░░░░` |
-| 🇳🇱 `NL` | `42` | `███████░░░░░░░░░░░░░` |
-| 🇮🇷 `IR` | `28` | `█████░░░░░░░░░░░░░░░` |
-| 🇬🇧 `GB` | `19` | `███░░░░░░░░░░░░░░░░░` |
-| 🇫🇷 `FR` | `16` | `███░░░░░░░░░░░░░░░░░` |
-| 🇷🇺 `RU` | `14` | `██░░░░░░░░░░░░░░░░░░` |
-| 🇹🇷 `TR` | `13` | `██░░░░░░░░░░░░░░░░░░` |
-| 🇧🇬 `BG` | `12` | `██░░░░░░░░░░░░░░░░░░` |
-| 🇸🇬 `SG` | `12` | `██░░░░░░░░░░░░░░░░░░` |
-| 🇫🇮 `FI` | `11` | `██░░░░░░░░░░░░░░░░░░` |
-| … | `+28` | `سایر کشورها` |
+| 🇨🇦 `CA` | `111` | `████████████████████` |
+| 🇩🇪 `DE` | `76` | `██████████████░░░░░░` |
+| 🇺🇸 `US` | `73` | `█████████████░░░░░░░` |
+| 🇳🇱 `NL` | `47` | `████████░░░░░░░░░░░░` |
+| 🇮🇷 `IR` | `27` | `█████░░░░░░░░░░░░░░░` |
+| 🇫🇷 `FR` | `23` | `████░░░░░░░░░░░░░░░░` |
+| 🇬🇧 `GB` | `18` | `███░░░░░░░░░░░░░░░░░` |
+| 🇫🇮 `FI` | `14` | `███░░░░░░░░░░░░░░░░░` |
+| 🇵🇱 `PL` | `12` | `██░░░░░░░░░░░░░░░░░░` |
+| 🇯🇵 `JP` | `11` | `██░░░░░░░░░░░░░░░░░░` |
+| 🇷🇺 `RU` | `11` | `██░░░░░░░░░░░░░░░░░░` |
+| 🇷🇸 `RS` | `10` | `██░░░░░░░░░░░░░░░░░░` |
+| … | `+29` | `سایر کشورها` |
 
 ## 🌐 لینک اشتراکِ اختصاصیِ هر کشور
 
 هر کشور یک لینک اشتراکِ **مستقل** دارد؛ یعنی می‌توانید فقط کانفیگ‌های یک کشور مشخص (مثلاً فقط 🇫🇷 فرانسه یا فقط 🇩🇪 آلمان) را در کلاینت خود اضافه کنید، بدون این‌که کانفیگ‌های سایر کشورها بیاید.
 
 <details>
-<summary>📋 مشاهده‌ی جدولِ لینک‌ها — 40 کشور</summary>
+<summary>📋 مشاهده‌ی جدولِ لینک‌ها — 41 کشور</summary>
 
 | کشور | تعداد | لینک اشتراک (Base64) | متن خام |
 |:-----|:----:|:---------------------|:------:|
-| 🇨🇦 **CA** | `120` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ca_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ca.txt) |
-| 🇩🇪 **DE** | `72` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/de_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/de.txt) |
-| 🇺🇸 **US** | `72` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/us_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/us.txt) |
-| 🇳🇱 **NL** | `42` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/nl_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/nl.txt) |
-| 🇮🇷 **IR** | `28` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ir_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ir.txt) |
-| 🇬🇧 **GB** | `19` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/gb_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/gb.txt) |
-| 🇫🇷 **FR** | `16` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fr.txt) |
-| 🇷🇺 **RU** | `14` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ru_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ru.txt) |
-| 🇹🇷 **TR** | `13` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tr.txt) |
-| 🇧🇬 **BG** | `12` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/bg_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/bg.txt) |
-| 🇸🇬 **SG** | `12` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/sg_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/sg.txt) |
-| 🇫🇮 **FI** | `11` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fi_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fi.txt) |
-| 🇵🇱 **PL** | `11` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/pl_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/pl.txt) |
-| 🇯🇵 **JP** | `10` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/jp_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/jp.txt) |
-| 🇷🇸 **RS** | `9` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/rs_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/rs.txt) |
-| 🇨🇭 **CH** | `8` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ch_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ch.txt) |
+| 🇨🇦 **CA** | `111` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ca_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ca.txt) |
+| 🇩🇪 **DE** | `76` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/de_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/de.txt) |
+| 🇺🇸 **US** | `73` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/us_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/us.txt) |
+| 🇳🇱 **NL** | `47` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/nl_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/nl.txt) |
+| 🇮🇷 **IR** | `27` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ir_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ir.txt) |
+| 🇫🇷 **FR** | `23` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fr.txt) |
+| 🇬🇧 **GB** | `18` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/gb_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/gb.txt) |
+| 🇫🇮 **FI** | `14` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fi_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/fi.txt) |
+| 🇵🇱 **PL** | `12` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/pl_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/pl.txt) |
+| 🇯🇵 **JP** | `11` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/jp_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/jp.txt) |
+| 🇷🇺 **RU** | `11` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ru_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ru.txt) |
+| 🇷🇸 **RS** | `10` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/rs_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/rs.txt) |
+| 🇸🇬 **SG** | `10` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/sg_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/sg.txt) |
+| 🇨🇭 **CH** | `9` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ch_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ch.txt) |
+| 🇹🇷 **TR** | `9` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tr.txt) |
+| 🇧🇬 **BG** | `7` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/bg_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/bg.txt) |
+| 🇮🇹 **IT** | `7` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/it_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/it.txt) |
+| 🇭🇰 **HK** | `6` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/hk_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/hk.txt) |
 | 🇲🇩 **MD** | `6` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/md_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/md.txt) |
-| 🇭🇰 **HK** | `4` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/hk_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/hk.txt) |
 | 🇸🇨 **SC** | `4` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/sc_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/sc.txt) |
 | 🇦🇪 **AE** | `3` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ae_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ae.txt) |
-| 🇮🇹 **IT** | `3` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/it_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/it.txt) |
-| 🇪🇸 **ES** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/es_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/es.txt) |
+| 🇪🇸 **ES** | `3` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/es_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/es.txt) |
+| 🇬🇪 **GE** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ge_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ge.txt) |
 | 🇰🇷 **KR** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/kr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/kr.txt) |
-| 🇳🇴 **NO** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/no_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/no.txt) |
-| 🇹🇼 **TW** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tw_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tw.txt) |
+| 🇸🇪 **SE** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/se_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/se.txt) |
+| 🇿🇦 **ZA** | `2` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/za_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/za.txt) |
 | 🇦🇱 **AL** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/al_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/al.txt) |
-| 🇧🇷 **BR** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/br_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/br.txt) |
+| 🇧🇾 **BY** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/by_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/by.txt) |
 | 🇧🇿 **BZ** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/bz_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/bz.txt) |
 | 🇨🇳 **CN** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/cn_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/cn.txt) |
 | 🇨🇷 **CR** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/cr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/cr.txt) |
+| 🇩🇰 **DK** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/dk_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/dk.txt) |
 | 🇪🇪 **EE** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ee_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ee.txt) |
+| 🇬🇷 **GR** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/gr_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/gr.txt) |
 | 🇮🇪 **IE** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ie_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ie.txt) |
 | 🇰🇿 **KZ** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/kz_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/kz.txt) |
 | 🇱🇻 **LV** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/lv_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/lv.txt) |
-| 🇲🇾 **MY** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/my_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/my.txt) |
-| 🇸🇪 **SE** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/se_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/se.txt) |
 | 🇹🇭 **TH** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/th_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/th.txt) |
+| 🇹🇼 **TW** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tw_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/tw.txt) |
 | 🇺🇦 **UA** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ua_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/ua.txt) |
-| 🇻🇳 **VN** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/vn_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/vn.txt) |
-| 🇿🇦 **ZA** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/za_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/za.txt) |
+| 🇺🇿 **UZ** | `1` | `https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/uz_b64.txt` | [⬇️ خام](https://raw.githubusercontent.com/Arian-Alijani/Somthing/master/sub/country/uz.txt) |
 
 </details>
 
@@ -138,36 +139,36 @@ pie showData
 | # | کانال | تعداد کانفیگ |
 |:-:|:------|:-----------:|
 | 1 | [@Ablnet7](https://t.me/Ablnet7) | `20` |
-| 2 | [@Farah_VPN](https://t.me/Farah_VPN) | `20` |
+| 2 | [@FreakConfig](https://t.me/FreakConfig) | `20` |
 | 3 | [@FreeConfigForYou](https://t.me/FreeConfigForYou) | `20` |
 | 4 | [@IRAN_access](https://t.me/IRAN_access) | `20` |
 | 5 | [@JKVPN](https://t.me/JKVPN) | `20` |
 | 6 | [@Parsashonam](https://t.me/Parsashonam) | `20` |
-| 7 | [@SimChin_ir](https://t.me/SimChin_ir) | `20` |
-| 8 | [@UnlimitedDev](https://t.me/UnlimitedDev) | `20` |
-| 9 | [@V2All](https://t.me/V2All) | `20` |
-| 10 | [@V2rayng_Fast](https://t.me/V2rayng_Fast) | `20` |
-| 11 | [@bored_vpn](https://t.me/bored_vpn) | `20` |
-| 12 | [@configV2rayForFree](https://t.me/configV2rayForFree) | `20` |
-| 13 | [@fast78_channel](https://t.me/fast78_channel) | `20` |
-| 14 | [@narcod_ping](https://t.me/narcod_ping) | `20` |
-| 15 | [@one_shop_official](https://t.me/one_shop_official) | `20` |
-| 16 | [@payam_nsi](https://t.me/payam_nsi) | `20` |
-| 17 | [@proxy48](https://t.me/proxy48) | `20` |
-| 18 | [@prroxyng](https://t.me/prroxyng) | `20` |
-| 19 | [@v2rayTG](https://t.me/v2rayTG) | `20` |
-| 20 | [@v2riran](https://t.me/v2riran) | `20` |
-| 21 | [@FreakConfig](https://t.me/FreakConfig) | `19` |
-| 22 | [@NTGreenplus](https://t.me/NTGreenplus) | `19` |
-| 23 | [@V2RAYROZ](https://t.me/V2RAYROZ) | `18` |
-| 24 | [@daily_configs](https://t.me/daily_configs) | `18` |
+| 7 | [@UnlimitedDev](https://t.me/UnlimitedDev) | `20` |
+| 8 | [@V2All](https://t.me/V2All) | `20` |
+| 9 | [@V2rayng_Fast](https://t.me/V2rayng_Fast) | `20` |
+| 10 | [@configV2rayForFree](https://t.me/configV2rayForFree) | `20` |
+| 11 | [@fast78_channel](https://t.me/fast78_channel) | `20` |
+| 12 | [@narcod_ping](https://t.me/narcod_ping) | `20` |
+| 13 | [@one_shop_official](https://t.me/one_shop_official) | `20` |
+| 14 | [@proxy48](https://t.me/proxy48) | `20` |
+| 15 | [@prroxyng](https://t.me/prroxyng) | `20` |
+| 16 | [@v2rayTG](https://t.me/v2rayTG) | `20` |
+| 17 | [@v2riran](https://t.me/v2riran) | `20` |
+| 18 | [@Farah_VPN](https://t.me/Farah_VPN) | `19` |
+| 19 | [@NTGreenplus](https://t.me/NTGreenplus) | `19` |
+| 20 | [@SimChin_ir](https://t.me/SimChin_ir) | `19` |
+| 21 | [@bored_vpn](https://t.me/bored_vpn) | `19` |
+| 22 | [@payam_nsi](https://t.me/payam_nsi) | `19` |
+| 23 | [@daily_configs](https://t.me/daily_configs) | `18` |
+| 24 | [@v2ray_dalghak](https://t.me/v2ray_dalghak) | `18` |
 | 25 | [@vpnplusee_free](https://t.me/vpnplusee_free) | `18` |
-| 26 | [@planB_net](https://t.me/planB_net) | `17` |
-| 27 | [@v2ray03](https://t.me/v2ray03) | `15` |
-| 28 | [@SOSkeyNET](https://t.me/SOSkeyNET) | `14` |
-| 29 | [@Ln2Ray](https://t.me/Ln2Ray) | `10` |
-| 30 | [@V2raysCollector](https://t.me/V2raysCollector) | `5` |
-| 31 | [@v2ray_dalghak](https://t.me/v2ray_dalghak) | `5` |
+| 26 | [@SOSkeyNET](https://t.me/SOSkeyNET) | `17` |
+| 27 | [@V2RAYROZ](https://t.me/V2RAYROZ) | `16` |
+| 28 | [@planB_net](https://t.me/planB_net) | `16` |
+| 29 | [@v2ray03](https://t.me/v2ray03) | `15` |
+| 30 | [@Ln2Ray](https://t.me/Ln2Ray) | `10` |
+| 31 | [@V2raysCollector](https://t.me/V2raysCollector) | `5` |
 | 32 | [@APPXA](https://t.me/APPXA) | `1` |
 
 </details>
