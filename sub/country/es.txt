@@ -1,2 +1,2 @@
 vless://898537d9-ce3a-4937-bbef-c0fa61c07791@93.189.94.67:48296?security=reality&encryption=none&pbk=ga1wUMMknP4pwJfUNOOvD9I35XV4q3c73byXPYbRxBE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.sony.com&sid=109657bb2dbe99#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40Ablnet7%20%7C%2015
-trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2RAYROZ%20%7C%2014
+trojan://humanity@185.18.250.252:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2RAYROZ%20%7C%2018

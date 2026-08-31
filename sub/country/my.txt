@@ -1,2 +1,1 @@
-vless://a292d697-5249-417f-aa8a-b853fa6ff35c@43.217.83.128:22012?security=reality&encryption=none&pbk=uSrE0JjmM3fOdPaVIqOdttSJXVHwgVOD0WbyeN1RCBQ&host=v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=6d62b7e1ed6f2aed#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40SimChin_ir%20%7C%2017
-trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls&sni=moltbot.doctoroyy.net#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40Farah_VPN%20%7C%202
+trojan://5931134d1cde66bf83a54acdfebe7ab2@47.250.84.25:443?security=tls&sni=moltbot.doctoroyy.net#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40Farah_VPN%20%7C%203
