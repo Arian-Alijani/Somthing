@@ -1,1 +1,2 @@
+vless://4a6f2d84-a12e-4fcc-8bf0-45fc9611066c@190.93.247.155:80?security=none&type=ws&host=1.www.speedtest.net.zula.ir.zemestanil.ir&path=%2FProxy-MTM%3Fed%3D2048#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40SOSkeyNET%20%7C%204
 vless://12ec6fe7-b8ea-4f7b-b7fc-e936da472605@190.93.244.17:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=&sni=howdy-fr-chanel.highposhako.ir#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40proxy48%20%7C%2017

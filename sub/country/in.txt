@@ -1,0 +1,1 @@
+vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=deepl.com&fp=chrome&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&sid=68a8&allowinsecure=0&type=tcp&headerType=none#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40Farah_VPN%20%7C%208
