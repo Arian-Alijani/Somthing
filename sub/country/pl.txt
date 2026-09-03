@@ -1,7 +1,5 @@
 vless://16b34a60-cb57-4659-b802-da89506c7ff8@pl-2.wrs.tconnect.services:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&fp=random&sni=stackoverflow.com&pbk=EYL4xS6Msvddf6qwmFHfHplw18bmntv98GkoQBK1fhM&sid=71e87186710e710e#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40FreeConfigForYou%20%7C%205
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppUkFUU2JWRjBxMTI0enZ0ODM2OTFqZURYWmFkUHRkaQ@pl-server-1.zelnora.ir:1080#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40FreakConfig%20%7C%205
-ss://YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ@51.83.192.80:8388#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40FreakConfig%20%7C%2016
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjVEFPYndnNE9XV1hrWkpRczBaZGdD@31.76.82.131:34260#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40Farah_VPN%20%7C%202
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dHcyYXdu@54.36.174.140:443#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40Farah_VPN%20%7C%2020
+vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.174.138.170:443?security=tls&sni=zdyc.kpcloud.eu.org&type=ws&path=%2F%3Fproxyip#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40SOSkeyNET%20%7C%204
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppUkFUU2JWRjBxMTI0enZ0ODM2OTFqZURYWmFkUHRkaQ@pl-server-1.zelnora.ir:1080#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40FreakConfig%20%7C%2012
 vless://0dea82cd-a030-4c11-bccd-f3c0be845297@193.34.213.72:443?security=reality&encryption=none&pbk=c_9pNYSprG0wT-8Dz68poWfpFCktGVKIrX_EVG3J4wk&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=app.prostocalc.com&sid=f49814084db8f3a6#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40planB_net%20%7C%2012
-vless://a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a@83.168.71.216:443?encryption=none&type=tcp&headerType=none&security=reality&fp=chrome&sni=ads.x5.ru&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&sid=2f49bccf11150ef2#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40payam_nsi%20%7C%2018
+vless://a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a@83.168.71.216:443?encryption=none&type=tcp&headerType=none&security=reality&fp=chrome&sni=ads.x5.ru&pbk=8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho&sid=2f49bccf11150ef2#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40payam_nsi%20%7C%2019
