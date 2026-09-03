@@ -1,3 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%203
-vless://6cbc63c1-97de-4460-847c-7fd7bdda3fa6@45.82.31.158:808?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40planB_net%20%7C%208
-vless://6cbc63c1-97de-4460-847c-7fd7bdda3fa6@45.82.31.158:196?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40planB_net%20%7C%209
+vmess://eyJhZGQiOiIzOC4xMDcuMjM0LjU3IiwiaG9zdCI6Imdvb2dsZS5jb20iLCJpZCI6IjU2N2Y0YmU1LTEyYWItNDJlMS1iOGQ5LWRiNmZkMWZkZDMxYyIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzcy8iLCJwb3J0IjoiODAiLCJwcyI6IvCfh7Dwn4e/IEtaIHwgQEZhcmFoX1ZQTiB8IDUiLCJzY3kiOiJhdXRvIiwidGxzIjoibm9uZSIsInYiOiIyIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
