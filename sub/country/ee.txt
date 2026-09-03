@@ -1,1 +1,2 @@
+vless://2b9581e5-dc45-4ed6-90b2-6ec817f7dab5@s---t---o.cd2-ger1.ir:2087?security=none&type=tcp&headerType=http&path=%2F&host=%2F#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40V2All%20%7C%2010
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2rayTG%20%7C%202
