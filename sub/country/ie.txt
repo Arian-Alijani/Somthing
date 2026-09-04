@@ -1,3 +1,2 @@
-vless://f1ceb23b-31cc-443c-9573-eb200fc9007e@hp1jirt9upi6cw2.p30download.lat:28980?type=tcp&security=reality&pbk=53q3tqO9qJmrRHIwSfNlweSZVpQ9gVt9nlfDzfHzMS0&fp=random&sni=pubg.com&sid=552f72b5deabf0bf&spx=%2F#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2ray_dalghak%20%7C%206
+vless://5a92a9d2-3067-49cd-bfc5-989bbdfc5d52@166.1.221.122:1443?security=reality&encryption=none&pbk=BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo&host=--v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ir.aeternavpn.space&sid=a1b2c3d4#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%207
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppbXEwdkxpa2JPeDRUSFpQ@20.107.193.38:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40planB_net%20%7C%207
