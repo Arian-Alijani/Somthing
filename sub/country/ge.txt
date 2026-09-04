@@ -1,1 +1,1 @@
-vless://d20be48f-6317-4350-858b-d00929bdefc1@217.11.164.92:37430?security=reality&encryption=none&pbk=RxTaQwnqqU8vxMMvD6AeUTFadLVvwzUplghzVAilAEg&headerType=none&fp=ios&spx=%2F&type=tcp&sni=amp-api-edge.apps.apple.com#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%7C%20%40payam_nsi%20%7C%2016
+vless://d20be48f-6317-4350-858b-d00929bdefc1@217.11.164.92:37430?security=reality&encryption=none&pbk=RxTaQwnqqU8vxMMvD6AeUTFadLVvwzUplghzVAilAEg&headerType=none&fp=ios&spx=%2F&type=tcp&sni=amp-api-edge.apps.apple.com#%F0%9F%87%AC%F0%9F%87%AA%20GE%20%7C%20%40payam_nsi%20%7C%2015
