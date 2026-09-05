@@ -1,1 +1,0 @@
-vless://a2d7890a-5451-4470-9300-a059792924bb@49.50.76.194:443?encryption=none&type=tcp&headerType=http&path=%2F&host=play.google.com#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40SOSkeyNET%20%7C%204
