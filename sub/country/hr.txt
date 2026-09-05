@@ -1,1 +1,1 @@
-trojan://humanity@213.182.199.137:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&host=www.pleadcourt.org&fp=chrome&type=ws&sni=www.pleadcourt.org#%F0%9F%87%AD%F0%9F%87%B7%20HR%20%7C%20%40V2RAYROZ%20%7C%2017
+vless://cf1d2ded-2472-483a-f2f2-12c83d1826dd@cl.nigali.ir:2087?mode=auto&path=%2F%40v2_line%3Fed%3D2048&security=tls&encryption=none&insecure=1&host=cdnmin.esmahdi9.com&fp=chrome&type=xhttp&allowInsecure=1&sni=cdnmin.esmahdi9.com#%F0%9F%87%AD%F0%9F%87%B7%20HR%20%7C%20%40v2ray_dalghak%20%7C%202
