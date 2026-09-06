@@ -1,2 +1,2 @@
-vless://c9c64c4b-c12a-4673-be52-21c080ac07a1@esmivo.fatehshahri.ir:20122?security=reality&encryption=none&pbk=O91hVddmNmokfHl28XY9QcCE1RKrqtpuyoDjeGLA-HY&headerType=none&fp=chrome&type=tcp&sni=amp-api-edge.apps.apple.com&sid=553b916353b80ec5#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40V2All%20%7C%209
+vless://814a6b74-8ed1-4597-bc30-5ed9f9c6ede1@s---t---o.cd2-ger1.ir:2087?security=&encryption=none&host=%2F&headerType=http&type=tcp#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2ray_dalghak%20%7C%2013
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2rayTG%20%7C%202
