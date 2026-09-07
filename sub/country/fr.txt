@@ -1,9 +1,7 @@
-vless://25f3beef-a4b6-40bc-aa74-17a0f89f683c@finite-node.rtxconfigz.com:443?path=%2F&security=tls&encryption=none&insecure=0&host=telegram.us&type=ws&allowInsecure=0&sni=finite-node.rtxconfigz.com#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40V2All%20%7C%2011
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.36.74.87:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40V2All%20%7C%2020
-vless://80aca3de-147c-41ae-8298-429b6a1a5275@ishsvvsvsbshsbsh.kafsh-topakin.ir:61463?security=reality&encryption=none&pbk=v5VFbOeBbwCEo8maIZcA4ru5yj9X1O69AetI_Tgq1R8&host=amp-api-edge.apps.apple.com&headerType=http&fp=safari&spx=%2F7fc0735bf105d30&type=tcp&sni=amp-api-edge.apps.apple.com&sid=5d8880673cea#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SOSkeyNET%20%7C%2011
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22224?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2ray_dalghak%20%7C%209
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2ray_dalghak%20%7C%2010
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2ray_dalghak%20%7C%2011
+vmess://eyJhZGQiOiIyMy4xNjIuMTUyLjYiLCJhaWQiOiIwIiwiYWxwbiI6IiIsImZwIjoiIiwiaG9zdCI6IiIsImlkIjoiMDQ2MjFiYWUtYWIzNi0xMWVjLWI5MDktMDI0MmFjMTIwMDAyIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIyMjMyNCIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoiIiwidiI6IjIiLCJwcyI6IvCfh6vwn4e3IEZSIHwgQFYyQWxsIHwgOSJ9
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22224?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2ray_dalghak%20%7C%208
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2ray_dalghak%20%7C%209
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.47.129.194:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2ray_dalghak%20%7C%2010
 vless://fae272a6-a184-4c91-83ed-771abdcff404@mn2.levikogjgfdd.ir:2053?security=reality&encryption=none&pbk=5Me9XEMwr9siyrnV5zPHYfxB3QLqw-OzNAOuzkFu1kw&host=Telegram-Leviko_v2ray&headerType=none&fp=chrome&type=tcp&sni=www.google.com&sid=7af95330630a7327#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%2014
 vless://327924ed-e8c2-42e1-952b-674376055418@54.37.221.251:30120?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40proxy48%20%7C%2014
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxNmJocHlqazBvMzUyeDdp@135.125.113.81:8080#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2rayTG%20%7C%207
