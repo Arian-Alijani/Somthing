@@ -1,1 +1,2 @@
 vless://e99ba96d-dec8-42eb-be53-19e71eef7cab@5.253.42.164:40443?security=reality&encryption=none&pbk=g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw&host=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=68a8#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40V2rayng_Fast%20%7C%2015
+vless://435bda4c-fe5e-42c9-a3ad-15334943b38a@104.22.4.43:80?security=none&type=ws&host=us3.rtacg.com&path=/#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40SOSkeyNET%20%7C%202
