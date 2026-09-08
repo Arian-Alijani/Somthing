@@ -1,0 +1,2 @@
+vless://15fd22d1-8931-4d41-af37-8ba6711e93fe@preview.netraidly.ru:40443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo&security=reality&sid=84fc&sni=deepl.com&type=tcp#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40SOSkeyNET%20%7C%208
+vless://15fd22d1-8931-4d41-af37-8ba6711e93fe@preview.netraidly.ru:40443?security=reality&encryption=none&pbk=d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=deepl.com&sid=84fc#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40Farah_VPN%20%7C%2012
