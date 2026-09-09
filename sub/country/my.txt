@@ -1,2 +1,0 @@
-vless://e8358eb5-7210-4cf8-982f-68af141b7694@56.69.159.191:53271?encryption=none&flow=xtls-rprx-vision&fp=&pbk=1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc&security=reality&sid=0a9bd9db19578964&sni=www.tesla.com&type=tcp#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40SOSkeyNET%20%7C%209
-vless://85dd8227-0f12-4826-a712-6313211774b5@43.217.16.8:21874?encryption=none&flow=xtls-rprx-vision&fp=&pbk=75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs&security=reality&sid=42e853a5559e1032&sni=www.amd.com&type=tcp#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40SOSkeyNET%20%7C%2011
