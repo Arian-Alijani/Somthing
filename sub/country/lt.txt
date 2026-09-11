@@ -1,1 +1,0 @@
-vless://7aeb58b8-7817-45af-ba26-e27583bc9a8e@31.76.83.49:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.sciencedirect.com&fp=qq&pbk=cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0&sid=a1b2c4d4a1b2c5d5&type=tcp&headerType=none#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40daily_configs%20%7C%2010
