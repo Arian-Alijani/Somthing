@@ -1,2 +1,1 @@
-vless://7dee9736-d32f-4ac9-f22a-831b81a0b101@190.93.246.241:8880?security=none&type=ws&host=liV2rayb.善良的闪电.monster&path=/@LIGHTNING6#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40SOSkeyNET%20%7C%206
 vless://12ec6fe7-b8ea-4f7b-b7fc-e936da472605@190.93.244.17:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=&sni=howdy-fr-chanel.highposhako.ir#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40proxy48%20%7C%2017
