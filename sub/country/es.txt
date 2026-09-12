@@ -1,0 +1,2 @@
+vless://4350213a-b4e7-262a-0bd7-bd16957cf71a@170.168.97.8:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo&fp=chrome&type=xhttp&sni=cdn.steamstatic.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2All%20%7C%203
+vless://4350213a-b4e7-262a-0bd7-bd16957cf71a@170.168.97.8:8443?mode=gun&security=reality&encryption=none&pbk=D2SXHZRRYM0WcFChGWd57XB-U73aIsGfMpe2-Gq5XSs&fp=chrome&type=grpc&serviceName=TunService&sni=download.nvidia.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40SOSkeyNET%20%7C%208
