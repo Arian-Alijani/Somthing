@@ -1,5 +1,3 @@
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@3.10.187.29:22224?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40V2All%20%7C%206
-vless://3b715892-8610-4fdc-9086-647b36af5443@html.iranpood.com:2086?mode=auto&path=%2F%3Fed%3D2082&security=&encryption=none&host=h.cafearen.ir&type=xhttp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40SOSkeyNET%20%7C%2012
 vless://c6cff605-90cf-4953-bf97-0a44e43f229d@167.104.223.179:443?security=reality&encryption=none&pbk=fyfX-egDrRvXNW1Gt2P_8rH4jdupAcmhFLOCZCzCowo&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=gb5.murhost.network&sid=fc36b4a584871aa5#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40one_shop_official%20%7C%2015
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn@series-a2.samanehha.co:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40proxy48%20%7C%204
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40NTGreenplus%20%7C%208
