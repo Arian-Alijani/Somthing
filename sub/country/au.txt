@@ -1,2 +1,0 @@
-vless://6f995056-7802-4a1d-bff7-61678e626c3f@20.42.228.160:443?security=tls&sni=sdfee4.azurewebsites.net&type=ws&host=sdfee4.azurewebsites.net&path=/#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40V2All%20%7C%203
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@103.169.142.181:443?security=tls&sni=jpb.ylks01.eu.org&type=ws&path=%2F#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40v2ray_dalghak%20%7C%2010
