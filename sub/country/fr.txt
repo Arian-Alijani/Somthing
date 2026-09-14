@@ -1,3 +1,4 @@
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@51.44.137.10:22222?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40V2All%20%7C%2018
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@15.236.252.3:22224?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40FreakConfig%20%7C%208
 vless://327924ed-e8c2-42e1-952b-674376055418@54.37.221.251:30120?security=none&encryption=none&host=divarcdn.com&headerType=http&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40proxy48%20%7C%2014
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxNmJocHlqazBvMzUyeDdp@135.125.113.81:8080#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40v2rayTG%20%7C%207
