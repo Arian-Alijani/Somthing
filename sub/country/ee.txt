@@ -1,2 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2rayTG%20%7C%202
-vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@185.252.177.180:443?security=reality&encryption=none&pbk=0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ee1.hat.onl&sid=5a7216aec1371894#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40planB_net%20%7C%2012
+vless://d6b59299-2f48-4e9b-9130-b9e9cb5d0a51@185.252.177.180:443?security=reality&encryption=none&pbk=0aGTmSxEW21dFVomobDSRjUWnPptI4yT_eL-0PCf-h0&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=ee1.hat.onl&sid=5a7216aec1371894#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40planB_net%20%7C%2014
