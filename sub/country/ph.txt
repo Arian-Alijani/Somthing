@@ -1,1 +1,1 @@
-vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&encryption=none&host=play-apps-features.googleusercontent.com&headerType=http&type=tcp#%F0%9F%87%B5%F0%9F%87%AD%20PH%20%7C%20%40V2RAYROZ%20%7C%206
+vless://Channel%3Atelegram%3ATurboConfigs@61.245.11.28:9090?security=none&encryption=none&host=play-apps-features.googleusercontent.com&headerType=http&type=tcp#%F0%9F%87%B5%F0%9F%87%AD%20PH%20%7C%20%40V2RAYROZ%20%7C%209
