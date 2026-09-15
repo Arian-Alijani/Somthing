@@ -1,2 +1,2 @@
 vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@147.45.116.52:443?security=reality&encryption=none&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&host=--v2rayNplus--v2rayNplus--v2rayNplus--&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.wikihow.com#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40one_shop_official%20%7C%2019
-vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.133.35.36:443?security=tls&sni=kkd.ylks.link&type=ws&path=%2F#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40SimChin_ir%20%7C%206
+vless://a13df940-020c-465f-bc89-ee5279b5cd6a@185.133.35.36:443?security=tls&sni=kkd.ylks.link&type=ws&path=%2F#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40SimChin_ir%20%7C%207
