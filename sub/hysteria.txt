@@ -1,5 +1,8 @@
 hysteria2://QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s@162.249.125.133:443?security=tls&obfs=salamander&obfs-password=c1b4086fea89914496c7e10967a419216566&insecure=0&sni=hy2-new.aspidnet.xyz#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%40V2rayng_Fast%20%7C%203
-hysteria2://cd74c0a406664a5bc0bac098220a2468@2.27.59.206:443?security=tls&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0&insecure=0&sni=de1.sferavpn.pro#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%40V2rayng_Fast%20%7C%209
+hysteria2://cd74c0a406664a5bc0bac098220a2468@2.27.59.206:443?security=tls&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0&insecure=0&sni=de1.sferavpn.pro#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%40V2rayng_Fast%20%7C%208
+hysteria2://H7mP2xY9kJ4nQ8wR5tF6vB3z@160.187.100.109:443/?insecure=1&sni=vpn-tw-002.fastervpn.world#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40SOSkeyNET%20%7C%207
+hysteria2://CompanyHy2_2026%21@38.60.204.239:36712/?insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%40SOSkeyNET%20%7C%208
+hysteria2://cd74c0a406664a5bc0bac098220a2468@144.31.49.138:443?security=tls&obfs=salamander&obfs-password=44f1c1e2f8b99e792ceed574627a1eb0&insecure=0&sni=ru1.sferavpn.pro#%F0%9F%87%B7%F0%9F%87%BA%20RU%20%7C%20%40FreakConfig%20%7C%202
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52088?alpn=h3&fp=chrome&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u&security=tls&sni=giftcard.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40JKVPN%20%7C%2017
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52071?alpn=h3&fp=chrome&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u&security=tls&sni=giftcard.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40JKVPN%20%7C%2018
 hysteria2://s6gt5e4mof43sfg8@giftcard.gateway-stream.com:52069?alpn=h3&fp=chrome&obfs=salamander&obfs-password=fuw2k1ddrouwxr3u&security=tls&sni=giftcard.gateway-stream.com#%F0%9F%87%AB%F0%9F%87%AE%20FI%20%7C%20%40JKVPN%20%7C%2019
