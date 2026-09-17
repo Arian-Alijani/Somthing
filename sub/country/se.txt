@@ -1,2 +1,1 @@
 vless://0dd9bd66-b041-4fb6-86ce-5357b3eb6ae8@apisw2.jobwebs.ir:8735?security=reality&encryption=none&pbk=NpgXDQ6jl_HGPdHAHFeiBl5Ym7bywxmw_EYovmFjVQs&headerType=none&fp=firefox&type=tcp&sni=play-apps-features.googleusercontent.com&sid=545df9caf95f7cd8#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40FreeConfigForYou%20%7C%2011
-vless://585746d7-57c0-43b0-aab1-12311343f332@185.146.173.58:8080?path=/servernet&security=none&encryption=none&host=dcc4.servernet.fun.&type=ws#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40V2All%20%7C%2015
