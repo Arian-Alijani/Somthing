@@ -1,1 +1,0 @@
-vless://e3ec2866-96cd-4cc3-86c9-e7336ea2fbc2@185.203.4.218:443?mode=auto&path=%2Fxh&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=ger-04.hello-there.ru&fp=firefox&type=xhttp&allowInsecure=0&sni=ger-04.hello-there.ru#%F0%9F%87%B2%F0%9F%87%B0%20MK%20%7C%20%40vpnplusee_free%20%7C%2016
