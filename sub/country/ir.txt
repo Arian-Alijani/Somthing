@@ -1,5 +1,4 @@
 vless://60cc6133-190f-4584-a780-f0804327df70@t6.php.rest:40240?pcs=88d03fdc2d85bf516c905f191cffd2fe10af80126700ec0b420c54609317416a&path=%2Fapi%23TELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=pish-data-32.myket.ir#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40V2rayng_Fast%20%7C%2010
-vless://b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4@s2.tehranionliine.ir:80?encryption=none&type=ws&path=/&security=none#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40V2All%20%7C%206
 vless://018a9e2e-9bfd-4a9e-a20d-c07eb53fa439@91.234.39.183:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%2012
 vless://348cd64e-a551-422b-93f2-55e34fdb1601@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40proxy48%20%7C%2013
 vless://e8cbc051-e0ac-452d-9bd3-8ad46625573c@arvancloud.ir:8080?mode=auto&path=%2F&security=&encryption=none&host=r.cafeplusstore.ir&type=xhttp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40UnlimitedDev%20%7C%2012
