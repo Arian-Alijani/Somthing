@@ -1,2 +1,2 @@
-vless://3400a61c-7326-4fa2-b006-7e1ba201eacb@82.163.7.27:9090?security=none&encryption=none&host=play-apps-features.googleusercontent.com&headerType=http&type=tcp#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40SOSkeyNET%20%7C%2012
+vless://d544c858-b1ba-45b2-8868-8197daf2a6ee@179.255.191.40:8443?path=%2Fassets&security=tls&encryption=none&insecure=0&fp=safari&type=ws&allowInsecure=0&sni=switz.luxes.network#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40v2ray_dalghak%20%7C%202
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40fast78_channel%20%7C%2018
