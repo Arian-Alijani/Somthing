@@ -1,1 +1,1 @@
-vless://0a975d79-6930-4861-a105-dc50793456de@138.124.181.185:443?security=reality&encryption=none&pbk=D2NOHlDThz1hjnJyALYmK_2You29nfyoZCwK9Vou9xU&headerType=none&fp=random&type=tcp&flow=xtls-rprx-vision&sni=bags.yump.online&sid=72ae7f89582e5c43#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2All%20%7C%2016
+vless://eea1c59d-70fd-4829-8ed7-21ddfe55a0da@madridsp.banibus.ir:8118?security=reality&encryption=none&pbk=LjAkLizwkZf35ObrUMFZ22UHXTEJzpgcTvHk9AuzcUM&headerType=none&fp=ios&type=tcp&sni=play.googleapis.com#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40v2ray_dalghak%20%7C%2011
