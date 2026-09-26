@@ -1,1 +1,0 @@
-vless://7b606370-fcae-43b6-b505-3fc174676b7a@159.195.141.79:8443?path=%2Fws&security=tls&encryption=none&insecure=0&fp=safari&type=ws&allowInsecure=0&sni=avia.spectehnika72.com#%F0%9F%87%A6%F0%9F%87%B9%20AT%20%7C%20%40v2ray_dalghak%20%7C%206
