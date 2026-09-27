@@ -1,1 +1,0 @@
-vless://f495298f-2bdb-4fd8-9ac9-5dd33d1b482a@131.123.42.16:443?security=reality&encryption=none&pbk=W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=bolgarka.drop0chka.work&sid=ff776ff77be48b88#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40SOSkeyNET%20%7C%201
