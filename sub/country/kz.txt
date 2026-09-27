@@ -1,1 +1,2 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%2011
+vless://4bdeee92-97e8-414d-bef6-ec1d5e2ab73b@kazartip.thewalkingded.life:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=kazartip.thewalkingded.life&fp=chrome&pbk=5JhqvTTHIhhA_2Jjc3_y6pwLmKfe4wtwq3vSt43P00I&sid=7cf408996c82639f&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40Farah_VPN%20%7C%203

@@ -1,6 +1,6 @@
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.133.172.254:22224?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40V2All%20%7C%2016
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.145.227:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40SimChin_ir%20%7C%205
-ss://YWVzLTI1Ni1nY206cFgwdWhVM1pqVWNMV1lzMFZlejU1Qk8zSm9RclJsTA@143.110.161.156:17000#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40Farah_VPN%20%7C%2020
+vless://33938142-2f48-48a3-9180-28476cf586f4@82.152.223.82:443?mode=auto&security=reality&encryption=none&pbk=fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8&host=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI&fp=chrome&type=xhttp&sni=savesafe.top&sid=62b6d6e64d461d78#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40V2rayng_Fast%20%7C%209
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.163.183:22223?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40V2All%20%7C%2018
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.145.227:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40SimChin_ir%20%7C%208
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%209
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2010
 vless://8ccf9188-925e-4287-efd2-04002478ddb5@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2011
