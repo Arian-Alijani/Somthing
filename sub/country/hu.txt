@@ -1,1 +1,1 @@
-vless://c065e1bb-cb56-41e5-b043-9dfd15b67565@152.233.41.30:16923?mode=gun&security=reality&encryption=none&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&type=grpc&serviceName=neurex&sni=api-maps.yandex.ru&sid=10ffb85da1c2d986#%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20%40SOSkeyNET%20%7C%2010
+trojan://humanity@185.225.68.232:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AD%F0%9F%87%BA%20HU%20%7C%20%40Farah_VPN%20%7C%205
