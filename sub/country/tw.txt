@@ -1,2 +1,2 @@
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.178.15:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40SOSkeyNET%20%7C%2012
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTczMWVjMy1mOGUxLTQzZjYtOTJjZi0zOTc4ZDE0NzA1YzQ@36.224.169.242:50099#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40v2rayTG%20%7C%201
-vless://fdc48be3-a615-41ac-8bd1-ed844c931048@141.11.87.48:8443?&security=tls&fp=chrome&sni=edgetunnel-4uw.pages.dev&type=ws&headerType=none&host=edgetunnel-4uw.pages.dev&path=%2F#%F0%9F%87%B9%F0%9F%87%BC%20TW%20%7C%20%40Farah_VPN%20%7C%2016

@@ -1,5 +1,4 @@
-vless://80743e11-aa03-0180-404c-b3715ae1268d@a1.khorber.ir:2095?security=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40V2All%20%7C%2014
-vless://92c0fba2-32ba-4f27-b8ed-0ad583fb57cb@de22.sharecafe.ir:2433?mode=auto&path=%2Fa7k9p2-aparat-xhttp%3Fed%3D2048&security=reality&encryption=none&extra=%7B%22xmux%22%3A%7B%22maxConcurrency%22%3A16%2C%22cMaxReuseTimes%22%3A128%2C%22cMaxLifetimeMs%22%3A1800000%2C%22hMaxRequestTimes%22%3A800%2C%22hMaxReusableSecs%22%3A1800%7D%7D&pbk=QZE2pxLFdPCfeowBZXM02Z6A8Rx3b4r9mkmuOMWBFC8&host=aparat.com&fp=edge&type=xhttp&sni=aparat.com&sid=b7e56c01a9d4f230#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40v2ray_dalghak%20%7C%208
+vless://b1e6a16b-f2f3-412f-9631-a4f3482c45a8@45.131.4.246:2052?encryption=none&security=none&type=httpupgrade&headerType=none&path=%2F%3Fed%3D2560&host=xheykh.varzeshfotsal.ir#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40V2All%20%7C%2013
 vless://018a9e2e-9bfd-4a9e-a20d-c07eb53fa439@91.234.39.183:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%2012
 socks://Og@185.79.96.92:1070#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40FreakConfig%20%7C%201
 vless://348cd64e-a551-422b-93f2-55e34fdb1601@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40proxy48%20%7C%2013
@@ -18,6 +17,7 @@ vless://f3212c28-27b0-4188-851e-c367f58f3127@94.183.154.216:2001?security=realit
 vless://%40narcod_ping@85.133.228.198:41546?type=tcp&path=%2F&host=varzesh3.com&headerType=http&security=none#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40narcod_ping%20%7C%201
 vless://narcod_ping@85.133.228.198:41546?type=tcp&path=%2F&host=varzesh3.com&headerType=http&security=none#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40narcod_ping%20%7C%202
 vless://fdb60214-1d03-4b83-c4b7-3d2d33c08073@81.12.27.91:21807?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40IRAN_access%20%7C%206
+vless://8ec5d86b-d895-477d-bc96-21fa01049f2f@g2.haxat.bestvbest.ir:20610?security=reality&encryption=none&pbk=lcXIrYi2o8yXrYHR321qQ--5lqVT8a6TKbaGpYTq4CI&headerType=none&fp=chrome&type=tcp&sni=cdn-apple.com&sid=1d1a8f9fefeff5e6#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40payam_nsi%20%7C%2013
 vless://cc4ffbe6-5b3d-488a-add9-8a0d61f09aaa@snapp.ir:2087?path=%2FBetForward&security=tls&encryption=none&insecure=0&host=cdn.xelira.ir&fp=chrome&type=ws&allowInsecure=0&sni=cdn.xelira.ir#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40v2ray03%20%7C%208
 trojan://mitivpn@arvancloud.ir:443?path=%2F%3Fed%3D2048&security=tls&alpn=http%2F1.1&insecure=0&host=www.gameify.ir&fp=chrome&type=ws&allowInsecure=0&sni=www.gameify.ir#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40v2ray03%20%7C%2012
 vless://81a8186a-7403-4e10-acf1-d325e3affb14@185.143.234.110:80?path=%2Fapi%2Fv3&security=none&encryption=none&host=nlh02.shopkhan.ir&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40v2ray03%20%7C%2014
