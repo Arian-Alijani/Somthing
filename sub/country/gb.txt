@@ -1,7 +1,6 @@
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.145.227:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40SimChin_ir%20%7C%2015
-ss://YWVzLTI1Ni1nY206TFhjaExzSXd0Q2VVQVVndQ==@149.102.149.207:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40Farah_VPN%20%7C%207
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@52.56.145.227:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40SimChin_ir%20%7C%2019
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%209
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2010
 vless://8ccf9188-925e-4287-efd2-04002478ddb5@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2011
 vless://8ccf9188-925e-4287-efd2-04002478ddb5@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2012
-vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.43:2083?encryption=none&security=none&type=grpc&mode=gun&authority=&serviceName=vless#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40payam_nsi%20%7C%2015
+vless://cd3bb7d9-7df3-4644-ac05-c260990ac277@66.90.104.43:2083?encryption=none&security=none&type=grpc&mode=gun&authority=&serviceName=vless#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40payam_nsi%20%7C%2014
