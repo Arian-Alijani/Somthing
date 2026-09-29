@@ -1,0 +1,1 @@
+vless://7b50da93-0841-4044-af6a-99bb9dcda6fc@45.130.254.193:443?mode=auto&path=%2Fxh%2F%3F%40MARAMBASHI_MARAMBASHI%3Fed%3D2048&security=tls&encryption=none&insecure=0&host=nd-25-5.anti-zaim.ru&fp=firefox&type=xhttp&allowInsecure=0&sni=nd-25-5.anti-zaim.ru#%F0%9F%87%B5%F0%9F%87%AD%20PH%20%7C%20%40V2rayng_Fast%20%7C%201
