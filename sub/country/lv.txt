@@ -1,1 +1,2 @@
-vless://2412bd96-925b-43f2-81d1-0ed4f0793699@31.57.28.147:443?security=reality&encryption=none&pbk=d7yg69dK4DkaV1EPpQcgd4GBncMN9u1o1Nk9u-i7wGc&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=download-cdn.jetbrains.com&sid=7a18a196e730e1d5#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40Farah_VPN%20%7C%206
+vless://b7535f22-982a-4e6f-b30d-916d51392ab6@31.56.196.18:57529?security=none&encryption=none&host=www.cloudflare.com&headerType=http&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40V2All%20%7C%2017
+ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206NEU3ZWxRL0dNZmlYTzNQK0JHRWUvdDVIMnFGVDY4VFZjb1loYStXYThzTT06dGk4T3FnVHFSUkNUUUgrQmZ5R3ZXM2tHVTUyeVFTdEx1RW9WZ0xRR015ST0@31.56.196.18:44925#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40v2ray_dalghak%20%7C%207
