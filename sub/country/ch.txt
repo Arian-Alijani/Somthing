@@ -1,2 +1,2 @@
-vless://c0dd6d59-1573-43af-8b70-1470b2632a6d@208.69.78.217:2053?type=tcp&security=reality&fp=random&pbk=A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0&sid=ad86e2d52ff40ebd&sni=www.apple.com#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40v2ray_dalghak%20%7C%2011
 socks://TjljeUY2anZneTNaRW1DTktlMDR6QklSOjFUZWxlZ3JhbV9Nb2ppVlBO@ch-zur.pvdata.host:1080#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40fast78_channel%20%7C%2018
+vmess://eyJhZGQiOiIzNy4xNDMuMTMxLjIyOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiIiwiaWQiOiJmOGFhYzJiZS00ZDNjLTRmYTMtOWFmYi04OWI2YzdlMTQ1OTYiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiIiwicG9ydCI6IjgwODAiLCJwcyI6IvCfh6jwn4etIENIIHwgQFYyUkFZUk9aIHwgNiIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
