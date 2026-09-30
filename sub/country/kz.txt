@@ -1,1 +1,2 @@
+vless://f9255507-1b65-433f-bfd8-193b35e068e2@185.176.26.140:80?encryption=none&security=none&type=ws&host=s5.868001.xyz&path=Telegram%F0%9F%87%A8%F0%9F%87%B3#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40V2All%20%7C%2020
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%2011
