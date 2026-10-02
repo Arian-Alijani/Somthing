@@ -1,1 +1,1 @@
-ss://2022-blake3-aes-256-gcm:4E7elQ%2FGMfiXO3P%2BBGEe%2Ft5H2qFT68TVcoYha%2BWa8sM%3D:N%2BMhwqr08vTRlHiQ81NEZAE2knqmhHp4wBa%2BY6UNeOw%3D@31.56.196.18:44925?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dwww.cloudflare.com#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SimChin_ir%20%7C%207
+ss://2022-blake3-aes-256-gcm:4E7elQ%2FGMfiXO3P%2BBGEe%2Ft5H2qFT68TVcoYha%2BWa8sM%3D:N%2BMhwqr08vTRlHiQ81NEZAE2knqmhHp4wBa%2BY6UNeOw%3D@31.56.196.18:44925?plugin=obfs-local%3Bobfs%3Dhttp%3Bobfs-host%3Dwww.cloudflare.com#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SimChin_ir%20%7C%209
