@@ -1,3 +1,7 @@
-vless://f8cae104-2eaa-4b16-b258-65be28281b70@uae1.codesystem.ir:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40v2rayTG%20%7C%2015
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@3.28.107.6:443#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40NTGreenplus%20%7C%207
+vmess://eyJhZGQiOiIxMDkuNjEuMTguMTg4IiwiYWlkIjoiMCIsImlkIjoiYzExMjI0NDQtYWY0NS00YjZiLWJjMjctZWY4ZGU2MGJhN2UyIiwibmV0IjoidGNwIiwicG9ydCI6ODAsInBzIjoi8J+HpvCfh6ogQUUgfCBARnJlZUNvbmZpZ0ZvcllvdSB8IDg5Iiwic2N5IjoiYXV0byIsInR5cGUiOiJub25lIiwidiI6IjIifQ==
+vless://0fa8cefb-573d-3c23-c1c3-c1f945eebe36@45.88.13.6:443?mode=auto&path=%2F&security=reality&encryption=none&pbk=FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk&fp=chrome&type=xhttp&sni=download.nvidia.com#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40v2ray_dalghak%20%7C%2034
+vless://f8cae104-2eaa-4b16-b258-65be28281b70@uae1.codesystem.ir:8080?security=&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40v2rayTG%20%7C%2014
+vless://1ee46997-c514-4ab0-a6d3-ad0492adab15@pk-google.mobileemdad.top:443?encryption=none&security=reality&sni=play.google.com&fp=qq&pbk=PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ&sid=377d&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40fast78_channel%20%7C%2086
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@3.28.107.6:443#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40NTGreenplus%20%7C%206
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj@3.29.208.10:443#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40NTGreenplus%20%7C%2057
 vless://414df689-dc19-418b-849c-f0f15967d71e@uae.kitten-tube.com:443?security=reality&encryption=none&pbk=ljzfoaXVBSNu3tw58-B0WNViso1aA9JSCX9GUcMDu0k&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=adobe.com&sid=4048A3da#%F0%9F%87%A6%F0%9F%87%AA%20AE%20%7C%20%40IRAN_access%20%7C%201
