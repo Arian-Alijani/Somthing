@@ -1,1 +1,0 @@
-vless://00000000-0000-0000-0000-000000000000@1.1.1.1:443?path=%2F%3FTELEGRAM--MARAMBASHI--MARAMBASHI%3Fed%3D512&security=tls&encryption=none&insecure=0&host=1.1.1.1&type=ws&allowInsecure=0&sni=1.1.1.1#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40V2rayng_Fast%20%7C%2085
