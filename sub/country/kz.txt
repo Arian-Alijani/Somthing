@@ -1,1 +1,2 @@
+vless://37f39851-b5b7-4b99-b5c2-b558c38204f2@91.224.74.19:8628?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=91.224.74.19#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40SOSkeyNET%20%7C%2012
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%2011
