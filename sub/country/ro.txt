@@ -1,1 +1,2 @@
-vless://0a1497e6-0570-40a2-84ce-e522eda1c6a4@46.28.67.118:443?encryption=none&security=reality&sni=www.olx.ro&fp=safari&pbk=9xwvSAOWL36GC2_oNuy0APzirpqSYzd8vKPmGINnzjA&type=xhttp&mode=auto&path=%2Fassets#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40payam_nsi%20%7C%201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40Farah_VPN%20%7C%2019
+vless://0a1497e6-0570-40a2-84ce-e522eda1c6a4@46.28.67.118:443?encryption=none&security=reality&sni=www.olx.ro&fp=safari&pbk=9xwvSAOWL36GC2_oNuy0APzirpqSYzd8vKPmGINnzjA&type=xhttp&mode=auto&path=%2Fassets#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40payam_nsi%20%7C%204
