@@ -1,1 +1,0 @@
-vless://5b5e4cbf-2366-499a-8327-0cd9918c687d@189.74.124.83:443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=%2F%3Ftelegram--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=console.surfweb.club#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40V2rayng_Fast%20%7C%2022
