@@ -1,7 +1,5 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTkwzbXhkZlpLaVBLaXpM@20.223.236.165:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40fast78_channel%20%7C%209
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTkwzbXhkZlpLaVBLaXpM@20.223.236.165:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40fast78_channel%20%7C%2012
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2S3pObVFKblAwN1lzN0Zw@4.231.217.136:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40JKVPN%20%7C%204
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBZkxya3VBUElSalFvb2Uw@4.231.217.136:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40JKVPN%20%7C%205
-vless://7f86f371-5a85-48be-babc-7af1ae7ffb75@198.55.102.59:4443?encryption=none&flow=xtls-rprx-vision&fp=&pbk=9gYnZLxZAPxIKzu9e-cOLBpbCn9p9og9gBodOCh5HB8&security=reality&sid=ce6767c3f1&sni=vk.com&type=tcp#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40SimChin_ir%20%7C%2019
-vless://fdc48be3-a615-41ac-8bd1-ed844c931048@45.141.234.138:443?sni=edgetunnel-4uw.pages.dev&type=ws&host=edgetunnel-4uw.pages.dev&path=/fp=chrome&security=tls#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40Farah_VPN%20%7C%2019
-vless://d342d11e-d224-4463-b982-532309285094@23.95.225.10:8443?sni=ccc.010304.xyz&type=ws&host=ccc.010304.xyz&path=/fp=chrome&security=tls#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40Farah_VPN%20%7C%2020
+vless://fdc48be3-a615-41ac-8bd1-ed844c931048@45.141.234.138:443?encryption=none&fp=chrome&host=edgetunnel-4uw.pages.dev&path=%2F&security=tls&sni=edgetunnel-4uw.pages.dev&type=ws#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40Farah_VPN%20%7C%2010
