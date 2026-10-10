@@ -1,7 +1,12 @@
-trojan://UX82473651@musical-mouse.rooster465.autos:443?allowInsecure=1&sni=musical-mouse.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2All%20%7C%202
-hysteria2://WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0@43.156.36.253:8443/?insecure=1&sni=tx-hy2#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40SOSkeyNET%20%7C%2017
 vless://127f98dc-cc3a-48d4-8224-9a9c80e13d5e@47.128.248.109:20440?security=reality&encryption=none&pbk=gt0qpR8MQY1hrYZDmHwtMcESvcDbFWtjKirUqSCoUwA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=816de7fe3de8b0#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Ablnet7%20%7C%209
 vless://4cda6bad-ae8a-4e96-8a8b-e7e675de626d@47.131.143.204:50334?security=reality&encryption=none&pbk=LlN9ORcAo_2zQnfRCfUXZPesvZt2I0BYVz7cABPAIlk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.sony.com&sid=425fc4a18db86f#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Ablnet7%20%7C%2019
 vless://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=node1.nanonet.host#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40UnlimitedDev%20%7C%203
-vless://2d1ad594-80a4-4bfb-87a6-038e39701f51@sg2-8sb.6121999.dpdns.org:19825?security=reality&type=tcp&sni=sg2-8sb.6121999.dpdns.org&fp=chrome&flow=xtls-rprx-vision&sid=6ba85179e30d4fc2&pbk=GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%202
-vless://d342d11e-d224-4463-b982-532309285094@43.174.193.1:443?path=%2F&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&sni=ccc.010304.xyz#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2RAYROZ%20%7C%2011
+trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@139.180.146.200:8886?allowInsecure=1&sni=139.180.146.200#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%201
+trojan://UX82473651@moral-basilisk.rooster465.autos:443?allowInsecure=1&sni=moral-basilisk.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2010
+trojan://UX82473651@brave-tomcat.rooster465.autos:443?allowInsecure=1&sni=brave-tomcat.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2011
+trojan://UX82473651@fond-mammoth.rooster465.autos:443?allowInsecure=1&sni=fond-mammoth.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2012
+trojan://UX82473651@rested-seahorse.rooster465.autos:443?allowInsecure=1&sni=rested-seahorse.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2013
+trojan://UX82473651@ace-liger.rooster465.autos:443?allowInsecure=1&sni=ace-liger.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2014
+trojan://UX82473651@musical-mouse.rooster465.autos:443?allowInsecure=1&sni=musical-mouse.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2015
+trojan://UX82473651@present-ram.rooster465.autos:443?allowInsecure=1&sni=present-ram.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2016
+vless://d342d11e-d224-4463-b982-532309285094@43.174.193.1:443?path=%2F&security=tls&encryption=none&host=ccc.010304.xyz&fp=chrome&type=ws&sni=ccc.010304.xyz#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2RAYROZ%20%7C%2015
