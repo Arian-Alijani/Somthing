@@ -1,9 +1,13 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@13.212.173.211:8443#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40SOSkeyNET%20%7C%209
 vless://127f98dc-cc3a-48d4-8224-9a9c80e13d5e@47.128.248.109:20440?security=reality&encryption=none&pbk=gt0qpR8MQY1hrYZDmHwtMcESvcDbFWtjKirUqSCoUwA&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.nvidia.com&sid=816de7fe3de8b0#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Ablnet7%20%7C%209
 vless://4cda6bad-ae8a-4e96-8a8b-e7e675de626d@47.131.143.204:50334?security=reality&encryption=none&pbk=LlN9ORcAo_2zQnfRCfUXZPesvZt2I0BYVz7cABPAIlk&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.sony.com&sid=425fc4a18db86f#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Ablnet7%20%7C%2019
 vless://d6d7e024-0a49-483d-bcd7-048c4d30eca6@159.89.194.243:22539?security=tls&encryption=none&insecure=1&headerType=none&fp=chrome&type=tcp&allowInsecure=1&sni=node1.nanonet.host#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40UnlimitedDev%20%7C%203
-trojan://UX82473651@brave-tomcat.rooster465.autos:443?allowInsecure=1&sni=brave-tomcat.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2012
-trojan://UX82473651@moral-basilisk.rooster465.autos:443?allowInsecure=1&sni=moral-basilisk.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2013
-trojan://UX82473651@ace-liger.rooster465.autos:443?allowInsecure=1&sni=ace-liger.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2017
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZTY4ZTMyZi04MDE1LTRmMzctOTA4Mi03MGU4YjBiNTgwNDM@13.212.173.211:8443#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40SimChin_ir%20%7C%202
+trojan://e26a229d-e8f2-4ff9-8c7d-58a9d83ee437@139.180.146.200:8886?allowInsecure=1&sni=139.180.146.200#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%206
+trojan://UX82473651@inspired-hound.rooster465.autos:443?allowInsecure=1&sni=inspired-hound.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2011
+trojan://UX82473651@joint-ewe.rooster465.autos:443?allowInsecure=1&sni=joint-ewe.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2012
+trojan://UX82473651@simple-molly.rooster465.autos:443?security=tls&sni=simple-molly.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2014
+trojan://UX82473651@intense-wildcat.rooster465.autos:443?allowInsecure=1&sni=intense-wildcat.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2015
+trojan://UX82473651@rested-seahorse.rooster465.autos:443?allowInsecure=1&sni=rested-seahorse.rooster465.autos#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40Farah_VPN%20%7C%2016
 vless://aec8e5e3-bb81-4b22-8802-0b88c54997b3@gz2.vatilon.cc:23202?encryption=none&security=tls&sni=jp2.australiacaregroup.site&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2raysCollector%20%7C%203
 vless://aec8e5e3-bb81-4b22-8802-0b88c54997b3@gz2.vatilon.cc:36032?encryption=none&security=tls&sni=us2.australiacaregroup.site&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40V2raysCollector%20%7C%204
+vless://83383473-0d62-4089-ac4d-d7ecb413504a@nl3.h1cloud.net:25458?security=reality&encryption=none&pbk=EaWx3gBCS5TeKts5FdgKVqJTn5yGAPoomRNzwVeN41M&headerType=none&fp=firefox&spx=%2F&type=tcp&flow=xtls-rprx-vision&sni=nl4.nztvpn.com&sid=705d9608b0b71387#%F0%9F%87%B8%F0%9F%87%AC%20SG%20%7C%20%40daily_configs%20%7C%204
