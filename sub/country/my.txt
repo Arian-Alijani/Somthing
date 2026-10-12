@@ -1,1 +1,1 @@
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform109.golnamakcert.top:80?encryption=none&host=platform109.halalkhor.info&path=%2Fplatform109&security=none&type=ws#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40payam_nsi%20%7C%207
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform109.golnamakcert.top:80?encryption=none&host=platform109.halalkhor.info&path=%2Fplatform109&security=none&type=ws#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40payam_nsi%20%7C%209
