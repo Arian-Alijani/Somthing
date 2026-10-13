@@ -1,3 +1,1 @@
-vless://f804a3c6-1776-4d81-8563-3a5e78e9f074@199.189.254.242:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.kz.forge-relay.com&pbk=tW28ur4PP6lSr5XeKLu1njwm_W2Cv83EOoBaMn7ivVg&sid=a1b2c3d4&type=tcp&headerType=none#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40v2ray_dalghak%20%7C%2026
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0@77.240.38.27:8443#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40configV2rayForFree%20%7C%2011
-vless://9977ba41-b6aa-4033-9492-2f6abfcade31@206.223.249.90:33891?security=reality&encryption=none&pbk=fj5f0rWTOAgd2gqCCWgag3oAGwb6MCef3OFNdnQLWW8&headerType=none&fp=chrome&spx=%2Fapi&type=tcp&flow=xtls-rprx-vision&sni=browser.yandex.com&sid=f5bc6788#%F0%9F%87%B0%F0%9F%87%BF%20KZ%20%7C%20%40FreakConfig%20%7C%2034

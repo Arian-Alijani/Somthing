@@ -1,5 +1,1 @@
-socks://Og@178.252.165.226:1080#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40FreakConfig%20%7C%202
-socks://MTExOjExMQ@47.243.173.50:11211#%F0%9F%87%AD%F0%9F%87%B0%20HK%20%7C%20%40FreakConfig%20%7C%2017
-http://netlify.parsashonam.sbs:444#%40Parsashonam%20%7C%2042
-http://vercel.parsashonam.sbs:2096#%40Parsashonam%20%7C%2048
-http://91.107.164.192:2030/sub/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJOYXhfdG0iLCJhY2Nlc3MiOiJzdWJzY3JpcHRpb24iLCJpYXQiOjE2ODM2MDEyNjd9.i929gv7M69eJR4dypij-PWDYVRgvkUsbpbm_im0WjcI#%F0%9F%87%A9%F0%9F%87%AA%20DE%20%7C%20%40narcod_ping%20%7C%2049
+socks://Og@178.252.165.226:1080#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40FreakConfig%20%7C%203
