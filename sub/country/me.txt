@@ -1,1 +1,0 @@
-trojan://humanity@31.57.190.34:443?path=%2Fassignment&security=tls&fm=tlshello-0-len&insecure=0&host=www.volumeroot.com&fp=unsafe&type=ws&allowInsecure=0&sni=www.volumeroot.com#%F0%9F%87%B2%F0%9F%87%AA%20ME%20%7C%20%40Farah_VPN%20%7C%2014
