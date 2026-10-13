@@ -1,1 +1,2 @@
-vless://efa9d618-443e-4d9a-9c67-c4b3d9d73995@swcdnmega.surverssss.pro:8443?security=reality&encryption=none&pbk=vGUZigu8NwSiqOSTu1PSfPnlXsdhpm58ZjuWvIJM81U&type=grpc&serviceName=grpc&sni=swcdnmega.surverssss.pro#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40payam_nsi%20%7C%204
+ss://YWVzLTI1Ni1nY206QXhJWVd0c2tKV0lJYWVmVw@70.34.212.124:8388#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40Farah_VPN%20%7C%2018
+vless://efa9d618-443e-4d9a-9c67-c4b3d9d73995@swcdnmega.surverssss.pro:8443?security=reality&encryption=none&pbk=vGUZigu8NwSiqOSTu1PSfPnlXsdhpm58ZjuWvIJM81U&type=grpc&serviceName=grpc&sni=swcdnmega.surverssss.pro#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40payam_nsi%20%7C%203
