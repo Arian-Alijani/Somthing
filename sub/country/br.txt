@@ -1,2 +1,0 @@
-vless://3debd727-ec60-410c-8011-9e77313ff48c@romaniwizpanel.wizardxray.net:443?encryption=none&security=tls&type=tcp&headerType=none&flow=xtls-rprx-vision&sni=romaniwizpanel.wizardxray.net&fp=chrome&alpn=h2%2Chttp%2F1.1#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40V2All%20%7C%2041
-ss://YWVzLTI1Ni1nY206b3dWZE5uUWNkUGd0aFN5WA@216.128.168.190:8388#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40Farah_VPN%20%7C%209
