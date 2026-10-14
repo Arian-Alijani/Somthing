@@ -1,3 +1,4 @@
+hysteria2://c635b5f6-b5ea-4e57-927f-75860b0cb984@hy10.shamanfun.ru:1443?security=tls&insecure=0&sni=hy10.shamanfun.ru#%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20%40SOSkeyNET%20%7C%202
 hysteria2://eBTe6Ax2pUts8oMEWoYVDfnSlHfkLffQ@nas.aizhzo.com:5010?security=tls&obfs=salamander&obfs-password=7M4RXPFcQyQEGbkxBPfXo4bilMhCW2U9&insecure=0&sni=nas.aizhzo.com#%F0%9F%87%AD%F0%9F%87%B0%20HK%20%7C%20%40FreakConfig%20%7C%204
 hysteria2://ca78f919e6@155.94.134.183:11592?security=tls&obfs=salamander&obfs-password=ec66908dbc46e6920143d9b684adf277&insecure=0&sni=srv-3fc7c9.21freedom.net#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40one_shop_official%20%7C%2012
 hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2014
