@@ -1,1 +1,2 @@
 vless://69ac162b-1643-4acb-9f49-09d8b0fad609@milan.adaspoloandco.com:8443?path=%2FRoBeRt&security=tls&encryption=none&insecure=0&host=milan.adaspoloandco.com&type=ws&allowInsecure=0&sni=milan.adaspoloandco.com#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40one_shop_official%20%7C%2015
+vless://9f0285ee-20ca-4953-bcdb-86a920652923@204.216.216.23:10086?security=&encryption=none&headerType=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B9%20IT%20%7C%20%40Farah_VPN%20%7C%208
