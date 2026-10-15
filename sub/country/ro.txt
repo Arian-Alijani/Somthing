@@ -1,3 +1,0 @@
-trojan://1e9edd93-f160-4a4a-b369-2e5194b1932a@78.154.103.45:11901?mode=gun&security=none&type=grpc&serviceName=Telegram%3D%40AmyraxVPN#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40V2All%20%7C%2010
-vless://8fc4c670-7e37-4147-9a2d-abf39e7f3c6b@65.38.120.159:443?security=reality&encryption=none&pbk=6sd2C0P1IuQlwLz41mzLmu7cEWqBKmjqxY0o-tI8Vyo&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=fly.io&sid=0748637bf2505a36#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40SOSkeyNET%20%7C%2013
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40Farah_VPN%20%7C%203
