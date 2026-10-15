@@ -1,2 +1,0 @@
-vless://f3a55e59-9838-4216-aebb-02ea105ef2ef@esp.high-net.ir:8443?security=reality&encryption=none&pbk=h9ZR6IkPEz80yKb4EzBFSYsRbaU0KcycD8dKucsBNg0&host=play.google.com&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=status.play.google.com&sid=961d51c938166832#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2All%20%7C%204
-vless://9e739716-99c0-53e0-96c6-d0fde1a16b1d@79.143.92.57:443/?type=xhttp&encryption=none&flow=&sni=gitlab.io&security=reality&pbk=8IZiiBEPszvgBeDmpdO2hpSi4K9_dm_fzNCrNxOprRY&sid=c86d3b1b#%F0%9F%87%AA%F0%9F%87%B8%20ES%20%7C%20%40V2All%20%7C%2017
