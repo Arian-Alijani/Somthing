@@ -1,2 +1,2 @@
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform109.golnamakcert.top:80?encryption=none&host=platform109.halalkhor.info&path=%2Fplatform109&security=none&type=ws#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40payam_nsi%20%7C%2019
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform109.golnamakcert.top:80?encryption=none&host=platform109.halalkhor.info&path=%2Fplatform109&security=none&type=ws#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40payam_nsi%20%7C%2017
 vless://7cfd34ae-edad-4cc5-9d6f-066f7add7829@my2.oh-node.com:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.setel.com&pbk=R6q8qhMxgq3ynJPUgudaRkcDXj0qgoc_UU1N0SWGLwM&sid=ed77ac35a310&type=tcp&headerType=none#%F0%9F%87%B2%F0%9F%87%BE%20MY%20%7C%20%40daily_configs%20%7C%209
