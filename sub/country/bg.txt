@@ -1,1 +1,0 @@
-trojan://-VbTw-xqE7XYmEsoZTE7ShJoYLCjdBMQ@ger8.fytpn.com:443?security=tls&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&sni=ger1.fytpn.com#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40V2All%20%7C%2011
