@@ -1,0 +1,1 @@
+vless://2ffa91fe-e1cc-4c44-a90a-45002feae978@aelix-al.safire-soleiman.ir:6311?security=reality&encryption=none&pbk=lQbgwNDYw6Zbjdim0JtXUarzb-3GSjDvtX6FJYZD9Qo&headerType=none&fp=qq&type=tcp&sni=play.google.com#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40v2ray_dalghak%20%7C%201

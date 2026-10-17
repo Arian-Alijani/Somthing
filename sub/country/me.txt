@@ -1,1 +1,0 @@
-vless://d4733e5a-5850-4523-942e-f28f82ebf4a9@31.57.190.15:443?path=%2F&security=tls&encryption=none&insecure=0&host=party-5cn.pages.dev&type=ws&allowInsecure=0&sni=party-5cn.pages.dev#%F0%9F%87%B2%F0%9F%87%AA%20ME%20%7C%20%40v2ray_dalghak%20%7C%207
