@@ -1,2 +1,1 @@
-ss://YWVzLTEyOC1nY206MmJmNTM2YTRiZDYwMDg1MTE3MzRhNTA1ZDI0OGRlMmM@86.106.84.194:13261#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40v2ray_dalghak%20%7C%2013
 trojan://g44i2hzwivmm7r29@195.15.202.111:4455?security=reality&pbk=f4lHcjcn_RbaaNCQonkTpOyRhfPKWYxpYvL03kCXemo&headerType=none&fp=firefox&spx=%2F824fc1bd087b613&type=tcp&sni=play-apps-features.googleusercontent.com&sid=befb#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40vpnplusee_free%20%7C%204
