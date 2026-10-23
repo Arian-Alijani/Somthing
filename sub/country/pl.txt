@@ -1,3 +1,4 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40prroxyng%20%7C%2017
+vless://05488656-d4bf-4634-8b2e-e4ff5a56c7e2@82.118.22.161:443?security=reality&encryption=none&pbk=xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.cloudflare.com&sid=fa3ea655619a3e78#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40Farah_VPN%20%7C%2019
 vless://7918e6f6-df8f-4a20-9c1d-59dbd1f22770@pl3.richforever.ru:2096?encryption=none&fp=chrome&mode=auto&path=%2Fxhttp&pbk=lQcmwpXJsT5tdh9mQhcsDyiDNFe0nAVLvSc_5WnfqSY&security=reality&sni=pl3.richforever.ru&type=xhttp#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40V2raysCollector%20%7C%201
-trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl1.dedushka.top:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=pl1.dedushka.top#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40V2RAYROZ%20%7C%208
+trojan://4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA@pl1.dedushka.top:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=pl1.dedushka.top#%F0%9F%87%B5%F0%9F%87%B1%20PL%20%7C%20%40V2RAYROZ%20%7C%2011
