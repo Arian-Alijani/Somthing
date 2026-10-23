@@ -1,1 +1,1 @@
-vless://6e74e8ba-9f93-4229-8c3a-8132992948c9@rom.color-shop.ir:8080?security=none&encryption=mlkem768x25519plus.native.0rtt._Lo8Y8qK1GrcRZ1xRptYizqgpC1iKA8dK6rsci6hoAw&host=play.google.com&headerType=none&type=tcp#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40v2ray_dalghak%20%7C%2012
+vless://6e74e8ba-9f93-4229-8c3a-8132992948c9@rom.color-shop.ir:8080?security=none&encryption=mlkem768x25519plus.native.0rtt._Lo8Y8qK1GrcRZ1xRptYizqgpC1iKA8dK6rsci6hoAw&host=play.google.com&headerType=none&type=tcp#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40v2ray_dalghak%20%7C%2013
