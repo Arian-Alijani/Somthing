@@ -1,1 +1,0 @@
-vless://ce71b8c2-54a4-4dd0-b780-a4521b16f2ff@1.bmi.ir.asopardaz.ir:443?security=reality&encryption=none&pbk=JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=timeline.www.cloudflare.com&sid=e915#%F0%9F%87%A7%F0%9F%87%AC%20BG%20%7C%20%40V2All%20%7C%2017
