@@ -1,2 +1,1 @@
 vless://6851d1b8-3650-494c-b8e6-61061a4c62ce@104.105.106.63:443?security=reality&encryption=none&pbk=u6-vrM8bIkfeYVonEEBcuSia4S50nuMpqvcyEGiOvRg&headerType=none&fp=chrome&spx=%2F4d100OQstu3D&type=tcp&flow=xtls-rprx-vision&sni=amp-api-edge.apps.apple.com&sid=56647f2d55866d07#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40FreeConfigForYou%20%7C%2013
-vless://80de563a-cac8-40ea-8cb0-4cb082dd92f9@5.178.109.174:14430?&sni=5.178.109.174&type=ws&headerType=none&host=5.178.109.174&path=%2Fvless#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40Farah_VPN%20%7C%203
