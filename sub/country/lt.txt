@@ -1,2 +1,0 @@
-vless://5504eaa8-1395-402f-8e0e-75ecd762e627@88.216.69.253:443?cs=semi-python&path=%2Ffdtiouasopeiyre0r95y8&security=tls&alpn=http%2F1.1&encryption=none&fm=tlshello-0-len&insecure=0&host=server8.9966338.xyz&fp=unsafe&type=ws&allowInsecure=0&sni=server8.9966338.xyz#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40SOSkeyNET%20%7C%207
-trojan://humanity@88.216.69.253:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.pleadcourt.org&type=ws&allowInsecure=0&sni=www.pleadcourt.org#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40SOSkeyNET%20%7C%2019
