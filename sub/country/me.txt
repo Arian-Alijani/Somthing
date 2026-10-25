@@ -1,1 +1,1 @@
-vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.17:443?path=/cart/docs/www/proxyip=108.160.132.132&security=tls&alpn=http/1.1&encryption=none&fm={#%F0%9F%87%B2%F0%9F%87%AA%20ME%20%7C%20%40Farah_VPN%20%7C%2015
+vless://e6df2095-a73c-4043-8693-8d5a03686870@31.57.190.49:443?&security=tls&fp=unsafe&alpn=http%2F1.1&sni=lucasjow.us.ci&type=ws&headerType=none&host=lucasjow.us.ci&path=%2Fcart%2Fdocs%2Fwww%2Fproxyip%3D108.160.132.132#%F0%9F%87%B2%F0%9F%87%AA%20ME%20%7C%20%40Farah_VPN%20%7C%2014
