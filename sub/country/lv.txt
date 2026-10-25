@@ -1,1 +1,0 @@
-trojan://humanity@85.31.102.163:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SOSkeyNET%20%7C%2010
