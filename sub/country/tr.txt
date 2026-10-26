@@ -1,6 +1,5 @@
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1dktOdWRWLU44QVVDcnlrUGl5em5B@location8.cpanel-host10.ir:56134#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40V2rayng_Fast%20%7C%2020
-vless://fb39cc1d-566d-57ec-864a-eadaa0d59edb@5.188.190.158:23958?security=none&encryption=none&host=play.google.com&headerType=http&type=tcp#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40V2All%20%7C%2016
-vless://5dc9999b-9810-4704-ab10-5d1691daeab6@93.114.98.95:8443?security=none&encryption=mlkem768x25519plus.native.0rtt.19i_4CkEI0IhUZJIEJLwrPjqag2rF-DXqA2Q1urikyk&host=play.google.com&headerType=http&type=tcp&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40SOSkeyNET%20%7C%201
+vless://6fab89df-d5c3-4d73-8df5-897ca352bfe8@87.120.106.130:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=pqro5mlb4c88.dopwiz.com#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40SOSkeyNET%20%7C%2012
 vless://ae9bcc43-5fd8-4891-b06e-1c93e2747ed9@45.74.178.41:719?path=%2Fapi%2Fv2%2Fxtrnwqjbkr%3Fed%3D2560&security=none&encryption=none&host=play.google.com&type=ws#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40configV2rayForFree%20%7C%2016
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYkM0M1dlTnh1REFYZG1RWmRrd1Z4@62.133.63.222:48981#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40v2rayTG%20%7C%209
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3ZXhOaU4xd0E3ZlZDT1Y4WWRPdkJO@77.83.245.116:9753#%F0%9F%87%B9%F0%9F%87%B7%20TR%20%7C%20%40v2rayTG%20%7C%2010
