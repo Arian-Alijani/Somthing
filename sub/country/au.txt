@@ -1,2 +1,1 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?security=none&type=ws&path=/&host=vms.lifetime37.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40SimChin_ir%20%7C%2011
-vless://36e89875-9c53-482b-bc41-d3890e9da176@51.161.204.244:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&flow=xtls-rprx-vision&sid=0ad08b47f498efd2&pbk=gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40Farah_VPN%20%7C%2022
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?security=none&type=ws&path=/&host=vms.lifetime37.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40SimChin_ir%20%7C%2014

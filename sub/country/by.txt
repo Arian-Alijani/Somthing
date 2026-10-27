@@ -1,1 +1,1 @@
-hysteria2://10be1dad-9952-4c5e-aa30-db435f69b727@13.143.188.156:4444?security=tls&insecure=0&sni=bl3.nexfile.net#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40SOSkeyNET%20%7C%2018
+vless://8cef7621-c6f0-486e-b51d-59c30c5b0b25@95.128.71.79:14430?encryption=none&host=95.128.71.79&path=/vless&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40Farah_VPN%20%7C%2011
