@@ -1,2 +1,1 @@
-vless://846cedee-2a52-0001-a0b9-11850ead6a8b@79.98.37.106:443?security=reality&encryption=none&pbk=USSepsAbvP9LpByHLV2xD2H8dq8GAJ6G0fINEqD4PAw&headerType=none&fp=edge&type=tcp&flow=xtls-rprx-vision&sni=ee-central.v8x2b.lol#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2ray_dalghak%20%7C%206
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2VTNwc1Iwc1F1UXhXWG9CSEI0S1REM1lhY3dRd1MyMVh2U0V5OQ@45.129.96.62:41348#%F0%9F%87%AA%F0%9F%87%AA%20EE%20%7C%20%40v2rayTG%20%7C%202
