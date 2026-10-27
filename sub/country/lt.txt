@@ -1,0 +1,1 @@
+vless://ab80fc7f-0a2b-4dd6-8e9c-f497001e7c73@admin.betust.net:443?security=reality&encryption=none&pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJXwqdE1138vu5x3w&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=admin.betust.net&sid=3e137406#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40SOSkeyNET%20%7C%201
