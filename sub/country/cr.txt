@@ -1,1 +1,2 @@
+vless://66969b2e-5e49-4750-9419-167d4bb64c07@190.93.244.20:443?path=%2F&security=tls&encryption=none&insecure=0&host=wallweb11.wallwebc992h7.workers.dev&fp=chrome&ech=cloudflare-ech.com%2Budp%3A%2F%2F1.1.1.1&type=ws&allowInsecure=0&sni=wallweb11.wallwebc992h7.workers.dev#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40SOSkeyNET%20%7C%2017
 vless://12ec6fe7-b8ea-4f7b-b7fc-e936da472605@190.93.244.17:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=&sni=howdy-fr-chanel.highposhako.ir#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40proxy48%20%7C%2017
