@@ -1,1 +1,0 @@
-vless://2c9718e5-a186-42e0-a57c-041f00fb3d68@104.105.136.93:2095?security=none&encryption=none&host=perf-prod.samsung.com&headerType=http&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40FreeConfigForYou%20%7C%2016
