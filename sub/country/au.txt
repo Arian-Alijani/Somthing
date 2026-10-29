@@ -1,1 +1,0 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@192.65.217.30:8880?security=none&type=ws&path=/&host=vms.lifetime37.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%A6%F0%9F%87%BA%20AU%20%7C%20%40SimChin_ir%20%7C%2020
