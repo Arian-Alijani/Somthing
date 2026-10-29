@@ -1,0 +1,2 @@
+vless://405b964e-a2d2-454f-aaaa-711cc218897c@5.253.28.240:40443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=deepl.com&fp=firefox&security=reality&pbk=cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0&sid=88b6#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40V2All%20%7C%201
+trojan://Tg3RnK7Xp8B1@64.176.96.237:443?security=tls&sni=ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com#%F0%9F%87%AE%F0%9F%87%B3%20IN%20%7C%20%40Farah_VPN%20%7C%208
