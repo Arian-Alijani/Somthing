@@ -1,1 +1,5 @@
-vless://d342d11e-d224-4463-b982-532309285094@141.11.139.215:443?security=tls&type=ws&path=%2F&host=ccc.010304.xyz&packetEncoding=xudp&sni=ccc.010304.xyz&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2017
+vless://2c9718e5-a186-42e0-a57c-041f00fb3d68@104.105.136.93:2095?security=none&encryption=none&host=perf-prod.samsung.com&headerType=http&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40FreeConfigForYou%20%7C%2034
+vless://3305c285-8d55-4f52-a3b0-2a582f5ffd59@155.248.166.225:8443?encryption=none&type=ws&path=%2F%3Fed%3D2048&host=sdwf-amq.pages.dev&security=tls&sni=sdwf-amq.pages.dev&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%2017
+vmess://eyJ2IjoiMiIsInBzIjoi8J+Hr/Cfh7UgSlAgfCBARmFyYWhfVlBOIHwgNCIsImFkZCI6IjE2OC4xMzguNDMuNzUiLCJwb3J0IjoiODAiLCJpZCI6IjExYzM2MjdmLTMxZTgtNDY5NS1kZmJkLTM0MDc2ZTJmMWY1ZCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0Ijoid3MiLCJ0eXBlIjoiIiwidGxzIjoiIiwicGF0aCI6Ii9jY3R2MTMubTN1OCIsImhvc3QiOiJqcDAxLmEwYS54eXoiLCJza2lwLWNlcnQtdmVyaWZ5Ijp0cnVlfQ==
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2032
+vless://a16a3336-c9ab-489f-9b85-c973f5e2cfa4@137.220.221.179:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2048

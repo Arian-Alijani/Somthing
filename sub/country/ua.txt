@@ -1,1 +1,2 @@
-vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%2011
+vless://dbda40e2-25b5-416c-8d35-56d07e8dcdbc@92.113.107.120:443?encryption=none&fp=firefox&path=%2Fws&security=tls&sni=indigostar.click&type=ws#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40V2All%20%7C%2037
+vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%2010

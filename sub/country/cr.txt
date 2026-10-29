@@ -1,2 +1,1 @@
-vless://aef32408-b6f3-4ed9-8d70-983b2df79991@190.93.246.231:443?path=%2Fstream%2FDEVCOP%2F983b2df79991%2Floc-1&security=tls&encryption=none&insecure=0&host=nisit-h7qx.matinnnamiri.workers.dev&fp=unsafe&type=ws&allowInsecure=0&sni=nisit-h7qx.matinnnamiri.workers.dev#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40V2All%20%7C%2018
 vless://12ec6fe7-b8ea-4f7b-b7fc-e936da472605@190.93.244.17:443?mode=gun&security=tls&encryption=none&alpn=h2&authority=&fp=chrome&type=grpc&serviceName=&sni=howdy-fr-chanel.highposhako.ir#%F0%9F%87%A8%F0%9F%87%B7%20CR%20%7C%20%40proxy48%20%7C%2017
