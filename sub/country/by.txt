@@ -1,1 +1,1 @@
-vless://8d42d29a-ed53-4684-a9ff-6b33826149de@95.130.84.36:8443?&security=tls&fp=unsafe&sni=aio.eth0.dpdns.org&type=ws&headerType=none&host=aio.eth0.dpdns.org&path=%2Faioproxybot%2F94.23.144.99-2053#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40Farah_VPN%20%7C%2018
+vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:14430?security=none&type=ws&path=%2Fvless&host=178.172.227.228&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40Farah_VPN%20%7C%2010

@@ -1,1 +1,2 @@
+trojan://humanity@131.196.254.151:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=0&host=www.pleadcourt.org&fp=unsafe&type=ws&allowInsecure=0&sni=www.pleadcourt.org#%F0%9F%87%B2%F0%9F%87%BD%20MX%20%7C%20%40V2All%20%7C%208
 vless://3e21e3d3-6d26-4155-b851-764dd8e8c6b5@156.252.229.11:8443?security=reality&encryption=none&pbk=7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A&headerType=none&fp=chrome&type=tcp&sni=play.googleapis.com&sid=974f7f8f#%F0%9F%87%B2%F0%9F%87%BD%20MX%20%7C%20%40payam_nsi%20%7C%2011
