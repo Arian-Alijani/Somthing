@@ -1,6 +1,6 @@
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40V2rayng_Fast%20%7C%209
-vless://cdd6bfce-781a-4454-b7d5-4778abb5c24f@45.43.75.207:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40SOSkeyNET%20%7C%2013
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40prroxyng%20%7C%2017
+vless://8e790f25-1d71-4601-9fb0-d503931dcfca@51.89.194.151:2053?security=reality&encryption=none&pbk=xPEBx4wUmwAAv4ikUALNBf5wH6TRhyeQ0Q2pcNELsV0&headerType=none&fp=chrome&type=tcp&sni=www.apple.com&sid=d051f678212f9d54#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40Farah_VPN%20%7C%2013
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40planB_net%20%7C%2010
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%209
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2010
 vless://8ccf9188-925e-4287-efd2-04002478ddb5@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2011
