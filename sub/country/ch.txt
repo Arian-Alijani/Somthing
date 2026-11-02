@@ -1,2 +1,1 @@
-vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=swz.proxyplankton.ru#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%2010
-vless://53f03acd-fec1-6685-fc8f-03baf9550cb8@195.141.65.98:443?&security=tls&fp=chrome&alpn=http%2F1.1&sni=148-253-210-191.sslip.io&type=ws&headerType=none&host=148-253-210-191.sslip.io&path=%2Ftest-ws#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40Farah_VPN%20%7C%2019
+vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=swz.proxyplankton.ru#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%2013
