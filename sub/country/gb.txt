@@ -1,10 +1,9 @@
-vless://9f61cdf4-810d-4052-bbc7-2da0c8e20104@83.147.18.3:443?encryption=none&flow=xtls-rprx-vision&type=raw&security=reality&sni=www.cloudflare.com&pbk=3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA&sid=fd8cf7e1173f0edb&headertype=none#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40V2All%20%7C%207
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.135.43.120:22223?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40v2ray_dalghak%20%7C%208
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@13.135.43.120:22222?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40v2ray_dalghak%20%7C%209
 vless://e4514801-0d5a-42ba-869f-39bd605aef9e@16.60.204.51:22224?encryption=none&security=none&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40v2ray_dalghak%20%7C%2017
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@45.87.175.28:8080#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40prroxyng%20%7C%2017
 ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443?#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40fast78_channel%20%7C%2010
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40planB_net%20%7C%201
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.181:443#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40planB_net%20%7C%2012
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%209
 vless://10620434-ba3a-496d-f218-2019ecdf34de@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2010
 vless://8ccf9188-925e-4287-efd2-04002478ddb5@8.208.10.169:8443?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&type=grpc&serviceName=@narcod_ping&sni=narcod.numallas.space#%F0%9F%87%AC%F0%9F%87%A7%20GB%20%7C%20%40narcod_ping%20%7C%2011
