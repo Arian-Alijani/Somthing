@@ -1,2 +1,1 @@
-vless://689a62e4-37e7-41de-9e6a-f2a56368c9e2@178.208.89.21:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=prod-eu-east-cz6.api-gateway.service-mesh.ingress-observability.speedtestinternet.link&fp=firefox#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40V2All%20%7C%206
-vless://d6eb8a46-e6a4-4891-b22e-dfaa609c6afd@153.76.190.31:2083?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0&sni=speedtestmark.com#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40payam_nsi%20%7C%204
+vless://d6eb8a46-e6a4-4891-b22e-dfaa609c6afd@153.76.190.31:2083?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0&sni=speedtestmark.com#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40payam_nsi%20%7C%207
