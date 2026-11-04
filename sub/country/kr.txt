@@ -1,2 +1,1 @@
-ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ@141.164.45.187:8000#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40v2ray_dalghak%20%7C%2018
-ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@141.164.45.187:9090#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40v2ray_dalghak%20%7C%2019
+vless://a2de9567-9646-45a9-a410-7303a43bdb6c@151.245.106.49:2053?security=reality&type=tcp&packetEncoding=xudp&sni=www.cloudflare.com&fp=firefox&sid=429499c03d4cc8a0&pbk=F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2010
