@@ -1,1 +1,2 @@
-vless://d6eb8a46-e6a4-4891-b22e-dfaa609c6afd@153.76.190.31:2083?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0&sni=speedtestmark.com#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40payam_nsi%20%7C%207
+vless://a44a1eab-1f2d-435e-b324-3c9e73d975bc@89.125.237.245:443?security=reality&encryption=none&pbk=IiBlvTjhPXcCixjqH6n6Cz3RWbeQjHepWtfIi28mly4&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.google.com&sid=9f2c4a7b1d6e8035#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40v2ray_dalghak%20%7C%2014
+vless://d6eb8a46-e6a4-4891-b22e-dfaa609c6afd@153.76.190.31:2083?path=%2Fvless-ws&security=tls&encryption=none&insecure=0&fp=ios&type=ws&allowInsecure=0&sni=speedtestmark.com#%F0%9F%87%A8%F0%9F%87%BF%20CZ%20%7C%20%40payam_nsi%20%7C%208
