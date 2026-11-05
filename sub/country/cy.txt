@@ -1,3 +1,0 @@
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.58:8880?encryption=none&security=none&type=grpc#%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20%40prroxyng%20%7C%2025
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.63:8880?encryption=none&security=none&type=grpc#%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20%40prroxyng%20%7C%2026
-vless://e4824193-4f54-453b-d037-88368e85ef0e@45.82.251.93:8880?encryption=none&security=none&type=grpc#%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20%40prroxyng%20%7C%2027

@@ -1,7 +1,3 @@
-hysteria2://41d4f8b3-2a45-4531-a33b-938e2eebb939@oh.sbbz.tech:443?sni=oh.sbbz.tech&obfs=salamander&obfs-password=sbxbz19890604#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%40v2ray_dalghak%20%7C%2038
-hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2013
-hysteria2://782efefcaac2a7f26e2be42f7bc5d75a@quran.mci.ai:443?security=tls&insecure=1&sni=quran.mci.ai#%40NTGreenplus%20%7C%2014
-hysteria2://1af84dc4749dbc10031389e03a96ba96@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2018
-hysteria2://1af84dc4749dbc10031389e03a96ba96@speedtest.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2019
-hysteria2://3abf62e72dfe55333b6dd59112f4ae71@speedtest.mci.ai:443?security=tls&insecure=0&sni=speedtest.mci.ai#%40NTGreenplus%20%7C%2020
-hysteria2://xo43w4tc13ou2h3x@mein-1.octavia.dpdns.org:60000?security=tls&obfs=salamander&obfs-password=ckwudzzsfoltmbmi&insecure=0&sni=main-1.octavia.dpdns.org#%F0%9F%87%B8%F0%9F%87%AA%20SE%20%7C%20%40daily_configs%20%7C%2010
+hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2014
+hysteria2://782efefcaac2a7f26e2be42f7bc5d75a@quran.mci.ai:443?security=tls&insecure=1&sni=quran.mci.ai#%40NTGreenplus%20%7C%2015
+hysteria2://1af84dc4749dbc10031389e03a96ba96@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2019

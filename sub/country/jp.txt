@@ -1,7 +1,0 @@
-vless://2c9718e5-a186-42e0-a57c-041f00fb3d68@104.105.136.93:2095?security=none&encryption=none&host=perf-prod.samsung.com&headerType=http&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40FreeConfigForYou%20%7C%2049
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?security=reality&encryption=none&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&host=%2F%3FTELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=www.apple.com&sid=48050fab#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2rayng_Fast%20%7C%2013
-ss://YWVzLTI1Ni1nY206QmVhVWY5YzBBRVdINDBQdQ==@154.36.158.197:8388#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%2035
-trojan://b17e9b52db9623bd6c16eea3d7adb5b3@ench-snet-app.w-ctrip.cn:14699?sni=fe-static.deepseek.com&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40V2All%20%7C%2050
-trojan://8deb189a-3aed-4865-843b-b72dae954c46@175.41.232.194:443?sni=api.85s.me&type=ws&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SOSkeyNET%20%7C%207
-trojan://8deb189a-3aed-4865-843b-b72dae954c46@172.233.91.12:443?sni=api.85s.me&type=ws&allowInsecure=1#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40v2ray_dalghak%20%7C%2011
-vless://a16a3336-c9ab-489f-9b85-c973f5e2cfa4@137.220.221.179:443?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2046
