@@ -1,0 +1,2 @@
+vless://2b0e5676-fb62-4bf0-9607-6e7818421e8e@62.83.41.69:8443?path=%2FAU6W&security=tls&encryption=none&insecure=0&host=au6.pad-sservice.lat&fp=firefox&type=ws&allowInsecure=0&sni=au6.pad-sservice.lat#%F0%9F%87%A6%F0%9F%87%B9%20AT%20%7C%20%40FreeConfigForYou%20%7C%2025
+vless://706bce83-91db-4260-b175-cba29145cd56@193.8.215.116:8443?security=reality&encryption=none&pbk=HhT-m2xbI4X_o99Hzkh40v-r32sIydYNCbA7Bnqh7AY&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=aezau1.uni-plan.com&sid=8f0f92607e5b353c#%F0%9F%87%A6%F0%9F%87%B9%20AT%20%7C%20%40fast78_channel%20%7C%2042
