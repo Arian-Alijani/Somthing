@@ -1,1 +1,1 @@
-vless://5de0c218-0138-45d8-94d2-c2c3f37a1a6d@94.183.234.245:443?security=reality&type=tcp&packetEncoding=xudp&sni=www.bing.com&fp=qq&flow=xtls-rprx-vision&sid=7f1e29593aa94ad1&pbk=tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc&encryption=none#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40Farah_VPN%20%7C%2018
+vless://3694cbd9-986b-4bf3-95df-3649b37ccb47@latvia.zovip2.ir:443?encryption=none&security=tls&sni=sync.zovip2.ir&fp=chrome&alpn=http%2F1.1&type=ws&host=sync.zovip2.ir&path=%2Fapi%2Fv3%2Fpulse#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SOSkeyNET%20%7C%207
