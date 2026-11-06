@@ -1,3 +1,4 @@
+trojan://abbrhagrwexxna4v@89.42.196.114:443?security=none&headerType=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40V2All%20%7C%209
 vless://018a9e2e-9bfd-4a9e-a20d-c07eb53fa439@91.234.39.183:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%2018
 ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZHMvYkw1aVk3MGcwTFVZK3FqUEJ5ZDJLNW9mc2pTSTJUMUN0Rm5nYU9DWT06Q0FMQkV3KzI1KzAzK3A4UVBZSW9mcEo1MnJyYnVTWFAveG1WUE91Tkxicz0@185.126.6.177:8080#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40one_shop_official%20%7C%2015
 vless://348cd64e-a551-422b-93f2-55e34fdb1601@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40proxy48%20%7C%2013
