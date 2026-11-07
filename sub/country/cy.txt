@@ -1,1 +1,0 @@
-vless://3c4aa500-e3ae-4778-837b-f02dfea8c85f@45.83.85.4:443?encryption=none&security=reality&sni=velka.qikbro.com&pbk=yG9PCRThFyrRI10PjbNzQPvWzjnvxGbzwzHuvYMWRys&sid=6300ca9f9d90b6f3&type=xhttp&host=velka.qikbro.com&path=%2Fassets%2Fjs%2Fapp.043c9513.js&mode=auto#%F0%9F%87%A8%F0%9F%87%BE%20CY%20%7C%20%40daily_configs%20%7C%2015
