@@ -1,1 +1,1 @@
-vless://3694cbd9-986b-4bf3-95df-3649b37ccb47@latvia.zovip2.ir:443?encryption=none&security=tls&sni=sync.zovip2.ir&fp=chrome&alpn=http%2F1.1&type=ws&host=sync.zovip2.ir&path=%2Fapi%2Fv3%2Fpulse#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40SOSkeyNET%20%7C%207
+vless://5234b2b7-5e07-422c-8159-d62a676c00c6@138.124.180.137:443?flow=xtls-rprx-vision&fp=chrome&pbk=GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c&security=reality&sid=33acba1b&sni=www.apple.com&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20LV%20%7C%20%40Farah_VPN%20%7C%2019
