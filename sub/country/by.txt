@@ -1,2 +1,0 @@
-vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@13.143.188.143:4443?mode=auto&path=%2Fapi%2Fv1%2Fsync%2F&security=tls&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=bl1.nexfile.net#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40V2All%20%7C%2017
-vless://b6e5dc56-836f-48c1-9163-b0b0b43b647d@178.172.227.228:14430?security=none&type=ws&path=%2Fvless&host=178.172.227.228&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40Farah_VPN%20%7C%2017
