@@ -1,1 +1,0 @@
-vless://e15db5c2-2dca-49fc-857b-aa37a7ba1c79@43.108.85.54:443?security=reality&type=tcp&packetEncoding=xudp&sni=cloudflare.com&fp=chrome&sid=68307e&pbk=v5HjgwMvPEsrpqwtgEytMQ3xs-1Cdv2gOCiGMZ2vimc#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2017
