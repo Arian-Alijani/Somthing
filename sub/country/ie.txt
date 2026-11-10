@@ -1,3 +1,4 @@
-vless://68a67906-5b37-4779-a6cc-58a1655f18b4@api-austria.locallynet.org:6443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=api-austria.locallynet.org#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40FreakConfig%20%7C%2018
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdTdmRnhTZ3VDZkNGT2hZ@20.166.51.228:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40JKVPN%20%7C%204
+ss://YWVzLTEyOC1nY206ODgxY2YzOWFmZmM1Mjg2Nzk5YTU4NWYxYWNkMjRkMTE@146.70.90.198:17456#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40Farah_VPN%20%7C%2013
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHMnNobGJlUlhkRTQ1YVZB@20.166.20.135:443?#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40daily_configs%20%7C%202
