@@ -1,1 +1,0 @@
-vless://7828f609-b904-4843-8cc9-c6d94cc0005c@portaa.qik-server.uk:443?mode=stream-one&path=%2Fstatic%2Fjs%2Fchunk&security=tls&alpn=h2&encryption=none&insecure=0&host=portaa.qik-server.uk&fp=qq&type=xhttp&allowInsecure=0&sni=portaa.qik-server.uk#%F0%9F%87%B5%F0%9F%87%B9%20PT%20%7C%20%40SOSkeyNET%20%7C%2017
