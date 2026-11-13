@@ -1,3 +1,4 @@
+vless://1bde5f41-f235-482f-8d05-b9e8b21cfe42@Ir.mamad.web.tr:58336?security=reality&encryption=mlkem768x25519plus.native.0rtt.Y5nLdmocDwq2WjH6kcFkl5zVoPxg-Y9rL2xJ2iz_BwI&pbk=0-Lz5hw7uv9pfGdw_PX9C-H4euFb5vY6KKylQBhB8Rg&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=aws.amazon.com&sid=19386c76f700ed04#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40V2All%20%7C%2014
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHMnNobGJlUlhkRTQ1YVZB@68.219.96.146:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40bored_vpn%20%7C%2016
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ek42V0R3NVdiYWQ3WlZi@20.223.152.73:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40v2rayTG%20%7C%208
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLdTdmRnhTZ3VDZkNGT2hZ@20.166.51.228:443#%F0%9F%87%AE%F0%9F%87%AA%20IE%20%7C%20%40JKVPN%20%7C%204

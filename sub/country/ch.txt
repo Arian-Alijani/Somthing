@@ -1,3 +1,0 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.19:443?#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40Farah_VPN%20%7C%207
-vless://90157e25-cee1-4217-921e-91f300bc1a24@31.7.60.250:443?security=reality&encryption=none&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&host=/%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=perevodchiki.su&sid=428ef87fd47a3a32#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40planB_net%20%7C%209
-vless://90157e25-cee1-4217-921e-91f300bc1a24@31.7.60.250:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=31.7.60.250&pbk=1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs&sid=428ef87fd47a3a32&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40daily_configs%20%7C%2017
