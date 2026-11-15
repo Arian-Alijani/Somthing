@@ -1,1 +1,0 @@
-vless://4201786b-d99b-4147-a5f0-20d47acddb81@79.182.70.212:443?security=reality&type=tcp&packetEncoding=xudp&sni=7aa271t.es1.h1clayd.click&fp=firefox&flow=xtls-rprx-vision&sid=42426c882c5fcd41&pbk=ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE&encryption=none#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40Farah_VPN%20%7C%2011
