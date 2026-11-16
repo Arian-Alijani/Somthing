@@ -1,1 +1,2 @@
-vless://3170d33c-f0f1-49a8-93c5-241fe5b985dc@pix.gilangard.ir:8443?encryption=none&security=tls&sni=Wr-MtRzB2.mAnIyAdG7sHaRd.iR&alpn=h3%2Ch2%2Chttp/1.1&type=xhttp&host=Wr-MtRzB2.mAnIyAdG7sHaRd.iR&path=/&mode=auto&extra=%7B%22scMaxEachPostBytes%22%3A+1000000%2C+%22scMaxConcurrentPosts%22%3A+100%2C+%22scMinPostsIntervalMs%22%3A+30%2C+%22xPaddingBytes%22%3A+%22100-1000%22%2C+%22noGRPCHeader%22%3A+false%7D#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40v2ray_dalghak%20%7C%207
+ss://YWVzLTI1Ni1jZmI6bXdnUmc5aFJxM2I0UW53Yg@195.238.126.20:9068#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40V2All%20%7C%2020
+ss://YWVzLTI1Ni1jZmI6VWtYUnNYdlI2YnVETUcyWQ@195.238.126.20:9001#%F0%9F%87%B1%F0%9F%87%B9%20LT%20%7C%20%40SOSkeyNET%20%7C%208
