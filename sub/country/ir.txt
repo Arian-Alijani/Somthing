@@ -1,7 +1,7 @@
-ss://MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206bTk0T0lpYklyTG11VUtPdDhFSWtZUT09OjY1NXRtWTBUMGUxMVh6YlF3SkpSb1E9PQ==@afg.pasmazy1.ir:6782#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40v2ray_dalghak%20%7C%2016
+vless://73e08fcb-a0c7-45d0-b55d-f78c903c64a6@dl3.gooniforoshi.fun:443?path=%2Fdownload.php&security=tls&encryption=none&insecure=0&host=dl3.gooniforoshi.fun&type=ws&allowInsecure=0&sni=dl3.gooniforoshi.fun#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40SOSkeyNET%20%7C%2018
 vless://018a9e2e-9bfd-4a9e-a20d-c07eb53fa439@91.234.39.183:8080?path=%2F&security=none&encryption=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40configV2rayForFree%20%7C%2018
-vless://1942ae5f-ed90-4bba-b842-204073b9f0ca@94.182.108.34:31272?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40one_shop_official%20%7C%209
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpfdVhVVF9pZ3R0c0Z3V2s3UzhNaFA1UDVTXzllRmRJbg@p1tun2.greewebservices.ir:2050#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40one_shop_official%20%7C%2011
+vless://1942ae5f-ed90-4bba-b842-204073b9f0ca@94.182.108.34:31272?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40one_shop_official%20%7C%2010
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpfdVhVVF9pZ3R0c0Z3V2s3UzhNaFA1UDVTXzllRmRJbg@p1tun2.greewebservices.ir:2050#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40one_shop_official%20%7C%2012
 vless://348cd64e-a551-422b-93f2-55e34fdb1601@193.107.48.54:443?security=none&encryption=none&headerType=http&type=tcp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40proxy48%20%7C%2013
 vless://e8cbc051-e0ac-452d-9bd3-8ad46625573c@arvancloud.ir:8080?mode=auto&path=%2F&security=&encryption=none&host=r.cafeplusstore.ir&type=xhttp#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40UnlimitedDev%20%7C%2012
 vless://Telegram-Parsashonam-12@79.175.189.145:443?mode=auto&path=%2Fp4r34m&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=p4r34m.hendevan…#%F0%9F%87%AE%F0%9F%87%B7%20IR%20%7C%20%40Parsashonam%20%7C%203
