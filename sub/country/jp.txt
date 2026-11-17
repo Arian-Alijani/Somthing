@@ -1,4 +1,1 @@
-vless://57beeeb0-03fc-4fc9-94da-7604488a7134@zfapi.zalolink.com:47691?security=reality&encryption=none&pbk=6PbC7GxOg_YdXya-53llPReUzoU_yknQbkDvI4uorBg&headerType=none&fp=safari&type=tcp&flow=xtls-rprx-vision&sni=m.media-amazon.com&sid=2905326a&host=/%3FTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40planB_net%20%7C%2016
-vless://2c9718e5-a186-42e0-a57c-041f00fb3d68@104.105.136.93:2095?security=none&encryption=none&host=perf-prod.samsung.com&headerType=http&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40FreeConfigForYou%20%7C%2048
-trojan://5398a62d-6fae-465d-8ffe-19418a8b561e@c-cm.jiasu.one:56262?sni=hk06.jiasu.one#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%202
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40Farah_VPN%20%7C%2025
+trojan://5398a62d-6fae-465d-8ffe-19418a8b561e@c-cm.jiasu.one:56262?sni=hk06.jiasu.one#%F0%9F%87%AF%F0%9F%87%B5%20JP%20%7C%20%40SimChin_ir%20%7C%204

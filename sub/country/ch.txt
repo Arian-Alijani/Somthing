@@ -1,10 +1,5 @@
-trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.33:443?security=tls&sni=courses.yourultimateprofessionalcareerhub.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40V2All%20%7C%2028
-vless://7c3f08c8-7b3b-4028-91d8-378a18c2b62a@185.227.149.123:443?security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&headerType=none&fp=qq&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=mycatcollection.com&sid=6ba85179e30d4fc2#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40V2RAY_VMESS_free%20%7C%2049
-vless://9dd38d60-e683-47c6-bd53-d71bdfee78f3@179.43.187.67:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=portal.mavexa.ir#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%204
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@79.127.184.104:19999#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%205
-vless://054362fb-e485-4a3f-9568-4c5b0f60e074@149.33.15.213:443?security=tls&encryption=none&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=swz.proxyplankton.ru#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%2036
-trojan://g44i2hzwivmm7r29@195.15.202.111:4455?security=reality&pbk=f4lHcjcn_RbaaNCQonkTpOyRhfPKWYxpYvL03kCXemo&headerType=none&fp=firefox&spx=%2F824fc1bd087b613&type=tcp&sni=play-apps-features.googleusercontent.com&sid=befb#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40vpnplusee_free%20%7C%204
+vless://9dd38d60-e683-47c6-bd53-d71bdfee78f3@179.43.187.67:443?security=tls&encryption=none&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=portal.mavexa.ir#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%205
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@79.127.184.104:19999#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40one_shop_official%20%7C%206
 trojan://0ab6c98dae3b48e8b9c4a776b6c9c19a@208.69.78.19:443?#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40Farah_VPN%20%7C%204
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@23.166.88.127:19999#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40Farah_VPN%20%7C%2040
 vless://9dd38d60-e683-47c6-bd53-d71bdfee78f3@179.43.187.67:443?security=tls&encryption=none&headerType=none&type=tcp&sni=portal.mavexa.ir#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40V2RAYROZ%20%7C%202
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0%3D@79.127.184.104:19999#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40V2RAYROZ%20%7C%204
+ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0%3D@79.127.184.104:19999#%F0%9F%87%A8%F0%9F%87%AD%20CH%20%7C%20%40V2RAYROZ%20%7C%2012
