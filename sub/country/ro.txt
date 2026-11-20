@@ -1,1 +1,0 @@
-vless://32ea050a-1981-4ed2-b63f-77e0f53c4b65@cdn4.velmoradigital.store:2443?security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=cdn4.velmoradigital.store#%F0%9F%87%B7%F0%9F%87%B4%20RO%20%7C%20%40V2RAYROZ%20%7C%2016
