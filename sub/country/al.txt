@@ -1,2 +1,2 @@
-vless://58e22afd-bf74-4736-984d-63a8ca03d7f0@leviko-al8733.shopingggg.ir:443?encryption=none&security=tls&sni=nl.lucheeebezlimitnoekino.stream&type=ws&path=%2Fmedia%2Fws%2F#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40SOSkeyNET%20%7C%2012
+vless://58e22afd-bf74-4736-984d-63a8ca03d7f0@147.45.221.225:443?path=%2Fmedia%2Fws%2F&security=tls&encryption=none&insecure=0&type=ws&allowInsecure=0&sni=nl.lucheeebezlimitnoekino.stream#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40v2ray_dalghak%20%7C%2050
 ss://YWVzLTI1Ni1nY206dHhtSzlXaHdQNldQaFA3aHFTQkxWeHBO@31.171.153.133:34687#%F0%9F%87%A6%F0%9F%87%B1%20AL%20%7C%20%40SimChin_ir%20%7C%204
