@@ -1,0 +1,11 @@
+{
+  "per_channel": 50,
+  "max_pages": 30,
+  "workers": 20,
+  "request_timeout": 100,
+  "retries": 5,
+  "geoip": "on",
+  "channel_source": "listed",
+  "channels": "",
+  "utc_hours": "00,05,10,15,20"
+}
