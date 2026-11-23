@@ -26,7 +26,6 @@ import base64
 import binascii
 import gzip
 import hashlib
-import html
 import io
 import json
 import os
@@ -34,12 +33,14 @@ import re
 import socket
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 import zlib
 from collections import OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
+from html.parser import HTMLParser
 
 # اطمینان از خروجی UTF-8 روی هر سیستم‌عاملی (مثلاً کنسول ویندوز با cp1252)
 for _stream in (sys.stdout, sys.stderr):
@@ -103,13 +104,13 @@ PROTOCOLS = (
 
 # الگوی استخراج لینک کانفیگ از داخل متن (با هر اسکیمی از لیست بالا)
 _SCHEME_GROUP = "|".join(re.escape(p) for p in PROTOCOLS)
-CONFIG_RE = re.compile(r"\b(?:" + _SCHEME_GROUP + r")://[^\s<>\"'`]+", re.IGNORECASE)
-
-# الگوی استخراج بلوک‌های base64 که ممکن است چندین کانفیگ در خود داشته باشند
-B64_BLOCK_RE = re.compile(r"[A-Za-z0-9+/=_\-]{40,}")
-
-# الگوی تشخیص host:port برای فیلتر کردن لینک‌های غیرکانفیگ (مثل http://example.com)
-PORT_RE = re.compile(r":\d{2,5}\b")
+_SCHEME_START = r"(?:" + _SCHEME_GROUP + r")://"
+CONFIG_RE = re.compile(
+    r"(?<![\w+.-])" + _SCHEME_START + r"[^\s<>\"'`“”‘’«»]+", re.IGNORECASE
+)
+B64_BLOCK_RE = re.compile(r"(?<![A-Za-z0-9+/_=-])[A-Za-z0-9+/_-]{32,}={0,2}(?![A-Za-z0-9+/_=-])")
+_ADJACENT_RE = re.compile(r"[,;،](?=" + _SCHEME_START + r")", re.IGNORECASE)
+_INVISIBLE = str.maketrans("", "", "\u200b\u200e\u200f\u202a\u202b\u202c\u202d\u202e\u2066\u2067\u2068\u2069\ufeff")
 
 # ----------------------------- دسته‌بندی ----------------------------------
 # هر دسته: key -> (نام نمایشی، ایموجی). ترتیب همین‌جا ترتیب نمایش در README است.
@@ -201,6 +202,8 @@ def fetch(url):
                 return _decode_response(resp)
         except Exception as e:  # noqa: BLE001
             last_err = e
+            if isinstance(e, urllib.error.HTTPError) and 400 <= e.code < 500 and e.code not in (408, 429):
+                break
             if attempt < RETRIES:
                 time.sleep(2 * attempt)  # فقط بین تلاش‌ها مکث می‌کنیم، نه بعد از آخرین
     print(f"    ! خطا در دریافت {url}: {last_err}", file=sys.stderr)
@@ -209,116 +212,186 @@ def fetch(url):
 
 # ----------------------------- پارس چنل‌ها --------------------------------
 def normalize_channel(line):
-    """تبدیل هر فرمت ورودی به نام کاربری خالص چنل."""
-    line = line.strip()
-    if not line or line.startswith("#"):
+    """Accept public usernames and t.me channel/post URLs, not invites or numeric IDs."""
+    value = line.strip()
+    if not value or value.startswith("#"):
         return None
-    line = line.split()[0]
-    line = line.replace("https://", "").replace("http://", "")
-    line = line.replace("t.me/s/", "").replace("t.me/", "")
-    line = line.lstrip("@/")
-    line = line.split("/")[0].split("?")[0]
-    return line or None
+    value = value.split()[0]
+    try:
+        if value.lower().startswith(("http://", "https://", "t.me/")):
+            url = urllib.parse.urlsplit(value if "://" in value else "https://" + value)
+            if url.netloc.lower() != "t.me":
+                return None
+            parts = url.path.strip("/").split("/")
+            if parts[0] == "s" and len(parts) > 1:
+                parts.pop(0)
+            if len(parts) > 2 or (len(parts) == 2 and not re.fullmatch(r"[0-9]+", parts[1])):
+                return None
+            value = parts[0]
+        else:
+            value = value.removeprefix("@")
+    except ValueError:
+        return None
+    if value.lower() in {"c", "s", "joinchat", "proxy", "socks", "share", "addstickers"}:
+        return None
+    return value if re.fullmatch(r"[A-Za-z][A-Za-z0-9_]{0,31}", value) else None
 
 
 def load_channels():
-    if not os.path.exists(CHANNELS_FILE):
+    try:
+        with open(CHANNELS_FILE, encoding="utf-8-sig") as f:
+            channels = {}
+            for line in f:
+                ch = normalize_channel(line)
+                if ch:
+                    channels.setdefault(ch.lower(), ch)
+                elif line.strip() and not line.lstrip().startswith("#"):
+                    print(f"رد شدن شناسهٔ نامعتبر در channels.txt: {line.strip()!r}", file=sys.stderr)
+    except FileNotFoundError:
         print(f"فایل {CHANNELS_FILE} پیدا نشد.", file=sys.stderr)
         return []
-    seen = OrderedDict()
-    with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
-        for line in f:
-            ch = normalize_channel(line)
-            if ch:
-                seen[ch.lower()] = ch
-    return list(seen.values())
+    return list(channels.values())
+
+
+def select_channels(source, values=""):
+    if source not in ("listed", "custom"):
+        raise ValueError("channel source must be listed or custom")
+    tokens = [value for value in re.split(r"[\s,،;]+", values.strip()) if value]
+    requested = {}
+    for token in tokens:
+        channel = normalize_channel(token)
+        if not channel:
+            raise ValueError(f"شناسهٔ عمومی تلگرام نامعتبر است: {token!r}")
+        requested.setdefault(channel.lower(), channel)
+    if source == "custom":
+        if not requested:
+            raise ValueError("برای حالت custom حداقل یک شناسهٔ عمومی وارد کنید.")
+        return list(requested.values())
+    listed = load_channels()
+    if not requested:
+        return listed
+    missing = requested.keys() - {ch.lower() for ch in listed}
+    if missing:
+        raise ValueError("این کانال‌ها در channels.txt نیستند: " + ", ".join(sorted(missing)))
+    return [ch for ch in listed if ch.lower() in requested]
 
 
 # ----------------------------- استخراج کانفیگ -----------------------------
-def html_to_text(raw_html):
-    """تبدیل HTML پیام تلگرام به متن خام قابل پردازش.
+class TelegramPage(HTMLParser):
+    """Read only message text/captions inside top-level posts from the target channel."""
 
-    تگ‌های <br> و انتهای بلوک‌ها به newline تبدیل می‌شوند تا کانفیگ‌هایی که
-    در خطوط جدا داخل code/pre هستند از هم جدا بمانند، سپس همه‌ی تگ‌ها حذف و
-    موجودیت‌های HTML (مثل &amp; &lt;) به کاراکتر اصلی برگردانده می‌شوند.
-    """
-    text = raw_html
-    text = re.sub(r"(?i)<br\s*/?>", "\n", text)
-    text = re.sub(r"(?i)</(div|p|pre|code|blockquote|li)>", "\n", text)
-    text = re.sub(r"(?s)<[^>]+>", " ", text)
-    text = html.unescape(text)
-    return text
+    VOID = frozenset("area base br col embed hr img input link meta param source track wbr".split())
+    BLOCK = frozenset("br div p pre code blockquote li hr td tr".split())
+    TEXT_CLASSES = {"tgme_widget_message_text", "tgme_widget_message_caption"}
 
+    def __init__(self, channel):
+        super().__init__(convert_charrefs=True)
+        self.channel = channel.lower()
+        self.posts = {}
+        self.stack = []
+        self.post = None
+        self.content = None
 
-def split_message_blocks(page_html):
-    """جداکردن HTML صفحه به بلوک هر پیام (برای آینده/دیباگ نگه داشته شده)."""
-    return re.split(r'class="tgme_widget_message_text', page_html)
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        classes = set((attrs.get("class") or "").split())
+        depth = len(self.stack)
+        if tag not in self.VOID:
+            self.stack.append(tag)
+        if tag == "div" and self.post is None and "tgme_widget_message" in classes:
+            owner, _, number = (attrs.get("data-post") or "").partition("/")
+            if owner.lower() == self.channel and re.fullmatch(r"[0-9]{1,20}", number):
+                post_id = int(number)
+                self.posts.setdefault(post_id, [])
+                self.post = depth, post_id
+        if self.post is None:
+            return
+        if self.content is None and tag not in self.VOID and classes & self.TEXT_CLASSES:
+            self.content = depth
+        if self.content is not None:
+            if tag in self.BLOCK:
+                self.handle_data("\n")
+            if tag == "a" and re.match(_SCHEME_START, attrs.get("href") or "", re.IGNORECASE):
+                self.handle_data("\n" + attrs["href"] + "\n")
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        if tag not in self.VOID:
+            self.handle_endtag(tag)
+
+    def handle_endtag(self, tag):
+        if tag not in self.stack:
+            return
+        depth = len(self.stack) - 1 - self.stack[::-1].index(tag)
+        if self.content is not None:
+            if tag in self.BLOCK or depth <= self.content:
+                self.handle_data("\n")
+            if depth <= self.content:
+                self.content = None
+        if self.post is not None and depth <= self.post[0]:
+            self.post = None
+        del self.stack[depth:]
+
+    def handle_data(self, data):
+        if self.content is not None:
+            self.posts[self.post[1]].append(data)
 
 
 def is_valid_config(cfg):
-    """فیلترِ سبک برای رد کردن لینک‌هایی که کانفیگ پروکسی نیستند.
-
-    لینک‌هایی مثل http://example.com یا https://t.me/... که اسکیمشان با
-    پروتکل‌های مجاز هم‌پوشانی دارد ولی پروکسی نیستند را حذف می‌کند:
-      - اگر host:port (مثل :443) داشته باشد، معتبر است.
-      - فرم‌های کاملاً base64 (vmess/ss/ssr) که پورت در ظاهرشان نیست، اگر
-        قابل دیکُد باشند معتبرند.
-    """
-    scheme, sep, rest = cfg.partition("://")
-    if not sep or not rest:
+    """Check URI structure only; do not connect to the advertised servers."""
+    scheme, _, rest = cfg.partition("://")
+    scheme = scheme.lower()
+    if scheme not in PROTOCOLS or not rest:
         return False
-    if PORT_RE.search(rest):
-        return True
-    if scheme.lower() in ("vmess", "ss", "ssr"):
-        return try_b64_decode(rest.split("#", 1)[0]) is not None
-    return False
+    host, port = extract_host_port(cfg)
+    if not host or not port or not re.fullmatch(r"[0-9]{1,5}", port) or not 1 <= int(port) <= 65535:
+        return False
+    if not is_ip(host) and not re.fullmatch(r"[\w.-]+", host):
+        return False
+    if scheme in {"vless", "trojan", "tuic", "juicity"}:
+        return bool(urllib.parse.urlsplit(cfg).username)
+    return True
 
 
 def try_b64_decode(s):
-    """تلاش برای دیکُد base64 (استاندارد و urlsafe، با/بدون padding)."""
+    """Decode standard or URL-safe base64, with optional padding."""
     s = s.strip()
-    if len(s) < 16:
+    if not 16 <= len(s) <= 1_000_000:
         return None
-    candidate = s.replace("-", "+").replace("_", "/")
-    candidate += "=" * (-len(candidate) % 4)
-    for variant in (candidate, s + "=" * (-len(s) % 4)):
-        try:
-            decoded = base64.b64decode(variant, validate=False)
-            txt = decoded.decode("utf-8", errors="strict")
-            return txt
-        except (binascii.Error, UnicodeDecodeError, ValueError):
-            continue
-    return None
+    try:
+        return base64.b64decode(s + "=" * (-len(s) % 4), altchars=b"-_", validate=True).decode("utf-8")
+    except (binascii.Error, UnicodeDecodeError, ValueError):
+        return None
+
+
+def _direct_matches(text):
+    for match in CONFIG_RE.finditer(text):
+        cfg = match.group().rstrip('.,،;)]}。；،»')
+        # The closing bracket is part of a bracketed IPv6 address only in the authority,
+        # which must also contain an explicit port. Other closing punctuation is prose.
+        if is_valid_config(cfg):
+            scheme, _, rest = cfg.partition("://")
+            yield match.start(), scheme.lower() + "://" + rest
 
 
 def extract_configs_from_text(text):
-    """استخراج تمام کانفیگ‌ها از یک متن.
-
-    سه منبع را پوشش می‌دهد:
-      1) لینک‌های مستقیم با اسکیم شناخته‌شده.
-      2) بلوک‌های base64 که خودشان شامل یک ساب‌اسکریپشن (چند کانفیگ) هستند.
-      3) لینک‌های موجود داخل بلوک‌های base64 دیکُدشده.
-    """
-    found = []
-
-    # ۱) لینک‌های مستقیم
-    for m in CONFIG_RE.finditer(text):
-        cfg = m.group(0).strip().rstrip('.,،;)]}>"\'')
-        if is_valid_config(cfg):
-            found.append(cfg)
-
-    # ۲و۳) بلوک‌های base64
-    for block in B64_BLOCK_RE.findall(text):
-        decoded = try_b64_decode(block)
-        if not decoded:
+    """Return direct links and inline base64 subscription contents in text order."""
+    text = _ADJACENT_RE.sub("\n", text.translate(_INVISIBLE))
+    direct = list(_direct_matches(text))
+    # Walk ordered URI spans and base64 candidates together, skipping URI payloads.
+    spans = iter(CONFIG_RE.finditer(text))
+    span = next(spans, None)
+    wrapped = []
+    for block in B64_BLOCK_RE.finditer(text):
+        while span is not None and span.end() <= block.start():
+            span = next(spans, None)
+        if span is not None and span.start() <= block.start():
             continue
-        # اگر خودِ بلوک یک کانفیگ vmess باشد (vmess://<base64>) قبلاً در مرحله ۱ گرفته شده.
-        for m in CONFIG_RE.finditer(decoded):
-            cfg = m.group(0).strip().rstrip('.,،;)]}>"\'')
-            if is_valid_config(cfg):
-                found.append(cfg)
-
-    return found
+        decoded = try_b64_decode(block.group())
+        if decoded:
+            decoded = _ADJACENT_RE.sub("\n", decoded.translate(_INVISIBLE))
+            wrapped.extend((block.start(), cfg) for _, cfg in _direct_matches(decoded))
+    return list(dict.fromkeys(cfg for _, cfg in sorted(direct + wrapped, key=lambda pair: pair[0])))
 
 
 # ----------------------------- نرمال‌سازی و هش ----------------------------
@@ -333,7 +406,7 @@ def canonical_config(cfg):
     scheme = cfg.split("://", 1)[0].lower()
 
     if scheme == "vmess":
-        body = cfg[len("vmess://"):]
+        body = cfg[len("vmess://"):].split("#", 1)[0]
         decoded = try_b64_decode(body)
         if decoded:
             try:
@@ -353,7 +426,7 @@ def canonical_config(cfg):
         params.sort()
         query = urllib.parse.urlencode(params)
         base = head + "?" + query
-    return base.lower() if scheme in ("ss", "ssr") else base
+    return scheme + "://" + base.split("://", 1)[1]
 
 
 def config_hash(cfg):
@@ -362,69 +435,38 @@ def config_hash(cfg):
 
 
 # ----------------------------- استخراج host/port --------------------------
-def _split_hostport(hp):
-    """جداکردن host و port از رشته‌ی host:port (با پشتیبانی IPv6 داخل [])."""
-    hp = hp.strip().strip("/")
-    if not hp:
-        return None, None
-    if hp.startswith("["):  # IPv6 مثل [2001:db8::1]:443
-        end = hp.find("]")
-        if end != -1:
-            host = hp[1:end]
-            port = hp[end + 2:] if hp[end + 1:end + 2] == ":" else None
-            return host or None, (port or None)
-    if ":" in hp:
-        host, port = hp.rsplit(":", 1)
-        return (host or None), (port or None)
-    return hp, None
-
-
 def extract_host_port(cfg):
-    """استخراج (host, port) از یک کانفیگ، مستقل از پروتکل.
-
-    برای vmess بدنه‌ی JSON دیکُد و فیلدهای add/port خوانده می‌شوند؛ برای ss/ssr
-    شکل‌های base64 پشتیبانی می‌شوند؛ برای بقیه از فرم proto://...@host:port استفاده می‌شود.
-    در صورت خطا (None, None) برمی‌گرداند تا اجرا متوقف نشود.
-    """
+    """Extract and validate the endpoint fields, including encoded VMess/SS/SSR."""
     scheme, _, rest = cfg.partition("://")
     scheme = scheme.lower()
-    if not rest:
-        return None, None
+    body = rest.split("#", 1)[0]
     try:
-        if scheme == "vmess":
-            decoded = try_b64_decode(rest.split("#", 1)[0])
-            if decoded:
-                obj = json.loads(decoded)
-                host = str(obj.get("add", "")).strip()
-                port = str(obj.get("port", "")).strip()
-                return (host or None), (port or None)
+        if scheme == "vmess" and "@" not in body.split("?", 1)[0]:
+            decoded = try_b64_decode(body)
+            obj = json.loads(decoded) if decoded else None
+            if (isinstance(obj, dict) and isinstance(obj.get("add"), str)
+                    and isinstance(obj.get("id"), str) and obj["id"].strip()):
+                return obj["add"].strip().strip("[]"), str(obj.get("port", "")).strip()
             return None, None
-
-        body = rest.split("#", 1)[0]
-
         if scheme == "ssr":
             decoded = try_b64_decode(body)
-            if decoded:
-                # ssr://base64(host:port:proto:method:obfs:passbase64/?params)
-                host = decoded.split(":", 1)[0]
-                return (host or None), None
+            parts = decoded.split("/?", 1)[0].rsplit(":", 5) if decoded else []
+            if len(parts) == 6 and all(parts):
+                return parts[0].strip("[]"), parts[1]
             return None, None
-
         if scheme == "ss":
-            b = body.split("?", 1)[0]
-            if "@" in b:
-                return _split_hostport(b.rsplit("@", 1)[1])
-            decoded = try_b64_decode(b)
-            if decoded and "@" in decoded:
-                return _split_hostport(decoded.rsplit("@", 1)[1])
+            authority = body.split("?", 1)[0]
+            if "@" not in authority:
+                authority = try_b64_decode(authority) or ""
+            credentials, at, endpoint = authority.rpartition("@")
+            if not at or not credentials:
+                return None, None
+            body = endpoint
+        url = urllib.parse.urlsplit(f"{scheme}://{body}")
+        if scheme == "vmess" and not url.username:
             return None, None
-
-        # vless/trojan/hysteria*/tuic/juicity/socks/http/wireguard
-        b = body.split("?", 1)[0]
-        if "@" in b:
-            b = b.rsplit("@", 1)[1]
-        return _split_hostport(b)
-    except Exception:  # noqa: BLE001
+        return url.hostname, str(url.port) if url.port is not None else None
+    except (ValueError, TypeError):
         return None, None
 
 
@@ -553,7 +595,6 @@ def set_remark(cfg, remark):
                 return "vmess://" + base64.b64encode(raw).decode("ascii")
             except (json.JSONDecodeError, AttributeError, TypeError):
                 return cfg
-        return cfg
     base = cfg.split("#", 1)[0]
     return base + "#" + urllib.parse.quote(remark, safe="")
 
@@ -568,8 +609,8 @@ def is_reality(cfg):
 def collect_from_channel(channel, per_channel, max_pages):
     """تا per_channel کانفیگِ *اخیرِ* غیرتکراری از یک چنل برمی‌گرداند.
 
-    در صفحه‌ی web تلگرام پیام‌ها از قدیمی (بالا) به جدید (پایین) مرتب‌اند، پس
-    برای رسیدن به «جدیدترین‌ها» کانفیگ‌های هر صفحه معکوس می‌شوند (جدید اول).
+    پیام‌ها با شناسه از جدید به قدیم مرتب می‌شوند و ترتیب کانفیگ‌ها در هر پیام حفظ می‌شود.
+    اگر per_channel برابر None باشد، همهٔ کانفیگ‌های قابل مشاهده تا سقف صفحات جمع می‌شوند.
     اگر صفحه‌ی نخست به per_channel نرسد، با پارامتر before صفحات قدیمی‌تر هم
     خوانده می‌شوند.
 
@@ -583,7 +624,7 @@ def collect_from_channel(channel, per_channel, max_pages):
     before = None
     pages = 0
 
-    while len(collected) < per_channel and pages < max_pages:
+    while pages < max_pages and (per_channel is None or len(collected) < per_channel):
         url = f"https://t.me/s/{channel}"
         if before:
             url += f"?before={before}"
@@ -592,31 +633,23 @@ def collect_from_channel(channel, per_channel, max_pages):
         if not page:
             break
 
-        # کوچک‌ترین شناسه‌ی پیام در این صفحه را برای صفحه‌ی بعدی نگه می‌داریم
-        msg_ids = re.findall(r'data-post="[^"]+/(\d+)"', page)
-        text = html_to_text(page)
-        # configs به ترتیب قدیمی→جدید است؛ معکوس می‌کنیم تا جدیدترین‌ها اول بیایند
-        configs = list(reversed(extract_configs_from_text(text)))
-
-        for cfg in configs:
-            if len(collected) >= per_channel:
-                break
-            h = config_hash(cfg)
-            if h in local_seen:
-                continue
-            local_seen.add(h)
-            collected.append(cfg)
-
-        if len(collected) >= per_channel:
+        parser = TelegramPage(channel)
+        parser.feed(page)
+        parser.close()
+        # Only process IDs strictly below the requested cursor. Telegram can repeat
+        # the previous boundary or return an unchanged page when history ends.
+        post_ids = sorted((n for n in parser.posts if before is None or n < before), reverse=True)
+        if not post_ids:
             break
-
-        if msg_ids:
-            new_before = min(int(x) for x in msg_ids)
-            if before is not None and new_before >= before:
-                break  # دیگر به عقب نمی‌رویم
-            before = new_before
-        else:
-            break  # صفحه‌ای برای ادامه نیست
+        for post_id in post_ids:
+            for cfg in extract_configs_from_text("".join(parser.posts[post_id])):
+                key = config_hash(cfg)
+                if key not in local_seen:
+                    local_seen.add(key)
+                    collected.append(cfg)
+                    if per_channel is not None and len(collected) >= per_channel:
+                        return collected
+        before = post_ids[-1]
 
     return collected
 
@@ -674,8 +707,10 @@ def collect_all(channels, per_channel, max_pages, workers, progress_cb=None):
 
 
 # ----------------------------- خروجی سابسکریپشن --------------------------
-def _write_pair(key, configs, out_dir=SUB_DIR):
+def _write_pair(key, configs, out_dir=None):
     """نوشتن یک دسته در دو قالب: متن خام (key.txt) و base64 (key_b64.txt)."""
+    if out_dir is None:
+        out_dir = SUB_DIR
     plain = "\n".join(configs) + ("\n" if configs else "")
     with open(os.path.join(out_dir, f"{key}.txt"), "w", encoding="utf-8") as f:
         f.write(plain)
@@ -727,7 +762,14 @@ def write_outputs(categories):
 
     for key, configs in categories.items():
         if key != "all" and not configs:
-            continue  # دسته‌ی خالی فایل نمی‌سازد (به‌جز all)
+            # Keep any existing links usable without serving stale configs from
+            # channels that were not selected in the latest run.
+            for suffix in (".txt", "_b64.txt"):
+                path = os.path.join(SUB_DIR, key + suffix)
+                if os.path.isfile(path):
+                    with open(path, "w", encoding="utf-8"):
+                        pass
+            continue
         _write_pair(key, configs)
 
     # فایل‌های قدیمی = معادل دسته‌ی all (حفظ سازگاری با ساب‌های موجود کاربران)
@@ -775,7 +817,7 @@ def generate_readme(total, channels_n, cat_counts, country_counts, channel_count
     A("")
     A("**جمع‌آوری خودکار کانفیگ‌های V2Ray از کانال‌های عمومی تلگرام**")
     A("")
-    A("<sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار هر ۵ ساعت با GitHub Actions</sub>")
+    A("<sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار با GitHub Actions</sub>")
     A("")
     A(
         f"![configs](https://img.shields.io/badge/کانفیگ‌ها-{total}-2ea44f?style=for-the-badge) "
@@ -790,6 +832,8 @@ def generate_readme(total, channels_n, cat_counts, country_counts, channel_count
     A("")
 
     # ----------------------------- شروع سریع -------------------------------
+    A("[راهنمای اجرای دستی و تنظیم اجرای خودکار](workflow_templates/collect.yml)")
+    A("")
     A("## 🚀 شروع سریع")
     A("")
     A("لینک اشتراکِ **همه‌ی** کانفیگ‌ها را کپی کرده و در کلاینت خود وارد کنید (پیشنهادی برای اکثر کاربران):")
@@ -915,7 +959,7 @@ def generate_readme(total, channels_n, cat_counts, country_counts, channel_count
     A("---")
     A('<div align="center">')
     A("")
-    A("<sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions • هر ۵ ساعت به‌روزرسانی می‌شود</sub>")
+    A("<sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions</sub>")
     A("")
     A("<sub>⚠️ این کانفیگ‌ها از منابع عمومی جمع‌آوری شده‌اند و صرفاً برای آزمایش و دسترسی آزاد به اینترنت‌اند.</sub>")
     A("")
@@ -962,7 +1006,10 @@ def parse_args(argv=None):
     p = argparse.ArgumentParser(
         description="جمع‌آوری کانفیگ‌های v2ray از چنل‌های عمومی تلگرام."
     )
-    p.add_argument(
+    amount = p.add_mutually_exclusive_group()
+    amount.add_argument("--all-configs", action="store_true",
+                        help="برداشتن همهٔ کانفیگ‌های قابل مشاهده تا سقف صفحات.")
+    amount.add_argument(
         "-n", "--per-channel", type=int, default=None,
         help=f"تعداد کانفیگِ اخیر از هر چنل (پیش‌فرض: {PER_CHANNEL}).",
     )
@@ -970,6 +1017,8 @@ def parse_args(argv=None):
         "--max-pages", type=int, default=None,
         help=f"حداکثر صفحه برای هر چنل تا رسیدن به تعداد هدف (پیش‌فرض: {MAX_PAGES}).",
     )
+    p.add_argument("--channel-source", choices=("listed", "custom"), default="listed")
+    p.add_argument("--channels", default="", help="نام‌های عمومی جداشده با کاما یا فاصله.")
     return p.parse_args(argv)
 
 
@@ -977,15 +1026,22 @@ def main(argv=None):
     args = parse_args(argv)
     # اولویت: آرگومان خط فرمان > متغیر محیطی/پیش‌فرض
     per_channel = args.per_channel if args.per_channel and args.per_channel > 0 else PER_CHANNEL
+    if args.all_configs:
+        per_channel = None
     max_pages = args.max_pages if args.max_pages and args.max_pages > 0 else MAX_PAGES
 
-    channels = load_channels()
+    try:
+        channels = select_channels(args.channel_source, args.channels)
+    except ValueError as exc:
+        print(exc, file=sys.stderr)
+        return 2
     if not channels:
         print("هیچ چنلی در channels.txt تعریف نشده است.", file=sys.stderr)
         # خروجی خالی نمی‌نویسیم تا داده‌ی قبلی حفظ شود
         return 1
 
-    print(f"تعداد چنل‌ها: {len(channels)} | هدف از هر چنل: {per_channel} کانفیگِ اخیر "
+    target = "همهٔ موارد قابل مشاهده" if per_channel is None else f"{per_channel} کانفیگ اخیر"
+    print(f"تعداد چنل‌ها: {len(channels)} | هدف از هر چنل: {target} "
           f"| سقف صفحات: {max_pages} | تردهای هم‌زمان: {WORKERS}")
 
     # هر اجرا کاملاً از نو: dedup فقط در محدوده‌ی همین اجرا انجام می‌شود.

@@ -4,13 +4,15 @@
 
 **جمع‌آوری خودکار کانفیگ‌های V2Ray از کانال‌های عمومی تلگرام**
 
-<sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار هر ۵ ساعت با GitHub Actions</sub>
+<sub>بدون نیاز به لاگین یا API • به‌روزرسانی خودکار با GitHub Actions</sub>
 
 ![configs](https://img.shields.io/badge/کانفیگ‌ها-1378-2ea44f?style=for-the-badge) ![channels](https://img.shields.io/badge/کانال‌ها-33-1f6feb?style=for-the-badge&logo=telegram&logoColor=white) ![protocols](https://img.shields.io/badge/پروتکل‌ها-6-8957e6?style=for-the-badge) ![countries](https://img.shields.io/badge/کشورها-48-orange?style=for-the-badge)
 
 `⏱️ آخرین به‌روزرسانی: 2026-11-23 06:11 UTC`
 
 </div>
+
+[راهنمای اجرای دستی و تنظیم اجرای خودکار](workflow_templates/collect.yml)
 
 ## 🚀 شروع سریع
 
@@ -192,7 +194,7 @@ pie showData
 ---
 <div align="center">
 
-<sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions • هر ۵ ساعت به‌روزرسانی می‌شود</sub>
+<sub>🤖 ساخته‌شده به‌صورت خودکار با GitHub Actions</sub>
 
 <sub>⚠️ این کانفیگ‌ها از منابع عمومی جمع‌آوری شده‌اند و صرفاً برای آزمایش و دسترسی آزاد به اینترنت‌اند.</sub>
 
