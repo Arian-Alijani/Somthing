@@ -1,65 +1,158 @@
+# Install: replace .github/workflows/collect.yml on the default branch with this file.
+# Actions → Collect V2Ray Configs → Run workflow (select the default branch).
+# run_now: one collection; blank channels with listed means all entries in channels.txt.
+# listed + channels: exact subset; custom + channels: only the supplied public usernames.
+# Example: @planB_net, https://t.me/s/V2rayng_Fast — private links/numeric IDs are unsupported.
+# per_channel=all removes the result cap; max_pages and visible Telegram history still apply.
+# geoip controls country lookup, not live endpoint testing. Output is a fresh snapshot.
+# save_auto: save the full form as the new automatic profile; no collection runs.
+# utc_hours is ignored by run_now. With save_auto, e.g. 03,09,15 runs at 03:17/09:17/15:17 UTC.
+# Set utc_hours=off to pause auto collection. Omitted fields reset to form defaults on save.
+# The 24 fixed triggers identify the intended UTC hour even when GitHub delays a run.
+# Only enabled slots start a collection; schedule entries need not be edited after install.
 name: Collect V2Ray Configs
 
 on:
   schedule:
-    # هر ۵ ساعت یک‌بار (ساعت UTC). cron در گیت‌هاب اکشن همیشه UTC است.
-    - cron: "0 */5 * * *"
-  workflow_dispatch:      # امکان اجرای دستی از تب Actions
+    - cron: "17 0 * * *"
+    - cron: "17 1 * * *"
+    - cron: "17 2 * * *"
+    - cron: "17 3 * * *"
+    - cron: "17 4 * * *"
+    - cron: "17 5 * * *"
+    - cron: "17 6 * * *"
+    - cron: "17 7 * * *"
+    - cron: "17 8 * * *"
+    - cron: "17 9 * * *"
+    - cron: "17 10 * * *"
+    - cron: "17 11 * * *"
+    - cron: "17 12 * * *"
+    - cron: "17 13 * * *"
+    - cron: "17 14 * * *"
+    - cron: "17 15 * * *"
+    - cron: "17 16 * * *"
+    - cron: "17 17 * * *"
+    - cron: "17 18 * * *"
+    - cron: "17 19 * * *"
+    - cron: "17 20 * * *"
+    - cron: "17 21 * * *"
+    - cron: "17 22 * * *"
+    - cron: "17 23 * * *"
+  workflow_dispatch:
     inputs:
+      action:
+        description: "اجرای دستی یا ذخیرهٔ تنظیمات برای اجراهای خودکار بعدی"
+        type: choice
+        options: [run_now, save_auto]
+        default: run_now
+      utc_hours:
+        description: "فقط save_auto: ساعت‌های UTC در دقیقهٔ ۱۷، مثل 03,09,15 یا off"
+        default: "00,05,10,15,20"
+      channel_source:
+        description: "listed: کانال‌های channels.txt | custom: فقط آیدی‌های واردشده"
+        type: choice
+        options: [listed, custom]
+        default: listed
+      channels:
+        description: "آیدی/لینک عمومی با کاما؛ خالی در listed یعنی همهٔ کانال‌های فایل"
       per_channel:
-        description: "تعداد کانفیگِ اخیر از هر چنل"
-        required: false
+        description: "تعداد کانفیگ اخیر در هر کانال؛ all یعنی همه تا سقف صفحات"
         default: "20"
       max_pages:
-        description: "حداکثر صفحه برای هر چنل"
-        required: false
+        description: "سقف صفحات قابل بررسی در هر کانال"
         default: "15"
       workers:
-        description: "تعداد چنل‌هایی که هم‌زمان واکشی می‌شوند"
-        required: false
+        description: "تعداد کانال‌های هم‌زمان"
         default: "10"
-
-# جلوگیری از اجرای هم‌زمان دو نمونه که باعث تداخل در commit شود
-concurrency:
-  group: collect-configs
-  cancel-in-progress: false
+      request_timeout:
+        description: "مهلت هر درخواست شبکه (ثانیه)"
+        default: "30"
+      retries:
+        description: "حداکثر تعداد تلاش برای هر صفحه (شامل تلاش اول)"
+        default: "3"
+      geoip:
+        description: "تشخیص کشور؛ نه تست اتصال به سرورهای کانفیگ"
+        type: choice
+        options: ['on', 'off']
+        default: 'on'
 
 permissions:
-  contents: write          # برای commit و push نتایج لازم است
+  contents: read
 
 jobs:
+  plan:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      enabled: ${{ steps.slot.outputs.enabled }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          sparse-checkout: |
+            workflow_templates
+      - name: Check scheduled slot
+        id: slot
+        env:
+          EVENT_CRON: ${{ github.event.schedule }}
+        run: |
+          python3 -B - <<'PYTHON'
+          import os
+          from workflow_templates.run_collector import should_run
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as output:
+              print(f"enabled={str(should_run('schedule')).lower()}", file=output)
+          PYTHON
+
   collect:
+    needs: plan
+    if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || needs.plan.outputs.enabled == 'true') }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
+    concurrency:
+      group: collect-configs-${{ github.ref_name }}
+      cancel-in-progress: false
+    permissions:
+      contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
+          ref: ${{ github.ref_name }}
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-
-      - name: Run collector
+      - name: Run collector or save automatic profile
         env:
-          PYTHONUNBUFFERED: "1"     # برای نمایش زنده‌ی نوار پیشرفت در لاگ
-          WORKERS: "${{ github.event.inputs.workers || '10' }}"
-        run: >-
-          python collector.py
-          --per-channel "${{ github.event.inputs.per_channel || '20' }}"
-          --max-pages "${{ github.event.inputs.max_pages || '15' }}"
-
-      - name: Commit and push results
+          EVENT_CRON: ${{ github.event.schedule }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          FORM_ACTION: ${{ inputs.action }}
+          FORM_UTC_HOURS: ${{ inputs.utc_hours }}
+          FORM_CHANNEL_SOURCE: ${{ inputs.channel_source }}
+          FORM_CHANNELS: ${{ inputs.channels }}
+          FORM_PER_CHANNEL: ${{ inputs.per_channel }}
+          FORM_MAX_PAGES: ${{ inputs.max_pages }}
+          FORM_WORKERS: ${{ inputs.workers }}
+          FORM_REQUEST_TIMEOUT: ${{ inputs.request_timeout }}
+          FORM_RETRIES: ${{ inputs.retries }}
+          FORM_GEOIP: ${{ inputs.geoip }}
+        run: python -B workflow_templates/run_collector.py
+      - name: Commit and push updates
+        env:
+          FORM_ACTION: ${{ inputs.action }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sub/ data/ README.md
-          if git diff --staged --quiet; then
-            echo "تغییری برای commit وجود ندارد."
+          if [[ "$FORM_ACTION" == "save_auto" ]]; then
+            git add workflow_templates/auto_config.json
+            message="chore: save automatic collector settings"
           else
-            git commit -m "chore: update v2ray subscription ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-            git push
+            git add sub/ data/ README.md
+            message="chore: update v2ray subscription ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          fi
+          if git diff --staged --quiet; then
+            echo 'No changes to publish.'
+          else
+            git commit -m "$message"
+            git push origin "HEAD:$GITHUB_REF"
           fi
