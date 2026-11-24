@@ -1,1 +1,2 @@
+vless://98cee2d7-72d9-4dea-bd03-d7da1b022041@193.106.221.57:2095?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40V2All%20%7C%2013
 vless://7582e721-8c32-4fb1-8669-b3fae590f3eb@5.188.6.73:443?security=tls&encryption=none&headerType=none&type=tcp&sni=005188006073.sec1org.com#%F0%9F%87%BA%F0%9F%87%A6%20UA%20%7C%20%40NTGreenplus%20%7C%2010
