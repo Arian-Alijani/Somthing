@@ -1,6 +1,6 @@
-hysteria2://74bec046f0004aa5bc280ecc4ab50465@216.73.157.142:443?security=tls&obfs=salamander&alpn=h3&obfs-password=qrl-03E8Q6JaUlAkOPHXQBwN&insecure=0&sni=216.73.157.142#%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20%40planB_net%20%7C%2039
-hysteria2://247802ca-0fbb-428a-b807-91a6e571b5c7@48.103.144.118:8443?security=tls&obfs=salamander&obfs-password=JGIhnEi-CcIJOfNTqvNxX_5wRAYUZ0J2&insecure=0&sni=static-nl.snobvpn.online#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%40planB_net%20%7C%2042
-hysteria2://08730279-ed73-43b4-ac85-afe745e8ea6f@v1fr4.stablenode.cloud:45106?sni=v1fr4.stablenode.cloud&insecure=0&obfs=salamander&obfs-password=7lxfFHnxyPtOOafv#%F0%9F%87%AB%F0%9F%87%B7%20FR%20%7C%20%40SOSkeyNET%20%7C%2025
+hysteria2://74bec046f0004aa5bc280ecc4ab50465@216.73.157.142:443?security=tls&obfs=salamander&alpn=h3&obfs-password=qrl-03E8Q6JaUlAkOPHXQBwN&insecure=0&sni=216.73.157.142#%F0%9F%87%B3%F0%9F%87%B1%20NL%20%7C%20%40planB_net%20%7C%2043
+hysteria2://247802ca-0fbb-428a-b807-91a6e571b5c7@48.103.144.118:8443?security=tls&obfs=salamander&obfs-password=JGIhnEi-CcIJOfNTqvNxX_5wRAYUZ0J2&insecure=0&sni=static-nl.snobvpn.online#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%40planB_net%20%7C%2046
+hysteria2://EelIYEc5ZR8RT6thWcK9ohYkp3bYZGcn@137.175.93.155:28795?sni=www.microsoft.com&down=99&insecure=1#%F0%9F%87%BA%F0%9F%87%B8%20US%20%7C%20%40SOSkeyNET%20%7C%2011
 hysteria2://28c05d48e2f470d07a4c392c9bd43849@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2013
 hysteria2://782efefcaac2a7f26e2be42f7bc5d75a@quran.mci.ai:443?security=tls&insecure=1&sni=quran.mci.ai#%40NTGreenplus%20%7C%2014
 hysteria2://1af84dc4749dbc10031389e03a96ba96@quran.mci.ai:443?security=tls&insecure=0#%40NTGreenplus%20%7C%2018
