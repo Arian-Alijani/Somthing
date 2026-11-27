@@ -1,1 +1,1 @@
-vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@179.254.191.251:4443?encryption=none&fp=chrome&mode=auto&path=%2Fapi%2Fv1%2Fsync%2F&security=tls&sni=bl1.nexfile.net&type=xhttp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40SimChin_ir%20%7C%2039
+vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@179.254.191.251:4443?encryption=none&fp=chrome&mode=auto&path=%2Fapi%2Fv1%2Fsync%2F&security=tls&sni=bl1.nexfile.net&type=xhttp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40SimChin_ir%20%7C%2041
