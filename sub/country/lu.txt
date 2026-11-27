@@ -1,4 +1,2 @@
-vless://a7c34591-cc3c-49fb-a270-6f4ef8e12de3@fl2-cdn.gcorecdn.com:443?encryption=none&security=tls&type=xhttp&sni=dl-wows-gc.wargaming.net&fp=edge&alpn=h2&host=fl2-cdn.gcorecdn.com&path=%2Ffl-cdn-reserve&mode=packet-up#%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20%40SOSkeyNET%20%7C%2018
-vless://a7c34591-cc3c-49fb-a270-6f4ef8e12de3@fr-cdn.gcorecdn.com:443?encryption=none&security=tls&type=xhttp&sni=dl-wows-gc.wargaming.net&fp=firefox&alpn=h2&host=fr-cdn.gcorecdn.com&path=%2Ffr-cdn-reserve&mode=packet-up#%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20%40SOSkeyNET%20%7C%2020
 http://stun.voipgate.com:3478/#%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20%40Ln2Ray%20%7C%207
 http://stun.mixvoip.com:3478/#%F0%9F%87%B1%F0%9F%87%BA%20LU%20%7C%20%40Ln2Ray%20%7C%208
