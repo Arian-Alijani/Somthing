@@ -1,1 +1,1 @@
-vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform117.golnamakcert.top:80?path=%2Fplatform117&security=none&encryption=none&host=platform117.halalkhor.info&type=ws#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40SimChin_ir%20%7C%202
+vless://e13cf851-b4fd-413b-8d49-146e6eb8e5d4@platform117.golnamakcert.top:80?path=%2Fplatform117&security=none&encryption=none&host=platform117.halalkhor.info&type=ws#%F0%9F%87%A7%F0%9F%87%B7%20BR%20%7C%20%40SimChin_ir%20%7C%204
