@@ -1,2 +1,1 @@
-vless://26843758-24de-4f76-b5d0-624038e353c4@79.182.70.192:443?security=reality&encryption=none&pbk=xv6OUZcyzEHXFMTfumuJH-1Rd4NQ0cdmWikek4mm0m4&headerType=none&type=tcp&sni=15d7fft.nl11.h1clayd.click&sid=c71118d9399fb8c2#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40SOSkeyNET%20%7C%2037
-vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@179.254.191.251:4443?encryption=none&fp=chrome&mode=auto&path=%2Fapi%2Fv1%2Fsync%2F&security=tls&sni=bl1.nexfile.net&type=xhttp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40SimChin_ir%20%7C%2045
+vless://a35c508f-4d5d-4531-842e-6e9d43c762c0@179.254.191.251:4443?encryption=none&fp=chrome&mode=auto&path=%2Fapi%2Fv1%2Fsync%2F&security=tls&sni=bl1.nexfile.net&type=xhttp#%F0%9F%87%A7%F0%9F%87%BE%20BY%20%7C%20%40SimChin_ir%20%7C%2046

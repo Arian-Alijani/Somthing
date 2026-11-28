@@ -1,1 +1,2 @@
-vless://9a600801-e889-4705-9adb-bf9aeb366fc7@ifdmbpb.kdns.fr:443?sni=ifdmbpb.kdns.fr&fp=chrome&security=tls#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2016
+ss://YWVzLTI1Ni1nY206cXBvd2lfdmlwX3R1bm5lbF8yMDI2X3NlY3VyZQ==@211.233.33.228:8388#%F0%9F%87%B0%F0%9F%87%B7%20KR%20%7C%20%40Farah_VPN%20%7C%2036
+vmess://eyJ2IjoiMiIsInBzIjoi8J+HsPCfh7cgS1IgfCBARmFyYWhfVlBOIHwgMzkiLCJhZGQiOiIxMjkuMTU0LjYxLjE5NiIsInBvcnQiOjgwMCwiaWQiOiJhOTE1YjFkNi1jZjI4LTRkYzgtZTRiNC1lMDljNDhjMzdlYzAiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoiIiwic2tpcC1jZXJ0LXZlcmlmeSI6dHJ1ZX0=
